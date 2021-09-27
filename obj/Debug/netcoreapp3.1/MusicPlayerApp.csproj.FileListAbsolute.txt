@@ -1,0 +1,17 @@
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.exe
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.deps.json
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.runtimeconfig.json
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.runtimeconfig.dev.json
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.dll
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.pdb
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.Form1.resources
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.GenerateResource.cache
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.dll
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.pdb
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.genruntimeconfig.cache
+C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.Properties.Resources.resources

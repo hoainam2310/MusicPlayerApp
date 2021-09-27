@@ -17,5 +17,9 @@ namespace MusicPlayerApp
             InitializeComponent();
         }
 
+        private void btn_signup_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
