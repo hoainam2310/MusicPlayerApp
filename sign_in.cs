@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace MusicPlayerApp
 {
-    public partial class Form1 : Form
+    public partial class sign_in : Form
     {
-        public Form1()
+        public sign_in()
         {
             InitializeComponent();
         }
 
         private void btn_signup_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
 
         }

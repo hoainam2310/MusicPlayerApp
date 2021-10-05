@@ -15,3 +15,20 @@ C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPla
 C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.pdb
 C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.genruntimeconfig.cache
 C:\Users\ADMIN\Documents\GitHub\MucsicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.Properties.Resources.resources
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.exe
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.deps.json
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.runtimeconfig.json
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.runtimeconfig.dev.json
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.pdb
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.AssemblyReference.cache
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.animated_rain_loading.resources
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.Properties.Resources.resources
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.GenerateResource.cache
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.AssemblyInfoInputs.cache
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.AssemblyInfo.cs
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.pdb
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.genruntimeconfig.cache
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.sign_in.resources

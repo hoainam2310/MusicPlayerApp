@@ -17,7 +17,8 @@ namespace MusicPlayerApp
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new animated_rain_loading());
+            Application.Run(new sign_in());
         }
     }
 }
