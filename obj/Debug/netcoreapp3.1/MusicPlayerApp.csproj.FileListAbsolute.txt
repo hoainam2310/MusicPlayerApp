@@ -32,3 +32,21 @@ C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\Music
 C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.pdb
 C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.genruntimeconfig.cache
 C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.sign_in.resources
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.exe
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.deps.json
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.runtimeconfig.json
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.runtimeconfig.dev.json
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.dll
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\bin\Debug\netcoreapp3.1\MusicPlayerApp.pdb
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.animated_rain_loading.resources
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.Properties.Resources.resources
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.sign_in.resources
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.GenerateResource.cache
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.AssemblyInfo.cs
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.dll
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.pdb
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.genruntimeconfig.cache
