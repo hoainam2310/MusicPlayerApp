@@ -54,6 +54,7 @@ namespace MusicPlayerApp
             this.Controls.Add(this.picb_exitregister);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "register";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "register";
             ((System.ComponentModel.ISupportInitialize)(this.picb_exitregister)).EndInit();
             this.ResumeLayout(false);

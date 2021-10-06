@@ -70,5 +70,10 @@ namespace MusicPlayerApp
             this.Close();
         }
 
+        private void tx_register_Click(object sender, EventArgs e)
+        {
+            register r = new register();
+            r.Show();
+        }
     }
 }

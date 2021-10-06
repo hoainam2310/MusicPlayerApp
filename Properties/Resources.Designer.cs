@@ -63,6 +63,26 @@ namespace MusicPlayerApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1814089_account_user_person_profile_avatar_icon {
+            get {
+                object obj = ResourceManager.GetObject("1814089_account_user_person_profile_avatar_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2021_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("2021-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _5172972_arrow_entrance_exit_internet_log_icon {
             get {
                 object obj = ResourceManager.GetObject("5172972_arrow_entrance_exit_internet_log_icon", resourceCulture);
@@ -106,6 +126,16 @@ namespace MusicPlayerApp.Properties {
         internal static System.Drawing.Bitmap LOGIN {
             get {
                 object obj = ResourceManager.GetObject("LOGIN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NamMin_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("NamMin-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
