@@ -50,3 +50,4 @@ C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlay
 C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.dll
 C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.pdb
 C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.genruntimeconfig.cache
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.register.resources

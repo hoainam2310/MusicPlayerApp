@@ -4,6 +4,9 @@
     <Compile Update="animated_rain_loading.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="register.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="sign_in.cs">
       <SubType>Form</SubType>
     </Compile>

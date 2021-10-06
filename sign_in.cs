@@ -64,5 +64,11 @@ namespace MusicPlayerApp
                 txt_password.UseSystemPasswordChar = false;
             }
         }
+
+        private void picb_exitlogin_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
