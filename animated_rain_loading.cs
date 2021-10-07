@@ -6,11 +6,14 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Media;
 
 namespace MusicPlayerApp
 {
     public partial class animated_rain_loading : Form
     {
+        SoundPlayer _soundPlayer = new SoundPlayer(soundLocation:@"C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\sounds\3.wav");
+
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn(
             int left,
@@ -28,6 +31,8 @@ namespace MusicPlayerApp
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 7, 7));
+
+            _soundPlayer.Play();
         }
 
         private void animated_rain_loading_Load(object sender, EventArgs e)

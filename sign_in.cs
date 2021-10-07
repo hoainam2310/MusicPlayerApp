@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace MusicPlayerApp
 {
     public partial class sign_in : Form
     {
+        SoundPlayer _soundPlayer = new SoundPlayer(soundLocation: @"C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\sounds\4.wav");
         public sign_in()
         {
             InitializeComponent();
+            _soundPlayer.Play();
         }
 
         private void btn_signup_Click(object sender, EventArgs e)
