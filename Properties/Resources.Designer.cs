@@ -73,6 +73,26 @@ namespace MusicPlayerApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1814107_lock_padlock_secure_icon {
+            get {
+                object obj = ResourceManager.GetObject("1814107_lock_padlock_secure_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1814108_email_envenlope_letter_mail_icon {
+            get {
+                object obj = ResourceManager.GetObject("1814108_email_envenlope_letter_mail_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2021_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("2021-removebg-preview", resourceCulture);
