@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Data.OleDb;
 
 namespace MusicPlayerApp
 {
@@ -17,22 +18,17 @@ namespace MusicPlayerApp
         public sign_in()
         {
             InitializeComponent();
-            _soundPlayer.Play();
+            //_soundPlayer.Play();
         }
 
-        private void btn_signup_Click(object sender, EventArgs e)
-        {
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter(); 
 
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void txt_username_Enter(object sender, EventArgs e)
         {
-            if(txt_username.Text== "E-mail Address")
+            if(txt_username.Text== "Enter Your Username")
             {
                 txt_username.Text = "";
                 txt_username.ForeColor = Color.Black;
@@ -43,7 +39,7 @@ namespace MusicPlayerApp
         {
             if (txt_username.Text=="")
             {
-                txt_username.Text = "E-mail Address";
+                txt_username.Text = "Enter Your Username";
                 txt_username.ForeColor = Color.Silver;
             }
         }
@@ -77,6 +73,26 @@ namespace MusicPlayerApp
         {
             register r = new register();
             r.Show();
+        }
+
+        private void picb_login_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string login = "SELECT * FROM tbl_users WHERE username= '" + txt_username.Text + "' and password= '" + txt_password.Text + "'";
+            cmd = new OleDbCommand(login, con);
+            OleDbDataReader dr = cmd.ExecuteReader();
+            if (dr.Read() == true)
+            {
+                new main().Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalid Username or Password, Please try again !", "Login failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txt_username.Text = "";
+                txt_password.Text = "";
+                txt_username.Focus();
+            }
         }
     }
 }

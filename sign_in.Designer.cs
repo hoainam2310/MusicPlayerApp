@@ -38,22 +38,22 @@ namespace MusicPlayerApp
             this.picb_login = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.p_login = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.tx_register = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picb_exitlogin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_login)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.p_login.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // picb_exitlogin
@@ -104,7 +104,6 @@ namespace MusicPlayerApp
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // txt_username
             // 
@@ -116,7 +115,7 @@ namespace MusicPlayerApp
             this.txt_username.Name = "txt_username";
             this.txt_username.Size = new System.Drawing.Size(247, 25);
             this.txt_username.TabIndex = 2;
-            this.txt_username.Text = "E-mail Address";
+            this.txt_username.Text = "Enter Your Username";
             this.txt_username.Enter += new System.EventHandler(this.txt_username_Enter);
             this.txt_username.Leave += new System.EventHandler(this.txt_username_Leave);
             // 
@@ -140,6 +139,7 @@ namespace MusicPlayerApp
             this.picb_login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_login.TabIndex = 8;
             this.picb_login.TabStop = false;
+            this.picb_login.Click += new System.EventHandler(this.picb_login_Click);
             // 
             // pictureBox1
             // 
@@ -173,6 +173,17 @@ namespace MusicPlayerApp
             this.p_login.Name = "p_login";
             this.p_login.Size = new System.Drawing.Size(418, 698);
             this.p_login.TabIndex = 13;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox6.Image = global::MusicPlayerApp.Properties.Resources._1814107_lock_padlock_secure_icon;
+            this.pictureBox6.Location = new System.Drawing.Point(42, 372);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(32, 25);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 18;
+            this.pictureBox6.TabStop = false;
             // 
             // pictureBox5
             // 
@@ -248,17 +259,6 @@ namespace MusicPlayerApp
             this.textBox1.TabIndex = 13;
             this.textBox1.Text = "New user?";
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox6.Image = global::MusicPlayerApp.Properties.Resources._1814107_lock_padlock_secure_icon;
-            this.pictureBox6.Location = new System.Drawing.Point(42, 372);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(32, 25);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 18;
-            this.pictureBox6.TabStop = false;
-            // 
             // sign_in
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -276,9 +276,9 @@ namespace MusicPlayerApp
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.p_login.ResumeLayout(false);
             this.p_login.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
