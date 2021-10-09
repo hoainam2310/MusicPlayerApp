@@ -133,7 +133,7 @@ namespace MusicPlayerApp
 
         private void txt_rrepassword_Enter(object sender, EventArgs e)
         {
-            if (txt_rpassword.Text == "Re-Enter Your Password")
+            if (txt_rrepassword.Text == "Re-Enter Your Password")
             {
                 txt_rrepassword.Text = "";
                 txt_rrepassword.ForeColor = Color.Black;
@@ -143,7 +143,7 @@ namespace MusicPlayerApp
 
         private void txt_rrepassword_Leave(object sender, EventArgs e)
         {
-            if (txt_rpassword.Text == "")
+            if (txt_rrepassword.Text == "")
             {
                 txt_rrepassword.Text = "Re-Enter Your Password";
                 txt_rrepassword.ForeColor = Color.Silver;
