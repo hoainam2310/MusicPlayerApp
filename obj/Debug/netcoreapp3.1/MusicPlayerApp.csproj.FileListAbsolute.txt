@@ -76,3 +76,27 @@ C:\Users\danie\Documents\GitHub\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\
 C:\Users\danie\Documents\GitHub\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.main.resources
 C:\Users\danie\Documents\GitHub\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.CopyComplete
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\System.Data.OleDb.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.main.resources
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.CopyComplete

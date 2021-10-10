@@ -43,6 +43,8 @@ namespace MusicPlayerApp
             this.tx_backsignin = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.chB_showpass = new System.Windows.Forms.CheckBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.picb_exitregister)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -51,13 +53,15 @@ namespace MusicPlayerApp
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // picb_exitregister
             // 
             this.picb_exitregister.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picb_exitregister.Image = global::MusicPlayerApp.Properties.Resources._8394220_log_out_exit_icon;
-            this.picb_exitregister.Location = new System.Drawing.Point(1215, 1);
+            this.picb_exitregister.Location = new System.Drawing.Point(373, 0);
             this.picb_exitregister.Name = "picb_exitregister";
             this.picb_exitregister.Size = new System.Drawing.Size(45, 44);
             this.picb_exitregister.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -69,7 +73,7 @@ namespace MusicPlayerApp
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox6.Image = global::MusicPlayerApp.Properties.Resources._1814107_lock_padlock_secure_icon;
-            this.pictureBox6.Location = new System.Drawing.Point(474, 244);
+            this.pictureBox6.Location = new System.Drawing.Point(61, 313);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(32, 25);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -80,7 +84,7 @@ namespace MusicPlayerApp
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox5.Image = global::MusicPlayerApp.Properties.Resources._1814108_email_envenlope_letter_mail_icon;
-            this.pictureBox5.Location = new System.Drawing.Point(474, 145);
+            this.pictureBox5.Location = new System.Drawing.Point(61, 214);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(32, 25);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -93,7 +97,7 @@ namespace MusicPlayerApp
             this.txt_rpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_rpassword.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_rpassword.ForeColor = System.Drawing.Color.DarkGray;
-            this.txt_rpassword.Location = new System.Drawing.Point(512, 244);
+            this.txt_rpassword.Location = new System.Drawing.Point(99, 313);
             this.txt_rpassword.Name = "txt_rpassword";
             this.txt_rpassword.Size = new System.Drawing.Size(247, 25);
             this.txt_rpassword.TabIndex = 20;
@@ -107,7 +111,7 @@ namespace MusicPlayerApp
             this.txt_rusername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_rusername.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_rusername.ForeColor = System.Drawing.Color.DarkGray;
-            this.txt_rusername.Location = new System.Drawing.Point(512, 145);
+            this.txt_rusername.Location = new System.Drawing.Point(99, 214);
             this.txt_rusername.Name = "txt_rusername";
             this.txt_rusername.Size = new System.Drawing.Size(247, 25);
             this.txt_rusername.TabIndex = 19;
@@ -118,7 +122,7 @@ namespace MusicPlayerApp
             // pictureBox3
             // 
             this.pictureBox3.Image = global::MusicPlayerApp.Properties.Resources.input;
-            this.pictureBox3.Location = new System.Drawing.Point(470, 127);
+            this.pictureBox3.Location = new System.Drawing.Point(57, 196);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(305, 62);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -128,8 +132,8 @@ namespace MusicPlayerApp
             // picb_register
             // 
             this.picb_register.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picb_register.Image = global::MusicPlayerApp.Properties.Resources.LOGIN;
-            this.picb_register.Location = new System.Drawing.Point(470, 424);
+            this.picb_register.Image = global::MusicPlayerApp.Properties.Resources.register;
+            this.picb_register.Location = new System.Drawing.Point(57, 493);
             this.picb_register.Name = "picb_register";
             this.picb_register.Size = new System.Drawing.Size(305, 82);
             this.picb_register.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -140,7 +144,7 @@ namespace MusicPlayerApp
             // pictureBox4
             // 
             this.pictureBox4.Image = global::MusicPlayerApp.Properties.Resources.input;
-            this.pictureBox4.Location = new System.Drawing.Point(470, 222);
+            this.pictureBox4.Location = new System.Drawing.Point(57, 291);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(305, 62);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -151,7 +155,7 @@ namespace MusicPlayerApp
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox1.Image = global::MusicPlayerApp.Properties.Resources._1814107_lock_padlock_secure_icon;
-            this.pictureBox1.Location = new System.Drawing.Point(474, 342);
+            this.pictureBox1.Location = new System.Drawing.Point(61, 411);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(32, 25);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -164,7 +168,7 @@ namespace MusicPlayerApp
             this.txt_rrepassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_rrepassword.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_rrepassword.ForeColor = System.Drawing.Color.DarkGray;
-            this.txt_rrepassword.Location = new System.Drawing.Point(512, 342);
+            this.txt_rrepassword.Location = new System.Drawing.Point(99, 411);
             this.txt_rrepassword.Name = "txt_rrepassword";
             this.txt_rrepassword.Size = new System.Drawing.Size(247, 25);
             this.txt_rrepassword.TabIndex = 26;
@@ -175,7 +179,7 @@ namespace MusicPlayerApp
             // pictureBox2
             // 
             this.pictureBox2.Image = global::MusicPlayerApp.Properties.Resources.input;
-            this.pictureBox2.Location = new System.Drawing.Point(470, 320);
+            this.pictureBox2.Location = new System.Drawing.Point(57, 389);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(305, 62);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -189,7 +193,7 @@ namespace MusicPlayerApp
             this.tx_backsignin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tx_backsignin.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.tx_backsignin.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.tx_backsignin.Location = new System.Drawing.Point(559, 553);
+            this.tx_backsignin.Location = new System.Drawing.Point(146, 622);
             this.tx_backsignin.Name = "tx_backsignin";
             this.tx_backsignin.ReadOnly = true;
             this.tx_backsignin.Size = new System.Drawing.Size(135, 23);
@@ -203,7 +207,7 @@ namespace MusicPlayerApp
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox2.Location = new System.Drawing.Point(508, 524);
+            this.textBox2.Location = new System.Drawing.Point(95, 593);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(251, 23);
@@ -213,7 +217,7 @@ namespace MusicPlayerApp
             // chB_showpass
             // 
             this.chB_showpass.AutoSize = true;
-            this.chB_showpass.Location = new System.Drawing.Point(643, 388);
+            this.chB_showpass.Location = new System.Drawing.Point(230, 457);
             this.chB_showpass.Name = "chB_showpass";
             this.chB_showpass.Size = new System.Drawing.Size(132, 24);
             this.chB_showpass.TabIndex = 32;
@@ -221,26 +225,48 @@ namespace MusicPlayerApp
             this.chB_showpass.UseVisualStyleBackColor = true;
             this.chB_showpass.Click += new System.EventHandler(this.chB_showpass_Click);
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.White;
+            this.pictureBox7.Image = global::MusicPlayerApp.Properties.Resources.welcome_little_one___2_1;
+            this.pictureBox7.Location = new System.Drawing.Point(-2, -1);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(858, 698);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 34;
+            this.pictureBox7.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.chB_showpass);
+            this.panel1.Controls.Add(this.picb_exitregister);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.tx_backsignin);
+            this.panel1.Controls.Add(this.pictureBox5);
+            this.panel1.Controls.Add(this.pictureBox4);
+            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Controls.Add(this.picb_register);
+            this.panel1.Controls.Add(this.txt_rpassword);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.txt_rusername);
+            this.panel1.Controls.Add(this.txt_rrepassword);
+            this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel1.Location = new System.Drawing.Point(847, -1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(418, 698);
+            this.panel1.TabIndex = 35;
+            // 
             // register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1263, 697);
-            this.Controls.Add(this.chB_showpass);
-            this.Controls.Add(this.tx_backsignin);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.txt_rrepassword);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.txt_rpassword);
-            this.Controls.Add(this.txt_rusername);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.picb_register);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.picb_exitregister);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -253,8 +279,10 @@ namespace MusicPlayerApp
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -274,5 +302,7 @@ namespace MusicPlayerApp
         private System.Windows.Forms.TextBox tx_backsignin;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.CheckBox chB_showpass;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Panel panel1;
     }
 }
