@@ -1,0 +1,9 @@
+Tính năng:
+- Tab User phải trích xuất được data từ access. (Name, DoB, Email, Username, Passord, Avatar)
+- File config.
+Giao diện:
+- Thêm tính năng kéo thả, chỉnh size của form. **
+- Tính năng dark mode, light mode. (optional)
+- Tính năng đổi ngôn ngữ. (optional)
+- 
+ 

@@ -153,6 +153,7 @@ namespace MusicPlayerApp
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::MusicPlayerApp.Properties.Resources.welcome_little_one___2_1;
             this.pictureBox1.Location = new System.Drawing.Point(2, 2);
             this.pictureBox1.Name = "pictureBox1";

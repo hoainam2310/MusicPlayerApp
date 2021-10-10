@@ -14,11 +14,11 @@ namespace MusicPlayerApp
 {
     public partial class sign_in : Form
     {
-        SoundPlayer _soundPlayer = new SoundPlayer(soundLocation: @"C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\sounds\4.wav");
+        SoundPlayer _soundPlayer = new SoundPlayer(soundLocation: @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\sounds\4.wav");
         public sign_in()
         {
             InitializeComponent();
-            //_soundPlayer.Play();
+            _soundPlayer.Play();
         }
 
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
