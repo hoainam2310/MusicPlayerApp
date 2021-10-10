@@ -92,6 +92,7 @@ namespace MusicPlayerApp
                 txt_username.Text = "";
                 txt_password.Text = "";
                 txt_username.Focus();
+                con.Close();
             }
         }
     }

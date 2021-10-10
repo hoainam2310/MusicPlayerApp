@@ -129,7 +129,7 @@ namespace MusicPlayerApp
             // 
             this.picb_register.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picb_register.Image = global::MusicPlayerApp.Properties.Resources.LOGIN;
-            this.picb_register.Location = new System.Drawing.Point(470, 424);
+            this.picb_register.Location = new System.Drawing.Point(470, 418);
             this.picb_register.Name = "picb_register";
             this.picb_register.Size = new System.Drawing.Size(305, 82);
             this.picb_register.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
