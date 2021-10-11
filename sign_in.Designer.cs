@@ -50,6 +50,7 @@ namespace MusicPlayerApp
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.chB_showpass = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.picb_exitlogin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -83,7 +84,7 @@ namespace MusicPlayerApp
             this.checkb_keeplogin.AutoSize = true;
             this.checkb_keeplogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkb_keeplogin.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.checkb_keeplogin.ForeColor = System.Drawing.Color.DarkGray;
+            this.checkb_keeplogin.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.checkb_keeplogin.Location = new System.Drawing.Point(108, 556);
             this.checkb_keeplogin.Name = "checkb_keeplogin";
             this.checkb_keeplogin.Size = new System.Drawing.Size(175, 27);
@@ -165,6 +166,7 @@ namespace MusicPlayerApp
             // p_login
             // 
             this.p_login.BackColor = System.Drawing.Color.White;
+            this.p_login.Controls.Add(this.chB_showpass);
             this.p_login.Controls.Add(this.pictureBox8);
             this.p_login.Controls.Add(this.pictureBox6);
             this.p_login.Controls.Add(this.pictureBox5);
@@ -322,6 +324,18 @@ namespace MusicPlayerApp
             this.pictureBox11.TabIndex = 22;
             this.pictureBox11.TabStop = false;
             // 
+            // chB_showpass
+            // 
+            this.chB_showpass.AutoSize = true;
+            this.chB_showpass.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.chB_showpass.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.chB_showpass.Location = new System.Drawing.Point(203, 418);
+            this.chB_showpass.Name = "chB_showpass";
+            this.chB_showpass.Size = new System.Drawing.Size(140, 22);
+            this.chB_showpass.TabIndex = 33;
+            this.chB_showpass.Text = "Show Password";
+            this.chB_showpass.UseVisualStyleBackColor = true;
+            // 
             // sign_in
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -376,6 +390,7 @@ namespace MusicPlayerApp
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.CheckBox chB_showpass;
     }
 }
 

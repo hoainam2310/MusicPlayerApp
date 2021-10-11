@@ -18,7 +18,7 @@ namespace MusicPlayerApp
         public sign_in()
         {
             InitializeComponent();
-            _soundPlayer.Play();
+            //_soundPlayer.Play();
         }
 
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");

@@ -217,9 +217,11 @@ namespace MusicPlayerApp
             // chB_showpass
             // 
             this.chB_showpass.AutoSize = true;
-            this.chB_showpass.Location = new System.Drawing.Point(234, 463);
+            this.chB_showpass.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.chB_showpass.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.chB_showpass.Location = new System.Drawing.Point(226, 465);
             this.chB_showpass.Name = "chB_showpass";
-            this.chB_showpass.Size = new System.Drawing.Size(132, 24);
+            this.chB_showpass.Size = new System.Drawing.Size(140, 22);
             this.chB_showpass.TabIndex = 32;
             this.chB_showpass.Text = "Show Password";
             this.chB_showpass.UseVisualStyleBackColor = true;
