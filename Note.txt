@@ -2,6 +2,10 @@ Tính năng:
 - Tab User phải trích xuất được data từ access. (Name, DoB, Email, Username, Passord, Avatar)
 - File config.
 - Thêm tính năng show pw cho phần login
+- (13/10/2021) Tại sao khi ấn nút (X) tại main form thì chỉ có form tắt hết mà chương trình vẫn chạy?
+- Kiểm tra lại phần show pw: Khi mới vào chưa nhập gì cả ấn login luôn sẽ hiện thông báo lỗi, tắt tb đó đi để
+nhập pw thì pw sẽ KHÔNG ĐƯỢC HIDE
+- (18/10/2021) Nút show ps không hoạt động
 Giao diện:
 - Thêm tính năng kéo thả, chỉnh size của form. **
 - Tính năng dark mode, light mode. (optional)

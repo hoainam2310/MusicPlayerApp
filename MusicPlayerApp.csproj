@@ -11,6 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Bunifu.Dataviz.WinForms" Version="2.2.1" />
+    <PackageReference Include="Bunifu.UI.WinForms" Version="5.3.0" />
     <PackageReference Include="System.Data.OleDb" Version="5.0.0" />
   </ItemGroup>
 

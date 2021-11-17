@@ -14,5 +14,5 @@ namespace MusicPlayerApp
         {
             InitializeComponent();
         }
-    }
+    }    
 }

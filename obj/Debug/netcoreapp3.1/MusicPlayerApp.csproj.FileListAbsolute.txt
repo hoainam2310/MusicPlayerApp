@@ -99,4 +99,4 @@ C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runti
 C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.main.resources
-C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.csproj.CopyComplete
+C:\Users\nguye\Downloads\UIT\C# UIT\MusicPlayerApp\obj\Debug\netcoreapp3.1\MusicPlayerApp.GeneratedMSBuildEditorConfig.editorconfig

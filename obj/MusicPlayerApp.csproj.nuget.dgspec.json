@@ -13,12 +13,8 @@
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nguye\\Downloads\\UIT\\C# UIT\\MusicPlayerApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +40,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Bunifu.Dataviz.WinForms": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Bunifu.UI.WinForms": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
             "System.Data.OleDb": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -67,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

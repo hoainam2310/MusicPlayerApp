@@ -150,5 +150,10 @@ namespace MusicPlayerApp
                 txt_rrepassword.UseSystemPasswordChar = false;
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
