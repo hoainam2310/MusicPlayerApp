@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguye\\Downloads\\UIT\\C# UIT\\MusicPlayerApp\\MusicPlayerApp.csproj": {}
+    "D:\\GitHub\\MusicPlayerApp\\MusicPlayerApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguye\\Downloads\\UIT\\C# UIT\\MusicPlayerApp\\MusicPlayerApp.csproj": {
+    "D:\\GitHub\\MusicPlayerApp\\MusicPlayerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\Downloads\\UIT\\C# UIT\\MusicPlayerApp\\MusicPlayerApp.csproj",
+        "projectUniqueName": "D:\\GitHub\\MusicPlayerApp\\MusicPlayerApp.csproj",
         "projectName": "MusicPlayerApp",
-        "projectPath": "C:\\Users\\nguye\\Downloads\\UIT\\C# UIT\\MusicPlayerApp\\MusicPlayerApp.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\Downloads\\UIT\\C# UIT\\MusicPlayerApp\\obj\\",
+        "projectPath": "D:\\GitHub\\MusicPlayerApp\\MusicPlayerApp.csproj",
+        "packagesPath": "C:\\Users\\Hoai Nam\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\MusicPlayerApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hoai Nam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

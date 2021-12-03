@@ -200,6 +200,7 @@ namespace MusicPlayerApp
             this.chB_showpass.TabIndex = 33;
             this.chB_showpass.Text = "Show Password";
             this.chB_showpass.UseVisualStyleBackColor = true;
+            this.chB_showpass.CheckedChanged += new System.EventHandler(this.chB_showpass_CheckedChanged);
             // 
             // pictureBox8
             // 

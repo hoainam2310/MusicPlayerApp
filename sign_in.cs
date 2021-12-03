@@ -95,5 +95,17 @@ namespace MusicPlayerApp
                 con.Close();
             }
         }
+
+        private void chB_showpass_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chB_showpass.Checked == true)
+            {
+                txt_password.UseSystemPasswordChar = false;
+            }    
+            else
+            {
+                txt_password.UseSystemPasswordChar = true;
+            }    
+        }
     }
 }
