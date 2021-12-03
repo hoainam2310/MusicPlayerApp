@@ -31,19 +31,19 @@ namespace MusicApp
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainmenu));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation2 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             this.panel_SideBar = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -66,9 +66,13 @@ namespace MusicApp
             this.picb_Visualize = new System.Windows.Forms.PictureBox();
             this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
             this.tab_song = new System.Windows.Forms.TabPage();
-            this.btn_add = new System.Windows.Forms.Button();
-            this.player = new AxWMPLib.AxWindowsMediaPlayer();
             this.listb_track = new System.Windows.Forms.ListBox();
+            this.lbl_addsongs = new System.Windows.Forms.Label();
+            this.panel_allsongs = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.picb_addsongs = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.player = new AxWMPLib.AxWindowsMediaPlayer();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.track_list = new System.Windows.Forms.ListBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -79,12 +83,13 @@ namespace MusicApp
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.bunifuCheckbox1 = new Bunifu.Framework.UI.BunifuCheckbox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.cbb_colortheme = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lbl_totaltimesong = new System.Windows.Forms.Label();
             this.lbl_timeplaymusic = new System.Windows.Forms.Label();
             this.slide_volume = new Bunifu.UI.WinForms.BunifuHSlider();
             this.picb_mutevol = new System.Windows.Forms.PictureBox();
@@ -96,6 +101,7 @@ namespace MusicApp
             this.slider_timeplaymusic = new Bunifu.UI.WinForms.BunifuHSlider();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel_SideBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_Close)).BeginInit();
@@ -110,6 +116,9 @@ namespace MusicApp
             ((System.ComponentModel.ISupportInitialize)(this.picb_Visualize)).BeginInit();
             this.bunifuPages1.SuspendLayout();
             this.tab_song.SuspendLayout();
+            this.panel_allsongs.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_addsongs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabPage4.SuspendLayout();
@@ -144,9 +153,9 @@ namespace MusicApp
             this.panel_SideBar.Controls.Add(this.btn_songs);
             this.panel_SideBar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_SideBar.Location = new System.Drawing.Point(0, 0);
-            this.panel_SideBar.Margin = new System.Windows.Forms.Padding(2);
+            this.panel_SideBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel_SideBar.Name = "panel_SideBar";
-            this.panel_SideBar.Size = new System.Drawing.Size(226, 608);
+            this.panel_SideBar.Size = new System.Drawing.Size(301, 748);
             this.panel_SideBar.TabIndex = 1;
             // 
             // label1
@@ -154,10 +163,9 @@ namespace MusicApp
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(107)))), ((int)(((byte)(121)))));
-            this.label1.Location = new System.Drawing.Point(39, 576);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(52, 709);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 29);
+            this.label1.Size = new System.Drawing.Size(61, 36);
             this.label1.TabIndex = 17;
             this.label1.Text = "Exit";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -166,9 +174,9 @@ namespace MusicApp
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(226, 222);
+            this.pictureBox5.Size = new System.Drawing.Size(301, 273);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 16;
             this.pictureBox5.TabStop = false;
@@ -180,11 +188,11 @@ namespace MusicApp
             this.txt_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(93)))), ((int)(((byte)(164)))));
             this.txt_search.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_search.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_search.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            this.txt_search.Location = new System.Drawing.Point(57, 258);
-            this.txt_search.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_search.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.txt_search.Location = new System.Drawing.Point(82, 317);
+            this.txt_search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_search.Name = "txt_search";
-            this.txt_search.Size = new System.Drawing.Size(128, 22);
+            this.txt_search.Size = new System.Drawing.Size(167, 27);
             this.txt_search.TabIndex = 15;
             this.txt_search.Text = "Enter song name";
             this.txt_search.Click += new System.EventHandler(this.txt_search_Click);
@@ -195,10 +203,10 @@ namespace MusicApp
             this.picb_Close.BackColor = System.Drawing.Color.Transparent;
             this.picb_Close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picb_Close.Image = ((System.Drawing.Image)(resources.GetObject("picb_Close.Image")));
-            this.picb_Close.Location = new System.Drawing.Point(2, 575);
-            this.picb_Close.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_Close.Location = new System.Drawing.Point(3, 708);
+            this.picb_Close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picb_Close.Name = "picb_Close";
-            this.picb_Close.Size = new System.Drawing.Size(32, 30);
+            this.picb_Close.Size = new System.Drawing.Size(43, 37);
             this.picb_Close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_Close.TabIndex = 0;
             this.picb_Close.TabStop = false;
@@ -210,10 +218,10 @@ namespace MusicApp
             this.picb_searchenter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(93)))), ((int)(((byte)(164)))));
             this.picb_searchenter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picb_searchenter.Image = global::MusicApp.Properties.Resources.loupe;
-            this.picb_searchenter.Location = new System.Drawing.Point(184, 250);
-            this.picb_searchenter.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_searchenter.Location = new System.Drawing.Point(255, 307);
+            this.picb_searchenter.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picb_searchenter.Name = "picb_searchenter";
-            this.picb_searchenter.Size = new System.Drawing.Size(26, 39);
+            this.picb_searchenter.Size = new System.Drawing.Size(35, 48);
             this.picb_searchenter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_searchenter.TabIndex = 1;
             this.picb_searchenter.TabStop = false;
@@ -235,11 +243,11 @@ namespace MusicApp
             this.btn_settings.ColorContrastOnClick = 45;
             this.btn_settings.ColorContrastOnHover = 45;
             this.btn_settings.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.btn_settings.CustomizableEdges = borderEdges5;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.btn_settings.CustomizableEdges = borderEdges1;
             this.btn_settings.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_settings.DisabledBorderColor = System.Drawing.Color.Empty;
             this.btn_settings.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -258,28 +266,28 @@ namespace MusicApp
             this.btn_settings.IdleIconLeftImage = null;
             this.btn_settings.IdleIconRightImage = null;
             this.btn_settings.IndicateFocus = true;
-            this.btn_settings.Location = new System.Drawing.Point(104, 520);
-            this.btn_settings.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_settings.Location = new System.Drawing.Point(139, 640);
+            this.btn_settings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_settings.Name = "btn_settings";
-            stateProperties9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties9.BorderRadius = 3;
-            stateProperties9.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties9.BorderThickness = 1;
-            stateProperties9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(87)))), ((int)(((byte)(103)))));
-            stateProperties9.IconLeftImage = null;
-            stateProperties9.IconRightImage = null;
-            this.btn_settings.onHoverState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties10.BorderRadius = 3;
-            stateProperties10.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties10.BorderThickness = 1;
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            stateProperties10.IconLeftImage = null;
-            stateProperties10.IconRightImage = null;
-            this.btn_settings.OnPressedState = stateProperties10;
-            this.btn_settings.Size = new System.Drawing.Size(73, 34);
+            stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties1.BorderRadius = 3;
+            stateProperties1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties1.BorderThickness = 1;
+            stateProperties1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(87)))), ((int)(((byte)(103)))));
+            stateProperties1.IconLeftImage = null;
+            stateProperties1.IconRightImage = null;
+            this.btn_settings.onHoverState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties2.BorderRadius = 3;
+            stateProperties2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties2.BorderThickness = 1;
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
+            stateProperties2.IconLeftImage = null;
+            stateProperties2.IconRightImage = null;
+            this.btn_settings.OnPressedState = stateProperties2;
+            this.btn_settings.Size = new System.Drawing.Size(97, 42);
             this.btn_settings.TabIndex = 14;
             this.btn_settings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_settings.TextMarginLeft = 1;
@@ -291,10 +299,10 @@ namespace MusicApp
             this.picb_search.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picb_search.Image = ((System.Drawing.Image)(resources.GetObject("picb_search.Image")));
-            this.picb_search.Location = new System.Drawing.Point(0, 225);
-            this.picb_search.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_search.Location = new System.Drawing.Point(0, 277);
+            this.picb_search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picb_search.Name = "picb_search";
-            this.picb_search.Size = new System.Drawing.Size(224, 83);
+            this.picb_search.Size = new System.Drawing.Size(299, 102);
             this.picb_search.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_search.TabIndex = 13;
             this.picb_search.TabStop = false;
@@ -305,10 +313,10 @@ namespace MusicApp
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox9.Image = global::MusicApp.Properties.Resources.music;
-            this.pictureBox9.Location = new System.Drawing.Point(68, 320);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox9.Location = new System.Drawing.Point(91, 394);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(31, 34);
+            this.pictureBox9.Size = new System.Drawing.Size(41, 42);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 12;
             this.pictureBox9.TabStop = false;
@@ -319,10 +327,10 @@ namespace MusicApp
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox8.Image = global::MusicApp.Properties.Resources.vinyl;
-            this.pictureBox8.Location = new System.Drawing.Point(68, 387);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox8.Location = new System.Drawing.Point(91, 476);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(31, 34);
+            this.pictureBox8.Size = new System.Drawing.Size(41, 42);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 11;
             this.pictureBox8.TabStop = false;
@@ -333,10 +341,10 @@ namespace MusicApp
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = global::MusicApp.Properties.Resources.karaoke;
-            this.pictureBox7.Location = new System.Drawing.Point(68, 453);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox7.Location = new System.Drawing.Point(91, 558);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(31, 34);
+            this.pictureBox7.Size = new System.Drawing.Size(41, 42);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 10;
             this.pictureBox7.TabStop = false;
@@ -347,10 +355,10 @@ namespace MusicApp
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = global::MusicApp.Properties.Resources.settings;
-            this.pictureBox6.Location = new System.Drawing.Point(68, 520);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox6.Location = new System.Drawing.Point(91, 640);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(31, 34);
+            this.pictureBox6.Size = new System.Drawing.Size(41, 42);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 9;
             this.pictureBox6.TabStop = false;
@@ -378,11 +386,11 @@ namespace MusicApp
             this.bunifuVSlider1.DurationBeforeShrink = 2000;
             this.bunifuVSlider1.ElapsedColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
             this.bunifuVSlider1.LargeChange = 10;
-            this.bunifuVSlider1.Location = new System.Drawing.Point(31, 330);
-            this.bunifuVSlider1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuVSlider1.Location = new System.Drawing.Point(41, 406);
+            this.bunifuVSlider1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.bunifuVSlider1.Maximum = 100;
             this.bunifuVSlider1.Minimum = 0;
-            this.bunifuVSlider1.MinimumSize = new System.Drawing.Size(23, 0);
+            this.bunifuVSlider1.MinimumSize = new System.Drawing.Size(31, 0);
             this.bunifuVSlider1.MinimumThumbLength = 18;
             this.bunifuVSlider1.Name = "bunifuVSlider1";
             this.bunifuVSlider1.OnDisable.ScrollBarBorderColor = System.Drawing.Color.Silver;
@@ -394,7 +402,7 @@ namespace MusicApp
             this.bunifuVSlider1.ScrollBarBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
             this.bunifuVSlider1.ScrollBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
             this.bunifuVSlider1.ShrinkSizeLimit = 3;
-            this.bunifuVSlider1.Size = new System.Drawing.Size(23, 212);
+            this.bunifuVSlider1.Size = new System.Drawing.Size(31, 261);
             this.bunifuVSlider1.SliderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
             this.bunifuVSlider1.SliderStyle = Bunifu.UI.WinForms.BunifuVSlider.SliderStyles.Thin;
             this.bunifuVSlider1.SliderThumbStyle = Utilities.BunifuSlider.BunifuVScrollBar.SliderThumbStyles.Circular;
@@ -402,7 +410,7 @@ namespace MusicApp
             this.bunifuVSlider1.TabIndex = 0;
             this.bunifuVSlider1.ThumbColor = System.Drawing.Color.DodgerBlue;
             this.bunifuVSlider1.ThumbFillColor = System.Drawing.SystemColors.Control;
-            this.bunifuVSlider1.ThumbLength = 20;
+            this.bunifuVSlider1.ThumbLength = 25;
             this.bunifuVSlider1.ThumbMargin = 1;
             this.bunifuVSlider1.ThumbStyle = Bunifu.UI.WinForms.BunifuVSlider.ThumbStyles.Outline;
             this.bunifuVSlider1.Value = 100;
@@ -424,11 +432,11 @@ namespace MusicApp
             this.btn_albums.ColorContrastOnClick = 45;
             this.btn_albums.ColorContrastOnHover = 45;
             this.btn_albums.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.btn_albums.CustomizableEdges = borderEdges6;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.btn_albums.CustomizableEdges = borderEdges2;
             this.btn_albums.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_albums.DisabledBorderColor = System.Drawing.Color.Empty;
             this.btn_albums.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -447,28 +455,28 @@ namespace MusicApp
             this.btn_albums.IdleIconLeftImage = null;
             this.btn_albums.IdleIconRightImage = null;
             this.btn_albums.IndicateFocus = true;
-            this.btn_albums.Location = new System.Drawing.Point(104, 387);
-            this.btn_albums.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_albums.Location = new System.Drawing.Point(139, 476);
+            this.btn_albums.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_albums.Name = "btn_albums";
-            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties11.BorderRadius = 3;
-            stateProperties11.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties11.BorderThickness = 1;
-            stateProperties11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(87)))), ((int)(((byte)(103)))));
-            stateProperties11.IconLeftImage = null;
-            stateProperties11.IconRightImage = null;
-            this.btn_albums.onHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties12.BorderRadius = 3;
-            stateProperties12.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties12.BorderThickness = 1;
-            stateProperties12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(33)))), ((int)(((byte)(53)))));
-            stateProperties12.IconLeftImage = null;
-            stateProperties12.IconRightImage = null;
-            this.btn_albums.OnPressedState = stateProperties12;
-            this.btn_albums.Size = new System.Drawing.Size(73, 34);
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties3.BorderRadius = 3;
+            stateProperties3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties3.BorderThickness = 1;
+            stateProperties3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(87)))), ((int)(((byte)(103)))));
+            stateProperties3.IconLeftImage = null;
+            stateProperties3.IconRightImage = null;
+            this.btn_albums.onHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties4.BorderRadius = 3;
+            stateProperties4.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties4.BorderThickness = 1;
+            stateProperties4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(33)))), ((int)(((byte)(53)))));
+            stateProperties4.IconLeftImage = null;
+            stateProperties4.IconRightImage = null;
+            this.btn_albums.OnPressedState = stateProperties4;
+            this.btn_albums.Size = new System.Drawing.Size(97, 42);
             this.btn_albums.TabIndex = 5;
             this.btn_albums.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_albums.TextMarginLeft = -2;
@@ -492,11 +500,11 @@ namespace MusicApp
             this.btn_karaoke.ColorContrastOnClick = 45;
             this.btn_karaoke.ColorContrastOnHover = 45;
             this.btn_karaoke.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.btn_karaoke.CustomizableEdges = borderEdges7;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.btn_karaoke.CustomizableEdges = borderEdges3;
             this.btn_karaoke.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_karaoke.DisabledBorderColor = System.Drawing.Color.Empty;
             this.btn_karaoke.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -515,28 +523,28 @@ namespace MusicApp
             this.btn_karaoke.IdleIconLeftImage = null;
             this.btn_karaoke.IdleIconRightImage = null;
             this.btn_karaoke.IndicateFocus = true;
-            this.btn_karaoke.Location = new System.Drawing.Point(104, 453);
-            this.btn_karaoke.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_karaoke.Location = new System.Drawing.Point(139, 558);
+            this.btn_karaoke.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_karaoke.Name = "btn_karaoke";
-            stateProperties13.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties13.BorderRadius = 3;
-            stateProperties13.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties13.BorderThickness = 1;
-            stateProperties13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(87)))), ((int)(((byte)(103)))));
-            stateProperties13.IconLeftImage = null;
-            stateProperties13.IconRightImage = null;
-            this.btn_karaoke.onHoverState = stateProperties13;
-            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties14.BorderRadius = 3;
-            stateProperties14.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties14.BorderThickness = 1;
-            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(33)))), ((int)(((byte)(53)))));
-            stateProperties14.IconLeftImage = null;
-            stateProperties14.IconRightImage = null;
-            this.btn_karaoke.OnPressedState = stateProperties14;
-            this.btn_karaoke.Size = new System.Drawing.Size(73, 34);
+            stateProperties5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties5.BorderRadius = 3;
+            stateProperties5.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties5.BorderThickness = 1;
+            stateProperties5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(87)))), ((int)(((byte)(103)))));
+            stateProperties5.IconLeftImage = null;
+            stateProperties5.IconRightImage = null;
+            this.btn_karaoke.onHoverState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties6.BorderRadius = 3;
+            stateProperties6.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties6.BorderThickness = 1;
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(33)))), ((int)(((byte)(53)))));
+            stateProperties6.IconLeftImage = null;
+            stateProperties6.IconRightImage = null;
+            this.btn_karaoke.OnPressedState = stateProperties6;
+            this.btn_karaoke.Size = new System.Drawing.Size(97, 42);
             this.btn_karaoke.TabIndex = 4;
             this.btn_karaoke.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_karaoke.TextMarginLeft = 2;
@@ -560,11 +568,11 @@ namespace MusicApp
             this.btn_songs.ColorContrastOnClick = 45;
             this.btn_songs.ColorContrastOnHover = 45;
             this.btn_songs.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.btn_songs.CustomizableEdges = borderEdges8;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.btn_songs.CustomizableEdges = borderEdges4;
             this.btn_songs.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_songs.DisabledBorderColor = System.Drawing.Color.Empty;
             this.btn_songs.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -583,28 +591,28 @@ namespace MusicApp
             this.btn_songs.IdleIconLeftImage = null;
             this.btn_songs.IdleIconRightImage = null;
             this.btn_songs.IndicateFocus = true;
-            this.btn_songs.Location = new System.Drawing.Point(104, 317);
-            this.btn_songs.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_songs.Location = new System.Drawing.Point(139, 390);
+            this.btn_songs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_songs.Name = "btn_songs";
-            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties15.BorderRadius = 3;
-            stateProperties15.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties15.BorderThickness = 1;
-            stateProperties15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(87)))), ((int)(((byte)(103)))));
-            stateProperties15.IconLeftImage = null;
-            stateProperties15.IconRightImage = null;
-            this.btn_songs.onHoverState = stateProperties15;
-            stateProperties16.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties16.BorderRadius = 3;
-            stateProperties16.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties16.BorderThickness = 1;
-            stateProperties16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
-            stateProperties16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            stateProperties16.IconLeftImage = null;
-            stateProperties16.IconRightImage = null;
-            this.btn_songs.OnPressedState = stateProperties16;
-            this.btn_songs.Size = new System.Drawing.Size(56, 34);
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties7.BorderRadius = 3;
+            stateProperties7.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties7.BorderThickness = 1;
+            stateProperties7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(87)))), ((int)(((byte)(103)))));
+            stateProperties7.IconLeftImage = null;
+            stateProperties7.IconRightImage = null;
+            this.btn_songs.onHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties8.BorderRadius = 3;
+            stateProperties8.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties8.BorderThickness = 1;
+            stateProperties8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(244)))));
+            stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
+            stateProperties8.IconLeftImage = null;
+            stateProperties8.IconRightImage = null;
+            this.btn_songs.OnPressedState = stateProperties8;
+            this.btn_songs.Size = new System.Drawing.Size(75, 42);
             this.btn_songs.TabIndex = 3;
             this.btn_songs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_songs.TextMarginLeft = 0;
@@ -658,10 +666,10 @@ namespace MusicApp
             this.panel_header.Controls.Add(this.picb_logo);
             this.panel_header.Controls.Add(this.picb_Visualize);
             this.panel_header.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_header.Location = new System.Drawing.Point(226, 0);
-            this.panel_header.Margin = new System.Windows.Forms.Padding(2);
+            this.panel_header.Location = new System.Drawing.Point(301, 0);
+            this.panel_header.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel_header.Name = "panel_header";
-            this.panel_header.Size = new System.Drawing.Size(922, 222);
+            this.panel_header.Size = new System.Drawing.Size(1230, 273);
             this.panel_header.TabIndex = 2;
             // 
             // picb_logo
@@ -669,10 +677,10 @@ namespace MusicApp
             this.picb_logo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picb_logo.BackColor = System.Drawing.Color.Transparent;
             this.picb_logo.Image = global::MusicApp.Properties.Resources.NamMin__1__removebg_preview;
-            this.picb_logo.Location = new System.Drawing.Point(810, 0);
-            this.picb_logo.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_logo.Location = new System.Drawing.Point(1081, 0);
+            this.picb_logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picb_logo.Name = "picb_logo";
-            this.picb_logo.Size = new System.Drawing.Size(112, 102);
+            this.picb_logo.Size = new System.Drawing.Size(149, 126);
             this.picb_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_logo.TabIndex = 1;
             this.picb_logo.TabStop = false;
@@ -682,10 +690,10 @@ namespace MusicApp
             this.picb_Visualize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.picb_Visualize.BackColor = System.Drawing.Color.Transparent;
             this.picb_Visualize.Image = global::MusicApp.Properties.Resources.output_onlinegiftools;
-            this.picb_Visualize.Location = new System.Drawing.Point(344, 0);
-            this.picb_Visualize.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_Visualize.Location = new System.Drawing.Point(459, 0);
+            this.picb_Visualize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picb_Visualize.Name = "picb_Visualize";
-            this.picb_Visualize.Size = new System.Drawing.Size(225, 222);
+            this.picb_Visualize.Size = new System.Drawing.Size(301, 273);
             this.picb_Visualize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_Visualize.TabIndex = 0;
             this.picb_Visualize.TabStop = false;
@@ -699,8 +707,8 @@ namespace MusicApp
             this.bunifuPages1.Controls.Add(this.tabPage3);
             this.bunifuPages1.Controls.Add(this.tabPage4);
             this.bunifuPages1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuPages1.Location = new System.Drawing.Point(226, 222);
-            this.bunifuPages1.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuPages1.Location = new System.Drawing.Point(301, 273);
+            this.bunifuPages1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
             this.bunifuPages1.Page = this.tab_song;
@@ -708,77 +716,137 @@ namespace MusicApp
             this.bunifuPages1.PageName = "tab_song";
             this.bunifuPages1.PageTitle = "Songs";
             this.bunifuPages1.SelectedIndex = 0;
-            this.bunifuPages1.Size = new System.Drawing.Size(922, 340);
+            this.bunifuPages1.Size = new System.Drawing.Size(1230, 418);
             this.bunifuPages1.TabIndex = 3;
-            animation2.AnimateOnlyDifferences = false;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.bunifuPages1.Transition = animation2;
+            animation1.AnimateOnlyDifferences = false;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.bunifuPages1.Transition = animation1;
             this.bunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
             // 
             // tab_song
             // 
             this.tab_song.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
-            this.tab_song.Controls.Add(this.btn_add);
+            this.tab_song.Controls.Add(this.panel3);
             this.tab_song.Controls.Add(this.listb_track);
+            this.tab_song.Controls.Add(this.lbl_addsongs);
+            this.tab_song.Controls.Add(this.panel_allsongs);
+            this.tab_song.Controls.Add(this.picb_addsongs);
+            this.tab_song.Controls.Add(this.pictureBox2);
             this.tab_song.Controls.Add(this.player);
             this.tab_song.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tab_song.Location = new System.Drawing.Point(4, 4);
-            this.tab_song.Margin = new System.Windows.Forms.Padding(2);
+            this.tab_song.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tab_song.Name = "tab_song";
-            this.tab_song.Padding = new System.Windows.Forms.Padding(2);
-            this.tab_song.Size = new System.Drawing.Size(914, 314);
+            this.tab_song.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tab_song.Size = new System.Drawing.Size(1222, 389);
             this.tab_song.TabIndex = 0;
             this.tab_song.Text = "Songs";
             // 
-            // btn_add
+            // listb_track
             // 
-            this.btn_add.Location = new System.Drawing.Point(601, 40);
-            this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(75, 23);
-            this.btn_add.TabIndex = 2;
-            this.btn_add.Text = "Add";
-            this.btn_add.UseVisualStyleBackColor = true;
-            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
+            this.listb_track.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listb_track.FormattingEnabled = true;
+            this.listb_track.ItemHeight = 16;
+            this.listb_track.Location = new System.Drawing.Point(861, 377);
+            this.listb_track.Margin = new System.Windows.Forms.Padding(4);
+            this.listb_track.Name = "listb_track";
+            this.listb_track.Size = new System.Drawing.Size(336, 4);
+            this.listb_track.TabIndex = 0;
+            this.listb_track.SelectedIndexChanged += new System.EventHandler(this.listb_track_SelectedIndexChanged);
+            // 
+            // lbl_addsongs
+            // 
+            this.lbl_addsongs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_addsongs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
+            this.lbl_addsongs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbl_addsongs.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_addsongs.ForeColor = System.Drawing.Color.White;
+            this.lbl_addsongs.Location = new System.Drawing.Point(981, 310);
+            this.lbl_addsongs.Name = "lbl_addsongs";
+            this.lbl_addsongs.Size = new System.Drawing.Size(174, 36);
+            this.lbl_addsongs.TabIndex = 11;
+            this.lbl_addsongs.Text = "Add songs";
+            this.lbl_addsongs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_addsongs.Click += new System.EventHandler(this.lbl_addsongs_Click);
+            // 
+            // panel_allsongs
+            // 
+            this.panel_allsongs.AutoScroll = true;
+            this.panel_allsongs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
+            this.panel_allsongs.Controls.Add(this.panel2);
+            this.panel_allsongs.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel_allsongs.Location = new System.Drawing.Point(3, 2);
+            this.panel_allsongs.Name = "panel_allsongs";
+            this.panel_allsongs.Size = new System.Drawing.Size(825, 385);
+            this.panel_allsongs.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.BackColor = System.Drawing.Color.Maroon;
+            this.panel2.Location = new System.Drawing.Point(1, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(824, 97);
+            this.panel2.TabIndex = 4;
+            // 
+            // picb_addsongs
+            // 
+            this.picb_addsongs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picb_addsongs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picb_addsongs.Image = ((System.Drawing.Image)(resources.GetObject("picb_addsongs.Image")));
+            this.picb_addsongs.Location = new System.Drawing.Point(861, 287);
+            this.picb_addsongs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picb_addsongs.Name = "picb_addsongs";
+            this.picb_addsongs.Size = new System.Drawing.Size(336, 84);
+            this.picb_addsongs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picb_addsongs.TabIndex = 18;
+            this.picb_addsongs.TabStop = false;
+            this.picb_addsongs.Click += new System.EventHandler(this.picb_addsongs_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.pictureBox2.Location = new System.Drawing.Point(834, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(388, 279);
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
             // 
             // player
             // 
+            this.player.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.player.Enabled = true;
-            this.player.Location = new System.Drawing.Point(543, 91);
+            this.player.Location = new System.Drawing.Point(1212, 2);
+            this.player.Margin = new System.Windows.Forms.Padding(4);
             this.player.Name = "player";
             this.player.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("player.OcxState")));
-            this.player.Size = new System.Drawing.Size(32, 47);
+            this.player.Size = new System.Drawing.Size(10, 17);
             this.player.TabIndex = 1;
-            // 
-            // listb_track
-            // 
-            this.listb_track.FormattingEnabled = true;
-            this.listb_track.Location = new System.Drawing.Point(0, 0);
-            this.listb_track.Name = "listb_track";
-            this.listb_track.Size = new System.Drawing.Size(595, 316);
-            this.listb_track.TabIndex = 0;
-            this.listb_track.SelectedIndexChanged += new System.EventHandler(this.listb_track_SelectedIndexChanged);
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.track_list);
             this.tabPage2.Location = new System.Drawing.Point(4, 4);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage2.Size = new System.Drawing.Size(914, 314);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage2.Size = new System.Drawing.Size(1222, 389);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Albums";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -786,20 +854,21 @@ namespace MusicApp
             // track_list
             // 
             this.track_list.FormattingEnabled = true;
-            this.track_list.Location = new System.Drawing.Point(159, 106);
-            this.track_list.Margin = new System.Windows.Forms.Padding(2);
+            this.track_list.ItemHeight = 16;
+            this.track_list.Location = new System.Drawing.Point(212, 130);
+            this.track_list.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.track_list.Name = "track_list";
-            this.track_list.Size = new System.Drawing.Size(470, 264);
+            this.track_list.Size = new System.Drawing.Size(625, 324);
             this.track_list.TabIndex = 0;
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Maroon;
             this.tabPage3.Location = new System.Drawing.Point(4, 4);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage3.Size = new System.Drawing.Size(914, 314);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage3.Size = new System.Drawing.Size(1222, 389);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Artists";
             // 
@@ -812,16 +881,16 @@ namespace MusicApp
             this.tabPage4.Controls.Add(this.textBox4);
             this.tabPage4.Controls.Add(this.textBox3);
             this.tabPage4.Controls.Add(this.bunifuCheckbox1);
-            this.tabPage4.Controls.Add(this.pictureBox10);
             this.tabPage4.Controls.Add(this.button1);
             this.tabPage4.Controls.Add(this.textBox2);
             this.tabPage4.Controls.Add(this.cbb_colortheme);
             this.tabPage4.Controls.Add(this.textBox1);
+            this.tabPage4.Controls.Add(this.pictureBox10);
             this.tabPage4.Location = new System.Drawing.Point(4, 4);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage4.Size = new System.Drawing.Size(914, 314);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage4.Size = new System.Drawing.Size(1222, 389);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Settings";
             // 
@@ -833,7 +902,8 @@ namespace MusicApp
             this.bunifuCheckbox2.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
             this.bunifuCheckbox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuCheckbox2.ForeColor = System.Drawing.Color.White;
-            this.bunifuCheckbox2.Location = new System.Drawing.Point(226, 294);
+            this.bunifuCheckbox2.Location = new System.Drawing.Point(301, 362);
+            this.bunifuCheckbox2.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuCheckbox2.Name = "bunifuCheckbox2";
             this.bunifuCheckbox2.Size = new System.Drawing.Size(20, 20);
             this.bunifuCheckbox2.TabIndex = 26;
@@ -844,10 +914,10 @@ namespace MusicApp
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.textBox5.Location = new System.Drawing.Point(16, 288);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox5.Location = new System.Drawing.Point(21, 354);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(136, 22);
+            this.textBox5.Size = new System.Drawing.Size(181, 27);
             this.textBox5.TabIndex = 25;
             this.textBox5.Text = "Start with Windows\r\n";
             // 
@@ -861,10 +931,10 @@ namespace MusicApp
             this.comboBox1.Items.AddRange(new object[] {
             "English",
             "Vietnamese"});
-            this.comboBox1.Location = new System.Drawing.Point(226, 83);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox1.Location = new System.Drawing.Point(301, 102);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(248, 27);
+            this.comboBox1.Size = new System.Drawing.Size(329, 31);
             this.comboBox1.TabIndex = 24;
             this.comboBox1.Text = "English";
             // 
@@ -874,10 +944,10 @@ namespace MusicApp
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.textBox4.Location = new System.Drawing.Point(16, 86);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox4.Location = new System.Drawing.Point(21, 106);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(173, 22);
+            this.textBox4.Size = new System.Drawing.Size(231, 27);
             this.textBox4.TabIndex = 23;
             this.textBox4.Text = "Choose your language";
             // 
@@ -887,10 +957,10 @@ namespace MusicApp
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.textBox3.Location = new System.Drawing.Point(16, 221);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox3.Location = new System.Drawing.Point(21, 272);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(136, 22);
+            this.textBox3.Size = new System.Drawing.Size(181, 27);
             this.textBox3.TabIndex = 22;
             this.textBox3.Text = "Background music";
             // 
@@ -902,34 +972,21 @@ namespace MusicApp
             this.bunifuCheckbox1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
             this.bunifuCheckbox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuCheckbox1.ForeColor = System.Drawing.Color.White;
-            this.bunifuCheckbox1.Location = new System.Drawing.Point(226, 227);
+            this.bunifuCheckbox1.Location = new System.Drawing.Point(301, 279);
+            this.bunifuCheckbox1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuCheckbox1.Name = "bunifuCheckbox1";
             this.bunifuCheckbox1.Size = new System.Drawing.Size(20, 20);
             this.bunifuCheckbox1.TabIndex = 21;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox10.Image = global::MusicApp.Properties.Resources.output_onlinegiftools__2_;
-            this.pictureBox10.Location = new System.Drawing.Point(598, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(316, 317);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 20;
-            this.pictureBox10.TabStop = false;
             // 
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.button1.Location = new System.Drawing.Point(226, 150);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(301, 185);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(247, 25);
+            this.button1.Size = new System.Drawing.Size(329, 31);
             this.button1.TabIndex = 19;
             this.button1.Text = "Font";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -941,10 +998,10 @@ namespace MusicApp
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.textBox2.Location = new System.Drawing.Point(16, 154);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox2.Location = new System.Drawing.Point(21, 190);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(136, 22);
+            this.textBox2.Size = new System.Drawing.Size(181, 27);
             this.textBox2.TabIndex = 18;
             this.textBox2.Text = "Choose your font";
             // 
@@ -958,10 +1015,10 @@ namespace MusicApp
             this.cbb_colortheme.Items.AddRange(new object[] {
             "Light",
             "Dark"});
-            this.cbb_colortheme.Location = new System.Drawing.Point(226, 15);
-            this.cbb_colortheme.Margin = new System.Windows.Forms.Padding(2);
+            this.cbb_colortheme.Location = new System.Drawing.Point(301, 18);
+            this.cbb_colortheme.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbb_colortheme.Name = "cbb_colortheme";
-            this.cbb_colortheme.Size = new System.Drawing.Size(248, 27);
+            this.cbb_colortheme.Size = new System.Drawing.Size(329, 31);
             this.cbb_colortheme.TabIndex = 17;
             this.cbb_colortheme.Text = "Light";
             // 
@@ -971,16 +1028,31 @@ namespace MusicApp
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.textBox1.Location = new System.Drawing.Point(16, 19);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Location = new System.Drawing.Point(21, 23);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(136, 22);
+            this.textBox1.Size = new System.Drawing.Size(181, 27);
             this.textBox1.TabIndex = 16;
             this.textBox1.Text = "Choose your color";
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox10.Image = global::MusicApp.Properties.Resources.output_onlinegiftools__2_;
+            this.pictureBox10.Location = new System.Drawing.Point(797, 0);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(422, 390);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 20;
+            this.pictureBox10.TabStop = false;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
+            this.panel1.Controls.Add(this.lbl_totaltimesong);
             this.panel1.Controls.Add(this.lbl_timeplaymusic);
             this.panel1.Controls.Add(this.slide_volume);
             this.panel1.Controls.Add(this.picb_mutevol);
@@ -991,21 +1063,32 @@ namespace MusicApp
             this.panel1.Controls.Add(this.pb_play);
             this.panel1.Controls.Add(this.slider_timeplaymusic);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(226, 562);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(301, 691);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(922, 46);
+            this.panel1.Size = new System.Drawing.Size(1230, 57);
             this.panel1.TabIndex = 4;
+            // 
+            // lbl_totaltimesong
+            // 
+            this.lbl_totaltimesong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_totaltimesong.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_totaltimesong.ForeColor = System.Drawing.Color.White;
+            this.lbl_totaltimesong.Location = new System.Drawing.Point(800, 14);
+            this.lbl_totaltimesong.Name = "lbl_totaltimesong";
+            this.lbl_totaltimesong.Size = new System.Drawing.Size(77, 36);
+            this.lbl_totaltimesong.TabIndex = 10;
+            this.lbl_totaltimesong.Text = "00:00";
+            this.lbl_totaltimesong.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_timeplaymusic
             // 
-            this.lbl_timeplaymusic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_timeplaymusic.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_timeplaymusic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lbl_timeplaymusic.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_timeplaymusic.ForeColor = System.Drawing.Color.White;
-            this.lbl_timeplaymusic.Location = new System.Drawing.Point(596, 13);
-            this.lbl_timeplaymusic.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_timeplaymusic.Location = new System.Drawing.Point(227, 14);
             this.lbl_timeplaymusic.Name = "lbl_timeplaymusic";
-            this.lbl_timeplaymusic.Size = new System.Drawing.Size(67, 29);
+            this.lbl_timeplaymusic.Size = new System.Drawing.Size(77, 36);
             this.lbl_timeplaymusic.TabIndex = 9;
             this.lbl_timeplaymusic.Text = "00:00";
             this.lbl_timeplaymusic.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1031,10 +1114,11 @@ namespace MusicApp
             this.slide_volume.DurationBeforeShrink = 2000;
             this.slide_volume.ElapsedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.slide_volume.LargeChange = 10;
-            this.slide_volume.Location = new System.Drawing.Point(712, 13);
+            this.slide_volume.Location = new System.Drawing.Point(950, 16);
+            this.slide_volume.Margin = new System.Windows.Forms.Padding(5);
             this.slide_volume.Maximum = 100;
             this.slide_volume.Minimum = 0;
-            this.slide_volume.MinimumSize = new System.Drawing.Size(0, 25);
+            this.slide_volume.MinimumSize = new System.Drawing.Size(0, 31);
             this.slide_volume.MinimumThumbLength = 18;
             this.slide_volume.Name = "slide_volume";
             this.slide_volume.OnDisable.ScrollBarBorderColor = System.Drawing.Color.Silver;
@@ -1043,7 +1127,7 @@ namespace MusicApp
             this.slide_volume.ScrollBarBorderColor = System.Drawing.Color.White;
             this.slide_volume.ScrollBarColor = System.Drawing.Color.White;
             this.slide_volume.ShrinkSizeLimit = 3;
-            this.slide_volume.Size = new System.Drawing.Size(157, 25);
+            this.slide_volume.Size = new System.Drawing.Size(209, 31);
             this.slide_volume.SliderColor = System.Drawing.Color.White;
             this.slide_volume.SliderStyle = Bunifu.UI.WinForms.BunifuHSlider.SliderStyles.Thin;
             this.slide_volume.SliderThumbStyle = Utilities.BunifuSlider.BunifuHScrollBar.SliderThumbStyles.Circular;
@@ -1051,7 +1135,7 @@ namespace MusicApp
             this.slide_volume.TabIndex = 8;
             this.slide_volume.ThumbColor = System.Drawing.Color.Blue;
             this.slide_volume.ThumbFillColor = System.Drawing.SystemColors.Control;
-            this.slide_volume.ThumbLength = 18;
+            this.slide_volume.ThumbLength = 20;
             this.slide_volume.ThumbMargin = 1;
             this.slide_volume.ThumbStyle = Bunifu.UI.WinForms.BunifuHSlider.ThumbStyles.Outline;
             this.slide_volume.Value = 0;
@@ -1062,10 +1146,10 @@ namespace MusicApp
             this.picb_mutevol.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.picb_mutevol.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picb_mutevol.Image = global::MusicApp.Properties.Resources.mute;
-            this.picb_mutevol.Location = new System.Drawing.Point(676, 10);
-            this.picb_mutevol.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_mutevol.Location = new System.Drawing.Point(902, 12);
+            this.picb_mutevol.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picb_mutevol.Name = "picb_mutevol";
-            this.picb_mutevol.Size = new System.Drawing.Size(31, 33);
+            this.picb_mutevol.Size = new System.Drawing.Size(41, 41);
             this.picb_mutevol.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_mutevol.TabIndex = 8;
             this.picb_mutevol.TabStop = false;
@@ -1076,10 +1160,10 @@ namespace MusicApp
             this.picb_maxvol.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.picb_maxvol.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picb_maxvol.Image = global::MusicApp.Properties.Resources.high_volume;
-            this.picb_maxvol.Location = new System.Drawing.Point(874, 10);
-            this.picb_maxvol.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_maxvol.Location = new System.Drawing.Point(1166, 12);
+            this.picb_maxvol.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picb_maxvol.Name = "picb_maxvol";
-            this.picb_maxvol.Size = new System.Drawing.Size(31, 33);
+            this.picb_maxvol.Size = new System.Drawing.Size(41, 41);
             this.picb_maxvol.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_maxvol.TabIndex = 7;
             this.picb_maxvol.TabStop = false;
@@ -1090,10 +1174,10 @@ namespace MusicApp
             this.pb_stop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pb_stop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_stop.Image = global::MusicApp.Properties.Resources.pause;
-            this.pb_stop.Location = new System.Drawing.Point(92, 11);
-            this.pb_stop.Margin = new System.Windows.Forms.Padding(2);
+            this.pb_stop.Location = new System.Drawing.Point(123, 14);
+            this.pb_stop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pb_stop.Name = "pb_stop";
-            this.pb_stop.Size = new System.Drawing.Size(31, 33);
+            this.pb_stop.Size = new System.Drawing.Size(41, 41);
             this.pb_stop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_stop.TabIndex = 6;
             this.pb_stop.TabStop = false;
@@ -1104,10 +1188,10 @@ namespace MusicApp
             this.pb_back.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_back.Image = global::MusicApp.Properties.Resources.arrow_left;
-            this.pb_back.Location = new System.Drawing.Point(4, 10);
-            this.pb_back.Margin = new System.Windows.Forms.Padding(2);
+            this.pb_back.Location = new System.Drawing.Point(5, 12);
+            this.pb_back.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pb_back.Name = "pb_back";
-            this.pb_back.Size = new System.Drawing.Size(31, 33);
+            this.pb_back.Size = new System.Drawing.Size(41, 41);
             this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_back.TabIndex = 5;
             this.pb_back.TabStop = false;
@@ -1118,10 +1202,10 @@ namespace MusicApp
             this.pb_next.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pb_next.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_next.Image = global::MusicApp.Properties.Resources.right_arrow;
-            this.pb_next.Location = new System.Drawing.Point(135, 11);
-            this.pb_next.Margin = new System.Windows.Forms.Padding(2);
+            this.pb_next.Location = new System.Drawing.Point(180, 14);
+            this.pb_next.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pb_next.Name = "pb_next";
-            this.pb_next.Size = new System.Drawing.Size(31, 33);
+            this.pb_next.Size = new System.Drawing.Size(41, 41);
             this.pb_next.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_next.TabIndex = 4;
             this.pb_next.TabStop = false;
@@ -1132,10 +1216,10 @@ namespace MusicApp
             this.pb_play.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pb_play.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_play.Image = global::MusicApp.Properties.Resources.play;
-            this.pb_play.Location = new System.Drawing.Point(48, 11);
-            this.pb_play.Margin = new System.Windows.Forms.Padding(2);
+            this.pb_play.Location = new System.Drawing.Point(64, 14);
+            this.pb_play.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pb_play.Name = "pb_play";
-            this.pb_play.Size = new System.Drawing.Size(31, 33);
+            this.pb_play.Size = new System.Drawing.Size(41, 41);
             this.pb_play.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_play.TabIndex = 3;
             this.pb_play.TabStop = false;
@@ -1162,10 +1246,11 @@ namespace MusicApp
             this.slider_timeplaymusic.DurationBeforeShrink = 2000;
             this.slider_timeplaymusic.ElapsedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.slider_timeplaymusic.LargeChange = 10;
-            this.slider_timeplaymusic.Location = new System.Drawing.Point(184, 18);
+            this.slider_timeplaymusic.Location = new System.Drawing.Point(303, 21);
+            this.slider_timeplaymusic.Margin = new System.Windows.Forms.Padding(5);
             this.slider_timeplaymusic.Maximum = 100;
             this.slider_timeplaymusic.Minimum = 0;
-            this.slider_timeplaymusic.MinimumSize = new System.Drawing.Size(0, 25);
+            this.slider_timeplaymusic.MinimumSize = new System.Drawing.Size(0, 31);
             this.slider_timeplaymusic.MinimumThumbLength = 18;
             this.slider_timeplaymusic.Name = "slider_timeplaymusic";
             this.slider_timeplaymusic.OnDisable.ScrollBarBorderColor = System.Drawing.Color.Silver;
@@ -1174,7 +1259,7 @@ namespace MusicApp
             this.slider_timeplaymusic.ScrollBarBorderColor = System.Drawing.Color.White;
             this.slider_timeplaymusic.ScrollBarColor = System.Drawing.Color.White;
             this.slider_timeplaymusic.ShrinkSizeLimit = 3;
-            this.slider_timeplaymusic.Size = new System.Drawing.Size(415, 25);
+            this.slider_timeplaymusic.Size = new System.Drawing.Size(508, 31);
             this.slider_timeplaymusic.SliderColor = System.Drawing.Color.White;
             this.slider_timeplaymusic.SliderStyle = Bunifu.UI.WinForms.BunifuHSlider.SliderStyles.Thin;
             this.slider_timeplaymusic.SliderThumbStyle = Utilities.BunifuSlider.BunifuHScrollBar.SliderThumbStyles.Circular;
@@ -1182,7 +1267,7 @@ namespace MusicApp
             this.slider_timeplaymusic.TabIndex = 0;
             this.slider_timeplaymusic.ThumbColor = System.Drawing.Color.Blue;
             this.slider_timeplaymusic.ThumbFillColor = System.Drawing.SystemColors.Control;
-            this.slider_timeplaymusic.ThumbLength = 41;
+            this.slider_timeplaymusic.ThumbLength = 50;
             this.slider_timeplaymusic.ThumbMargin = 1;
             this.slider_timeplaymusic.ThumbStyle = Bunifu.UI.WinForms.BunifuHSlider.ThumbStyles.Outline;
             this.slider_timeplaymusic.Value = 0;
@@ -1197,18 +1282,29 @@ namespace MusicApp
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // panel3
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.BackColor = System.Drawing.Color.Maroon;
+            this.panel3.Location = new System.Drawing.Point(2, 326);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(811, 97);
+            this.panel3.TabIndex = 5;
+            // 
             // mainmenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
-            this.ClientSize = new System.Drawing.Size(1148, 608);
+            this.ClientSize = new System.Drawing.Size(1531, 748);
             this.Controls.Add(this.bunifuPages1);
             this.Controls.Add(this.panel_header);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel_SideBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "mainmenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -1228,6 +1324,9 @@ namespace MusicApp
             ((System.ComponentModel.ISupportInitialize)(this.picb_Visualize)).EndInit();
             this.bunifuPages1.ResumeLayout(false);
             this.tab_song.ResumeLayout(false);
+            this.panel_allsongs.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picb_addsongs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
@@ -1292,11 +1391,17 @@ namespace MusicApp
         private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox1;
         private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox2;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button btn_add;
         private AxWMPLib.AxWindowsMediaPlayer player;
         private System.Windows.Forms.ListBox listb_track;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lbl_totaltimesong;
+        private System.Windows.Forms.Panel panel_allsongs;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox picb_addsongs;
+        private System.Windows.Forms.Label lbl_addsongs;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 

@@ -148,6 +148,9 @@
   <data name="Untitled design (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Untitled_design__3_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled_design__3_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mute" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -187,8 +190,11 @@
   <data name="arrow-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1814089_account_user_person_profile_avatar_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1814089_account_user_person_profile_avatar_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="output-onlinegiftools (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\output-onlinegiftools (2).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled design" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled design.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="48f48d3257de769c6d5fbca510092d8c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\48f48d3257de769c6d5fbca510092d8c.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,10 +217,10 @@
   <data name="1814107_lock_padlock_secure_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1814107_lock_padlock_secure_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled design" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled design.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1814089_account_user_person_profile_avatar_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1814089_account_user_person_profile_avatar_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="output-onlinegiftools (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\output-onlinegiftools (2).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Untitled_design__4_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled_design__4_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

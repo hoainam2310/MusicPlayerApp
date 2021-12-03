@@ -122,20 +122,26 @@ namespace MusicApp
             player.Ctlcontrols.currentPosition = slider_timeplaymusic.Value;
         }
 
-        private void btn_add_Click(object sender, EventArgs e)
+        private void lbl_addsongs_Click(object sender, EventArgs e)
+        {
+            picb_addsongs_Click(sender, e);
+        }
+
+        private void picb_addsongs_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Multiselect = true;
             ofd.Filter = "Song Files|*.mp3;*.flac;*.wav;...";
-            if (ofd.ShowDialog()==System.Windows.Forms.DialogResult.OK)
+            if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 files = ofd.FileNames;
                 paths = ofd.FileNames;
-                for (int x = 0; x < files.Length; x++ )
+                for (int x = 0; x < files.Length; x++)
                 {
                     listb_track.Items.Add(files[x]);
                 }
             }
         }
+
     }
 }
