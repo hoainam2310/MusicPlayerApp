@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using MusicApp;
 using System.Data.OleDb;
 
 namespace MusicPlayerApp
@@ -71,6 +72,7 @@ namespace MusicPlayerApp
 
         private void tx_register_Click(object sender, EventArgs e)
         {
+            this.Hide();
             register r = new register();
             r.Show();
         }
@@ -82,8 +84,9 @@ namespace MusicPlayerApp
             OleDbDataReader dr = cmd.ExecuteReader();
             if (dr.Read() == true)
             {
-                //new main().Show();
                 this.Hide();
+                new mainmenu().Show();
+                
             }
             else
             {
