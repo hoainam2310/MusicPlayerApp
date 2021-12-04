@@ -103,6 +103,16 @@ namespace MusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _83690ac46c2ba7cf46b153e6226c974d {
+            get {
+                object obj = ResourceManager.GetObject("83690ac46c2ba7cf46b153e6226c974d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8394220_log_out_exit_icon {
             get {
                 object obj = ResourceManager.GetObject("8394220_log_out_exit_icon", resourceCulture);
