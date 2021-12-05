@@ -16,6 +16,7 @@ namespace MusicApp
         public mainmenu()
         {
             InitializeComponent();
+            lbl_position.Visible = false;
             slide_volume.Value = 20;
             dt.Columns.Add("Album", typeof(string));
             dt.Columns.Add("Title", typeof(string));
