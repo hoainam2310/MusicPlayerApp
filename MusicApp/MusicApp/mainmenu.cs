@@ -12,10 +12,26 @@ namespace MusicApp
 {
     public partial class mainmenu : Form
     {
+        DataTable dt = new DataTable();
         public mainmenu()
         {
             InitializeComponent();
-            slide_volume.Value = 50;
+            slide_volume.Value = 20;
+            dt.Columns.Add("Album", typeof(string));
+            dt.Columns.Add("Title", typeof(string));
+            dt.Columns.Add("Singer", typeof(string));
+            dt.Columns.Add("Duration", typeof(string));
+
+            dt.Rows.Add("Platinum Collection: Greatests Hits", "Another One Bites The Dust", "Queen", "03:35");
+            dt.Rows.Add("Platinum Collection: Greatests Hits", "Don't Stop Me Now", "Queen", "03:29");
+            dt.Rows.Add("Arcane: League Of Legends", "Dynasties Dystopia", "Denzel Curry; GIZZLE; Bren Joy", "02:58");
+            dt.Rows.Add("30", "Easy On Me", "Adele", "03:44");
+            dt.Rows.Add("Arcane: League Of Legends", "Enemy (feat. J.I.D)", "Imagine Dragons", "02:53");
+            dt.Rows.Add("Arcane: League Of Legends", "Guns For Hire", "Woodkid", "03:46");
+            dt.Rows.Add("unknown", "Love Me Like There Is No Tomorrow", "Freddie Mercury", "03:46");
+            dt.Rows.Add("Platinum Collection: Greatests Hits", "Somebody To Love", "Queen", "04:57");
+            dt.Rows.Add("unknown", "The Airbuster", "Nobuo Uematsu", "07:34");
+            dt.Rows.Add("30", "Woman Like Me", "Adele", "05:00");
         }
 
         private void btn_songs_Click(object sender, EventArgs e)
@@ -81,17 +97,81 @@ namespace MusicApp
 
         private void pb_next_Click(object sender, EventArgs e)
         {
-            if(listb_track.SelectedIndex < listb_track.Items.Count-1)
+            if (lbl_position.Text == "1")
             {
-                listb_track.SelectedIndex = listb_track.SelectedIndex + 1;
+                picb_play2_Click(sender, e);
+            }
+            else if (lbl_position.Text == "2")
+            {
+                picb_play3_Click(sender, e);
+            }
+            else if (lbl_position.Text == "3")
+            {
+                picb_play4_Click(sender, e);
+            }
+            else if (lbl_position.Text == "4")
+            {
+                picb_play5_Click(sender, e);
+            }
+            else if (lbl_position.Text == "5")
+            {
+                picb_play6_Click(sender, e);
+            }
+            else if (lbl_position.Text == "6")
+            {
+                picb_play7_Click(sender, e);
+            }
+            else if (lbl_position.Text == "7")
+            {
+                picb_play8_Click(sender, e);
+            }
+            else if (lbl_position.Text == "8")
+            {
+                picb_play9_Click(sender, e);
+            }
+            else if (lbl_position.Text == "9")
+            {
+                picb_play10_Click(sender, e);
             }
         }
 
         private void pb_back_Click(object sender, EventArgs e)
         {
-            if (listb_track.SelectedIndex>0)
+            if(lbl_position.Text == "2")
             {
-                listb_track.SelectedIndex = listb_track.SelectedIndex - 1;
+                picb_play1_Click(sender, e);
+            }
+            else if (lbl_position.Text == "3")
+            {
+                picb_play2_Click(sender, e);
+            }
+            else if (lbl_position.Text == "4")
+            {
+                picb_play3_Click(sender, e);
+            }
+            else if (lbl_position.Text == "5")
+            {
+                picb_play4_Click(sender, e);
+            }
+            else if (lbl_position.Text == "6")
+            {
+                picb_play5_Click(sender, e);
+            }
+            else if (lbl_position.Text == "7")
+            {
+                picb_play6_Click(sender, e);
+            }
+            else if (lbl_position.Text == "8")
+            {
+                picb_play7_Click(sender, e);
+            }
+            else if (lbl_position.Text == "9")
+            {
+                picb_play8_Click(sender, e);
+            }
+            else if (lbl_position.Text == "10")
+            {
+                picb_play9_Click(sender, e);
             }
         }
 
@@ -151,8 +231,9 @@ namespace MusicApp
         private void picb_play1_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song1.Image;
-            player.URL = listb_track.Items[0].ToString();
+            player.URL = @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\Tracks\Another One Bites The Dust.flac";
             player.Ctlcontrols.play();
+            lbl_position.Text = "1";
         }
 
         private void picb_savesettings_Click(object sender, EventArgs e)
@@ -209,6 +290,10 @@ namespace MusicApp
                 lb_language.BackColor = Color.SlateGray;
                 lb_font.BackColor = Color.SlateGray;
                 lb_bmusic.BackColor = Color.SlateGray;
+                lbl_30.BackColor = Color.SlateGray;
+                lbl_arcane.BackColor = Color.SlateGray;
+                lbl_queen.BackColor = Color.SlateGray;
+                lbl_unknown.BackColor = Color.SlateGray;
             }
             else if (cbb_colortheme.Text == "Light")
             {
@@ -229,6 +314,10 @@ namespace MusicApp
                 lb_language.BackColor = Color.WhiteSmoke;
                 lb_font.BackColor = Color.WhiteSmoke;
                 lb_bmusic.BackColor = Color.WhiteSmoke;
+                lbl_30.BackColor = Color.WhiteSmoke;
+                lbl_arcane.BackColor = Color.WhiteSmoke;
+                lbl_queen.BackColor = Color.WhiteSmoke;
+                lbl_unknown.BackColor = Color.WhiteSmoke;
             }
             else
             {
@@ -236,7 +325,227 @@ namespace MusicApp
             }
         }
 
+        private void picb_addsong1_Click(object sender, EventArgs e)
+        {
+            player.URL = listb_track.Items[0].ToString();
+            player.Ctlcontrols.play();
+        }
 
+        private void picb_addsong2_Click(object sender, EventArgs e)
+        {
+            player.URL = listb_track.Items[1].ToString();
+            player.Ctlcontrols.play();
+        }
+
+        private void picb_addsong3_Click(object sender, EventArgs e)
+        {
+            player.URL = listb_track.Items[2].ToString();
+            player.Ctlcontrols.play();
+        }
+
+        private void picb_play2_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song2.Image;
+            player.URL = @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\Tracks\Don't Stop Me Now.flac";
+            player.Ctlcontrols.play();
+            lbl_position.Text = "2";
+        }
+
+        private void picb_play3_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song3.Image;
+            player.URL = @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\Tracks\Dynasties Dystopia.flac";
+            player.Ctlcontrols.play();
+            lbl_position.Text = "3";
+        }
+
+        private void picb_play4_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song4.Image;
+            player.URL = @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\Tracks\Easy On Me.flac";
+            player.Ctlcontrols.play();
+            lbl_position.Text = "4";
+        }
+
+        private void picb_play5_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song5.Image;
+            player.URL = @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\Tracks\Enemy (feat. J.I.D).flac";
+            player.Ctlcontrols.play();
+            lbl_position.Text = "5";
+        }
+
+        private void picb_play6_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song6.Image;
+            player.URL = @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\Tracks\Guns for Hire.flac";
+            player.Ctlcontrols.play();
+            lbl_position.Text = "6";
+        }
+
+        private void picb_play7_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song7.Image;
+            player.URL = @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\Tracks\Love Me Like There Is No Tomorrow.flac";
+            player.Ctlcontrols.play();
+            lbl_position.Text = "7";
+        }
+
+        private void picb_play8_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song8.Image;
+            player.URL = @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\Tracks\Somebody To Love.flac";
+            player.Ctlcontrols.play();
+            lbl_position.Text = "8";
+        }
+
+        private void picb_play9_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song9.Image;
+            player.URL = @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\Tracks\The Airbuster.flac";
+            player.Ctlcontrols.play();
+            lbl_position.Text = "9";
+        }
+
+        private void picb_play10_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song10.Image;
+            player.URL = @"C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\Tracks\Woman Like Me.flac";
+            player.Ctlcontrols.play();
+            lbl_position.Text = "10";
+        }
+
+        private void picb_30_Click(object sender, EventArgs e)
+        {
+            tab_items.SetPage(4);
+            lbl_albumname.Text = lbl_30.Text;
+            picb_album.Image = picb_30.Image;
+            picb_searchsong1.Image = picb_30.Image;
+            picb_searchsong2.Image = picb_30.Image;
+            panel_searchsong3.Visible = false;
+            string s = "Album='" + lbl_30.Text + "'";
+            DataRow[] dr = dt.Select(s);
+            lbl_searchtitle1.Text = dr[0]["Title"].ToString();
+            lbl_searchsinger1.Text = dr[0]["Singer"].ToString();
+            lbl_searchduration1.Text = dr[0]["Duration"].ToString();
+            lbl_searchtitle2.Text = dr[1]["Title"].ToString();
+            lbl_searchsinger2.Text = dr[1]["Singer"].ToString();
+            lbl_searchduration2.Text = dr[1]["Duration"].ToString();
+        }
+
+        private void picb_arcane_Click(object sender, EventArgs e)
+        {
+            tab_items.SetPage(4);
+            lbl_albumname.Text = lbl_arcane.Text;
+            picb_album.Image = picb_arcane.Image;
+            picb_searchsong1.Image = picb_arcane.Image;
+            picb_searchsong2.Image = picb_arcane.Image;
+            picb_searchsong3.Image = picb_arcane.Image;
+            panel_searchsong3.Visible = true;
+            string s = "Album='" + lbl_arcane.Text + "'";
+            DataRow[] dr = dt.Select(s);
+            lbl_searchtitle1.Text = dr[0]["Title"].ToString();
+            lbl_searchsinger1.Text = dr[0]["Singer"].ToString();
+            lbl_searchduration1.Text = dr[0]["Duration"].ToString();
+            lbl_searchtitle2.Text = dr[1]["Title"].ToString();
+            lbl_searchsinger2.Text = dr[1]["Singer"].ToString();
+            lbl_searchduration2.Text = dr[1]["Duration"].ToString();
+            lbl_searchtitle3.Text = dr[2]["Title"].ToString();
+            lbl_searchsinger3.Text = dr[2]["Singer"].ToString();
+            lbl_searchduration3.Text = dr[2]["Duration"].ToString();
+        }
+
+        private void picb_queen_Click(object sender, EventArgs e)
+        {
+            tab_items.SetPage(4);
+            lbl_albumname.Text = lbl_queen.Text;
+            picb_album.Image = picb_queen.Image;
+            picb_searchsong1.Image = picb_queen.Image;
+            picb_searchsong2.Image = picb_queen.Image;
+            picb_searchsong3.Image = picb_queen.Image;
+            panel_searchsong3.Visible = true;
+            string s = "Album='" + lbl_queen.Text + "'";
+            DataRow[] dr = dt.Select(s);
+            lbl_searchtitle1.Text = dr[0]["Title"].ToString();
+            lbl_searchsinger1.Text = dr[0]["Singer"].ToString();
+            lbl_searchduration1.Text = dr[0]["Duration"].ToString();
+            lbl_searchtitle2.Text = dr[1]["Title"].ToString();
+            lbl_searchsinger2.Text = dr[1]["Singer"].ToString();
+            lbl_searchduration2.Text = dr[1]["Duration"].ToString();
+            lbl_searchtitle3.Text = dr[2]["Title"].ToString();
+            lbl_searchsinger3.Text = dr[2]["Singer"].ToString();
+            lbl_searchduration3.Text = dr[2]["Duration"].ToString();
+        }
+
+        private void picb_unknown_Click(object sender, EventArgs e)
+        {
+            tab_items.SetPage(4);
+            lbl_albumname.Text = lbl_unknown.Text;
+            picb_album.Image = picb_unknown.Image;
+            picb_searchsong1.Image = picb_unknown.Image;
+            picb_searchsong2.Image = picb_unknown.Image;
+            panel_searchsong3.Visible = false;
+            string s = "Album='" + lbl_unknown.Text + "'";
+            DataRow[] dr = dt.Select(s);
+            lbl_searchtitle1.Text = dr[0]["Title"].ToString();
+            lbl_searchsinger1.Text = dr[0]["Singer"].ToString();
+            lbl_searchduration1.Text = dr[0]["Duration"].ToString();
+            lbl_searchtitle2.Text = dr[1]["Title"].ToString();
+            lbl_searchsinger2.Text = dr[1]["Singer"].ToString();
+            lbl_searchduration2.Text = dr[1]["Duration"].ToString();
+        }
+
+        private void picb_searchplay1_Click(object sender, EventArgs e)
+        {
+            if(lbl_albumname.Text =="30")
+            {
+                picb_play4_Click(sender, e);
+            }
+            else if (lbl_albumname.Text == "Arcane: League Of Legends")
+            {
+                picb_play3_Click(sender, e);
+            }
+            else if(lbl_albumname.Text == "Platinum Collection: Greatests Hits")
+            {
+                picb_play1_Click(sender, e);
+            }
+            else if (lbl_albumname.Text == "unknown")
+            {
+                picb_play7_Click(sender, e);
+            }
+        }
+
+        private void picb_searchplay2_Click(object sender, EventArgs e)
+        {
+            if (lbl_albumname.Text == "30")
+            {
+                picb_play10_Click(sender, e);
+            }
+            else if (lbl_albumname.Text == "Arcane: League Of Legends")
+            {
+                picb_play5_Click(sender, e);
+            }
+            else if (lbl_albumname.Text == "Platinum Collection: Greatests Hits")
+            {
+                picb_play2_Click(sender, e);
+            }
+            else if (lbl_albumname.Text == "unknown")
+            {
+                picb_play9_Click(sender, e);
+            }
+        }
+
+        private void picb_searchplay3_Click(object sender, EventArgs e)
+        {
+            if(lbl_albumname.Text== "Arcane: League Of Legends")
+            {
+                picb_play6_Click(sender, e);
+            }
+            else if (lbl_albumname.Text == "Platinum Collection: Greatests Hits")
+            {
+                picb_play8_Click(sender, e);
+            }
+        }
 
         private void picb_addsongs_Click(object sender, EventArgs e)
         {
@@ -251,6 +560,9 @@ namespace MusicApp
                 {
                     listb_track.Items.Add(files[x]);
                 }
+                picb_addsong1.Visible = true;
+                picb_addsong2.Visible = true;
+                picb_addsong3.Visible = true;
             }
         }
 
