@@ -67,7 +67,7 @@ namespace MusicPlayerApp
 
         private void picb_exitlogin_Click(object sender, EventArgs e)
         {
-            this.Close();
+            System.Windows.Forms.Application.Exit();
         }
 
         private void tx_register_Click(object sender, EventArgs e)

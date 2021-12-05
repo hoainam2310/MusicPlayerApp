@@ -25,7 +25,9 @@ namespace MusicPlayerApp
 
         private void picb_exitregister_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+            sign_in r = new sign_in();
+            r.Show();
         }
 
         private void picb_register_Click(object sender, EventArgs e)
