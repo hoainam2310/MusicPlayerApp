@@ -18,10 +18,10 @@ namespace MusicApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
     
-            Application.Run(new animated_rain_loading());
-            Application.Run(new sign_in());
+            //Application.Run(new animated_rain_loading());
+            //Application.Run(new sign_in());
             //Application.Run(new register());
-            //Application.Run(new mainmenu());
+            Application.Run(new mainmenu());
         }
     }
 }

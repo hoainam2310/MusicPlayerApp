@@ -290,16 +290,6 @@
     <None Include="Resources\arcane.jpg" />
     <None Include="Resources\queen.jpg" />
     <None Include="Resources\unknown.png" />
-    <Content Include="Tracks\Another One Bites The Dust.flac" />
-    <Content Include="Tracks\Don%27t Stop Me Now.flac" />
-    <Content Include="Tracks\Dynasties Dystopia.flac" />
-    <Content Include="Tracks\Easy On Me.flac" />
-    <Content Include="Tracks\Enemy %28feat. J.I.D%29.flac" />
-    <Content Include="Tracks\Guns for Hire.flac" />
-    <Content Include="Tracks\Love Me Like There Is No Tomorrow.flac" />
-    <Content Include="Tracks\Somebody To Love.flac" />
-    <Content Include="Tracks\The Airbuster.flac" />
-    <Content Include="Tracks\Woman Like Me.flac" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
