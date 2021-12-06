@@ -236,7 +236,7 @@ namespace MusicApp
         private void picb_play1_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song1.Image;
-            player.URL = @"Another One Bites The Dust.flac";
+            player.URL = @"Tracks\Another One Bites The Dust.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "1";
         }
@@ -351,7 +351,7 @@ namespace MusicApp
         private void picb_play2_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song2.Image;
-            player.URL = @"Don't Stop Me Now.flac";
+            player.URL = @"Tracks\Don't Stop Me Now.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "2";
         }
@@ -359,7 +359,7 @@ namespace MusicApp
         private void picb_play3_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song3.Image;
-            player.URL = @"Dynasties Dystopia.flac";
+            player.URL = @"Tracks\Dynasties Dystopia.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "3";
         }
@@ -367,7 +367,7 @@ namespace MusicApp
         private void picb_play4_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song4.Image;
-            player.URL = @"Easy On Me.flac";
+            player.URL = @"Tracks\Easy On Me.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "4";
         }
@@ -375,7 +375,7 @@ namespace MusicApp
         private void picb_play5_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song5.Image;
-            player.URL = @"Enemy (feat. J.I.D).flac";
+            player.URL = @"Tracks\Enemy (feat. J.I.D).flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "5";
         }
@@ -383,7 +383,7 @@ namespace MusicApp
         private void picb_play6_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song6.Image;
-            player.URL = @"Guns for Hire.flac";
+            player.URL = @"Tracks\Guns for Hire.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "6";
         }
@@ -391,7 +391,7 @@ namespace MusicApp
         private void picb_play7_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song7.Image;
-            player.URL = @"Love Me Like There Is No Tomorrow.flac";
+            player.URL = @"Tracks\Love Me Like There Is No Tomorrow.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "7";
         }
@@ -399,7 +399,7 @@ namespace MusicApp
         private void picb_play8_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song8.Image;
-            player.URL = @"Somebody To Love.flac";
+            player.URL = @"Tracks\Somebody To Love.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "8";
         }
@@ -407,7 +407,7 @@ namespace MusicApp
         private void picb_play9_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song9.Image;
-            player.URL = @"The Airbuster.flac";
+            player.URL = @"Tracks\The Airbuster.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "9";
         }
@@ -415,7 +415,7 @@ namespace MusicApp
         private void picb_play10_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song10.Image;
-            player.URL = @"Woman Like Me.flac";
+            player.URL = @"Tracks\Woman Like Me.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "10";
         }
