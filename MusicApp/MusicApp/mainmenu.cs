@@ -186,7 +186,11 @@ namespace MusicApp
             try
             {
                 lbl_timeplaymusic.Text = player.Ctlcontrols.currentPositionString;
-                lbl_totaltimesong.Text = player.Ctlcontrols.currentItem.durationString.ToString();  
+                lbl_totaltimesong.Text = player.Ctlcontrols.currentItem.durationString.ToString();
+                if (lbl_timeplaymusic.Text == lbl_totaltimesong.Text)
+                {
+                    pb_next_Click(sender, e);
+                }
             }
             catch
             {
@@ -545,6 +549,24 @@ namespace MusicApp
             else if (lbl_albumname.Text == "Platinum Collection: Greatests Hits")
             {
                 picb_play8_Click(sender, e);
+            }
+        }
+
+        private void txt_search_Enter(object sender, EventArgs e)
+        {
+            if (txt_search.Text == "Enter song name")
+            {
+                txt_search.Text = "";
+                txt_search.ForeColor = Color.Black;
+            }
+        }
+
+        private void txt_search_Leave(object sender, EventArgs e)
+        {
+            if (txt_search.Text == "")
+            {
+                txt_search.Text = "Enter song name";
+                txt_search.ForeColor = Color.Silver;
             }
         }
 
