@@ -1,0 +1,90 @@
+F:\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+F:\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe
+F:\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.pdb
+F:\MusicPlayer\MusicPlayer\bin\Debug\Interop.WMPLib.dll
+F:\MusicPlayer\MusicPlayer\bin\Debug\AxInterop.WMPLib.dll
+F:\MusicPlayer\MusicPlayer\obj\x86\Debug\Interop.WMPLib.dll
+F:\MusicPlayer\MusicPlayer\obj\x86\Debug\AxInterop.WMPLib.dll
+F:\MusicPlayer\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.ResolveComReference.cache
+F:\MusicPlayer\MusicPlayer\obj\x86\Debug\MusicPlayer.frmMain.resources
+F:\MusicPlayer\MusicPlayer\obj\x86\Debug\MusicPlayer.frmQuanLy.resources
+F:\MusicPlayer\MusicPlayer\obj\x86\Debug\MusicPlayer.Properties.Resources.resources
+F:\MusicPlayer\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.GenerateResource.Cache
+F:\MusicPlayer\MusicPlayer\obj\x86\Debug\MusicPlayer.exe
+F:\MusicPlayer\MusicPlayer\obj\x86\Debug\MusicPlayer.pdb
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.ResolveComReference.cache
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.exe
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.pdb
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.frmMain.resources
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.frmQuanLy.resources
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.Properties.Resources.resources
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.GenerateResource.Cache
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\bin\Debug\MusicPlayer.exe
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\bin\Debug\MusicPlayer.pdb
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\Hung\Desktop\MusicPlayer(OK)\MusicPlayer\bin\Debug\AxInterop.WMPLib.dll
+F:\MusicPlayer(OK)\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+F:\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\Interop.WMPLib.dll
+F:\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\AxInterop.WMPLib.dll
+F:\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.ResolveComReference.cache
+F:\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.exe
+F:\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.pdb
+F:\MusicPlayer(OK)\MusicPlayer\bin\Debug\MusicPlayer.exe
+F:\MusicPlayer(OK)\MusicPlayer\bin\Debug\MusicPlayer.pdb
+F:\MusicPlayer(OK)\MusicPlayer\bin\Debug\Interop.WMPLib.dll
+F:\MusicPlayer(OK)\MusicPlayer\bin\Debug\AxInterop.WMPLib.dll
+F:\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.frmMain.resources
+F:\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.frmQuanLy.resources
+F:\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.Properties.Resources.resources
+F:\MusicPlayer(OK)\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.GenerateResource.Cache
+F:\MusicPlayer 0.98\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\Interop.WMPLib.dll
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\AxInterop.WMPLib.dll
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.ResolveComReference.cache
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.exe
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.pdb
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.frmMain.resources
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.frmQuanLy.resources
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.Properties.Resources.resources
+F:\MusicPlayer 0.98\MusicPlayer\bin\Debug\MusicPlayer.exe
+F:\MusicPlayer 0.98\MusicPlayer\bin\Debug\MusicPlayer.pdb
+F:\MusicPlayer 0.98\MusicPlayer\bin\Debug\Interop.WMPLib.dll
+F:\MusicPlayer 0.98\MusicPlayer\bin\Debug\AxInterop.WMPLib.dll
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.ResolveComReference.cache
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.exe
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.pdb
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\bin\Debug\MusicPlayer.exe
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\bin\Debug\MusicPlayer.pdb
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.frmMain.resources
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.frmQuanLy.resources
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.Properties.Resources.resources
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\HueCd.Com\Desktop\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\bin\Debug\MusicPlayer.exe
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\bin\Debug\MusicPlayer.pdb
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.AssemblyReference.cache
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.ResolveComReference.cache
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.frmMain.resources
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.frmQuanLy.resources
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.Properties.Resources.resources
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.GenerateResource.cache
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.csproj.CoreCompileInputs.cache
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.exe
+C:\Users\danie\Downloads\Compressed\MusicPlayer 0.98\MusicPlayer\obj\x86\Debug\MusicPlayer.pdb

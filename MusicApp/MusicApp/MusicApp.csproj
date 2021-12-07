@@ -86,11 +86,18 @@
     <Compile Include="animated_rain_loading.designer.cs">
       <DependentUpon>animated_rain_loading.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cl_LayDuLieu.cs" />
     <Compile Include="forgotpw.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forgotpw.Designer.cs">
       <DependentUpon>forgotpw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="mainmenu.cs">
       <SubType>Form</SubType>
@@ -117,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forgotpw.resx">
       <DependentUpon>forgotpw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mainmenu.resx">
       <DependentUpon>mainmenu.cs</DependentUpon>
