@@ -573,6 +573,11 @@ namespace MusicApp
             }
         }
 
+        private void panel17_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void picb_addsongs_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();

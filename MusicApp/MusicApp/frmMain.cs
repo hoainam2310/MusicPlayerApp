@@ -167,32 +167,32 @@ namespace MusicPlayer
         }
 
 
-        private void pbPrevious_MouseMove(object sender, MouseEventArgs e)
-        {
-            pbPrevious.Image = Image.FromFile("../../Image\\previous_move.jpg");
-        }
+        //private void pbPrevious_MouseMove(object sender, MouseEventArgs e)
+        //{
+        //    pbPrevious.Image = Image.FromFile("../../Image\\previous_move.jpg");
+        //}
 
-        private void pbPrevious_MouseLeave(object sender, EventArgs e)
-        {
-            pbPrevious.Image = Image.FromFile("../../Image\\previous.jpg");
-        }
+        //private void pbPrevious_MouseLeave(object sender, EventArgs e)
+        //{
+        //    pbPrevious.Image = Image.FromFile("../../Image\\previous.jpg");
+        //}
 
-        private void pbPlay_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (LaPlay == true)
-                pbPlay.Image = Image.FromFile("../../Image\\play_move.jpg");
-            else
-                pbPlay.Image = Image.FromFile("../../Image\\pause_move.jpg");
+        //private void pbPlay_MouseMove(object sender, MouseEventArgs e)
+        //{
+        //    if (LaPlay == true)
+        //        pbPlay.Image = Image.FromFile("../../Image\\play_move.jpg");
+        //    else
+        //        pbPlay.Image = Image.FromFile("../../Image\\pause_move.jpg");
 
-        }
+        //}
 
-        private void pbPlay_MouseLeave(object sender, EventArgs e)
-        {
-            if(LaPlay==true)
-                pbPlay.Image = Image.FromFile("../../Image\\play.jpg");
-            else
-                pbPlay.Image = Image.FromFile("../../Image\\pause.jpg");
-        }
+        //private void pbPlay_MouseLeave(object sender, EventArgs e)
+        //{
+        //    if(LaPlay==true)
+        //        pbPlay.Image = Image.FromFile("../../Image\\play.jpg");
+        //    else
+        //        pbPlay.Image = Image.FromFile("../../Image\\pause.jpg");
+        //}
 
         private void pbNext_MouseMove(object sender, MouseEventArgs e)
         {
@@ -670,7 +670,7 @@ namespace MusicPlayer
             if (LaPlay == false)
             {
                 pbPlay_Click(sender, e);
-                pbPlay_MouseLeave(sender, e);
+                //pbPlay_MouseLeave(sender, e);
             }
             pbManHinh.Invalidate();
         }
@@ -974,7 +974,7 @@ namespace MusicPlayer
         {
             pbStop_Click(sender, e);
             pbPlay_Click(sender, e);
-            pbPlay_MouseLeave(sender, e);
+            //pbPlay_MouseLeave(sender, e);
         }
 
         private void pbUp_Click(object sender, EventArgs e)
@@ -1036,7 +1036,7 @@ namespace MusicPlayer
                 else
                     lbPlaylist.SelectedIndex = 0;
                 pbPlay_Click(sender, e);
-                pbPlay_MouseLeave(sender, e);
+                //pbPlay_MouseLeave(sender, e);
             }
         }
 
@@ -1050,7 +1050,7 @@ namespace MusicPlayer
                 else
                     lbPlaylist.SelectedIndex = lbPlaylist.Items.Count - 1;
                 pbPlay_Click(sender, e);
-                pbPlay_MouseLeave(sender, e);
+                //pbPlay_MouseLeave(sender, e);
             }
         }
 
