@@ -26,7 +26,7 @@ namespace MusicApp
             //Application.Run(new forgotpw());
             //Application.Run(new mainmenu());
             Application.Run(new frmMain());
-           //Application.Run(new frmQuanLy());
+            //Application.Run(new frmQuanLy());
 
 
         }

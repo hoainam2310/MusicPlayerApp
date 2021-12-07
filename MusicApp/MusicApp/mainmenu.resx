@@ -9074,12 +9074,12 @@
   </data>
   <data name="btn_settings.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGEAAAAqCAYAAACjmTUMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD3SURBVHhe7du9bQJBFADhK8WluAIadezUpdAA0v1oAYfm
-        kCa8FMbBPGmS1Yv204Y7Nf9kluX3Y17vX8t6/at3Nb6f9w7BNM3r9Wc/PFisVzav4wzB/hIOFuo9QRCC
-        GQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZBCGY
-        QRCCGQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZ
-        BM+Pg+Pcx0GjsUGwv4RlfM7L7XK8WK9pbJftdoKgcWeaHrrNs/AZXMMLAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAEkAAAAiCAYAAAATQPRFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADQSURBVGhD7dqxDcIwEEZhj8IoTMCi1LSMkgUixYlMoIRE
+        PDrrF33eSa+xrvp0pYvz59T6Ok3z81rnx9t+tdvuAlEp0/y4b4+dxWM3zW2AaLukzoJ9g0ikFEQipSAS
+        KQWRSCmIREpBJFIKIpFSEImUgkikFEQipSASKQWRSCmIREpBJFIKIpFSEImUgkikFEQipSASKQWRSCmI
+        REpBJFIKIpFSEImUgkikFEQipSASKQXR/mGiDX6Y6NUWiLZLqu081XXsLx61tozLeoHIyVPKBw7v5Sf9
+        jhpOAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="picb_search.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -9901,43 +9901,40 @@
   </data>
   <data name="bunifuVSlider1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB8AAAEFCAYAAAAblDxwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEpSURBVHhe7c3BCYBAAMTAa0i9NrVFy7AA5SA1BIQM7COv
-        HfmV7bjuNdK1z+tdI12dk67OSVfnpKtz0tU56eqcdHVOujonXZ2Trs5JV+ekq3PS1Tnp6px0dU66Oidd
-        nZOuzklX56Src9LVOenqnHR1Tro6J12dk67OSVfnpKtz0tU56eqcdHVOujonXZ2Trs5JV+ekq3PS1Tnp
-        6px0dU66OiddnZOuzklX56Src9LVOenqnHR1Tro6J12dk67OSVfnpKtz0tU56eqcdHVOujonXZ2Trs5J
-        V+ekq3PS1Tnp6px0dU66OiddnZOuzklX56Src9LVOenqnHR1Tro6J12dk67OSVfnpKtz0tU56eqcdHVO
-        ujonXZ2Trs5JV+ekq3PStc/zWSPzF2N8dZjJ+tdpqw8AAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAABcAAADUCAYAAAB3Vri6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVHhe7cyxDcJAAATBb8jgNu0WKYMCQC99uBE4sTQj
+        XXDJDv6yPc/X3LrXeuznZ27da4kn8SSexJN4Ek/iSTyJJ/EknsSTeBJP4kk8iSfxJJ7Ek3gST+JJPIkn
+        8SSexJN4Ek/iSTyJJ/EknsSTeBJP4kk8iSfxJJ7Ek3gST+JJPIkn8SSexJN4Ek/iSTyJJ/EknsSTeBJP
+        4kk8iSfxJJ7uHD/ec+vyqzG+jvkPjNz3iNMAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="btn_albums.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGEAAAAqCAYAAACjmTUMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD3SURBVHhe7du9bQJBFADhK8WluAIadezUpdAA0v1oAYfm
-        kCa8FMbBPGmS1Yv204Y7Nf9kluX3Y17vX8t6/at3Nb6f9w7BNM3r9Wc/PFisVzav4wzB/hIOFuo9QRCC
-        GQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZBCGY
-        QRCCGQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZ
-        BM+Pg+Pcx0GjsUGwv4RlfM7L7XK8WK9pbJftdoKgcWeaHrrNs/AZXMMLAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAEkAAAAiCAYAAAATQPRFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADQSURBVGhD7dqxDcIwEEZhj8IoTMCi1LSMkgUixYlMoIRE
+        PDrrF33eSa+xrvp0pYvz59T6Ok3z81rnx9t+tdvuAlEp0/y4b4+dxWM3zW2AaLukzoJ9g0ikFEQipSAS
+        KQWRSCmIREpBJFIKIpFSEImUgkikFEQipSASKQWRSCmIREpBJFIKIpFSEImUgkikFEQipSASKQWRSCmI
+        REpBJFIKIpFSEImUgkikFEQipSASKQXR/mGiDX6Y6NUWiLZLqu081XXsLx61tozLeoHIyVPKBw7v5Sf9
+        jhpOAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="btn_karaoke.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGEAAAAqCAYAAACjmTUMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD3SURBVHhe7du9bQJBFADhK8WluAIadezUpdAA0v1oAYfm
-        kCa8FMbBPGmS1Yv204Y7Nf9kluX3Y17vX8t6/at3Nb6f9w7BNM3r9Wc/PFisVzav4wzB/hIOFuo9QRCC
-        GQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZBCGY
-        QRCCGQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZBCGYQRCCGQQhmEEQghkEIZhBEIIZ
-        BM+Pg+Pcx0GjsUGwv4RlfM7L7XK8WK9pbJftdoKgcWeaHrrNs/AZXMMLAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAEkAAAAiCAYAAAATQPRFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADQSURBVGhD7dqxDcIwEEZhj8IoTMCi1LSMkgUixYlMoIRE
+        PDrrF33eSa+xrvp0pYvz59T6Ok3z81rnx9t+tdvuAlEp0/y4b4+dxWM3zW2AaLukzoJ9g0ikFEQipSAS
+        KQWRSCmIREpBJFIKIpFSEImUgkikFEQipSASKQWRSCmIREpBJFIKIpFSEImUgkikFEQipSASKQWRSCmI
+        REpBJFIKIpFSEImUgkikFEQipSASKQXR/mGiDX6Y6NUWiLZLqu081XXsLx61tozLeoHIyVPKBw7v5Sf9
+        jhpOAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="btn_songs.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEsAAAAqCAYAAAD75qYVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADxSURBVGhD7do9SgRREADhOYpH8QRe1NjUo+wFFuaHt7uG
-        OgOVKIOUsdVQyaOjjw7f1PxxluXjaV4fr8t6+6yfjbfDB6ppmtfb+/54slhH8zouUO2XdbJQ34MqLBNU
-        YZmgCssEVVgmqMIyQRWWCaqwTFCFZYIqLBNUYZmgCssEVVgmqMIyQRWWCaqwTFCFZYIqLBNUYZmgCssE
-        VVgmqMIyQRWWCaqwTFCFZYIqLBNUYZmgCssEVVgmqMIyQRWWCaqwTFCFZYIqLBNUYZmgCssE1fEBd1z6
-        gPtbY4Nqv6xlPM/L/Xq++N8b23W7v0DVuJmmL8EmkU39gDimAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAADgAAAAiCAYAAAAKyxrjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVFhH7dmxDcMgEIVhRskomcCLpk6bUbKAJQ6E7ZQO
+        lv6SBR5+J/0NuubTlaRbTMTvkcvxirKdc9TelwleSrlsn/44WNQtl/aF1y84WJgheAbKBs9A2eAZKBs8
+        A2WDZ6Bs8AyUDZ6BssEzUDZ4BsoGz0DZ4BkoGzwDZYNnoGzwbgC8Pipm+3zpngqvXzDaM8e+jhcVa3Wt
+        +wJv5knpDxC5xm+dlOD0AAAAAElFTkSuQmCC
 </value>
   </data>
   <metadata name="bunifuFormDock1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -9945,6 +9942,240 @@
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>
+  </metadata>
+  <metadata name="panel15.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label40.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer10.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname10.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play10.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song10.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel_song12.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label67.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer12.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname12.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play12.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song12.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel_song11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label61.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel_song13.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label52.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer13.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname13.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play13.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song13.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label16.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label13.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label10.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label19.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel13.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label28.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_singer1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbl_songname1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_play1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picb_song1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
   <data name="picb_addsongs.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -38330,18 +38561,17 @@
   </data>
   <data name="slide_volume.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAANEAAAAfCAYAAAB52CgrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABOSURBVHhe7dMxDsAgDARB//+LeQa9A5bcIdJGSDPtXbsB
-        AAAAAAAAAAAAAMBfMvN5gU/VSSezW+PoH3BQnXQyAAAAAAAAAAAAAAAAd4mYCHBRl4hGiKMAAAAASUVO
-        RK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAJ0AAAAZCAYAAAArBywYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABCSURBVGhD7dKpDQAwDARB999iygh3Hsks1CiaoXdwAwAA
+        AAAAAD6XmWNBs9tVJfY646wftLldVWIAAAAAAAAAtIjY086zGbN+YiYAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="slider_timeplaymusic.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAf4AAAAfCAYAAAAGAK+2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABxSURBVHhe7dW5DQAgDARB998iZZCbR3JGBVgz6V2+AQAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL1k5lgAQBu37ZX51xln/QCABm7bK/MAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAPCXiA2SN7C2TSGdrAAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAX4AAAAZCAYAAAA2XEWqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7dSrEQAgDETB9N8iZeDDZyYOgcAxu/ZOvwAA
+        AAAAAAAAAAAAAAAAAADgSWa2AcBXdtsr86c19voB8Ind9so8AAAAAAAAAAAAAAAAAAAAAABwFTEB8rG0
+        ehI+AbwAAAAASUVORK5CYII=
 </value>
   </data>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

@@ -17,9 +17,7 @@ namespace MusicApp
         public mainmenu()
         {
             InitializeComponent();
-
-
-
+            listb_track.Visible = false;
             lbl_position.Visible = false;
             slide_volume.Value = 20;
             dt.Columns.Add("Album", typeof(string));
@@ -139,6 +137,18 @@ namespace MusicApp
             {
                 picb_play10_Click(sender, e);
             }
+            else if (lbl_position.Text == "10"&&listb_track.Items.Count==1)
+            {
+                picb_play11_Click(sender, e);
+            }
+            else if (lbl_position.Text == "11"&&listb_track.Items.Count==2)
+            {
+                picb_play12_Click(sender, e);
+            }
+            else if (lbl_position.Text == "12"&& listb_track.Items.Count==3)
+            {
+                picb_play13_Click(sender, e);
+            }
         }
 
         private void pb_back_Click(object sender, EventArgs e)
@@ -178,6 +188,18 @@ namespace MusicApp
             else if (lbl_position.Text == "10")
             {
                 picb_play9_Click(sender, e);
+            }
+            else if (lbl_position.Text == "11")
+            {
+                picb_play10_Click(sender, e);
+            }
+            else if (lbl_position.Text == "12")
+            {
+                picb_play11_Click(sender, e);
+            }
+            else if (lbl_position.Text == "13")
+            {
+                picb_play12_Click(sender, e);
             }
         }
 
@@ -239,6 +261,10 @@ namespace MusicApp
         private void picb_play1_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song1.Image;
+            lbl_playingname.Text = lbl_songname1.Text;
+            lbl_playingsinger.Text = lbl_singer1.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
             player.URL = @"Tracks\Another One Bites The Dust.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "1";
@@ -333,27 +359,13 @@ namespace MusicApp
             }
         }
 
-        private void picb_addsong1_Click(object sender, EventArgs e)
-        {
-            player.URL = listb_track.Items[0].ToString();
-            player.Ctlcontrols.play();
-        }
-
-        private void picb_addsong2_Click(object sender, EventArgs e)
-        {
-            player.URL = listb_track.Items[1].ToString();
-            player.Ctlcontrols.play();
-        }
-
-        private void picb_addsong3_Click(object sender, EventArgs e)
-        {
-            player.URL = listb_track.Items[2].ToString();
-            player.Ctlcontrols.play();
-        }
-
         private void picb_play2_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song2.Image;
+            lbl_playingname.Text = lbl_songname2.Text;
+            lbl_playingsinger.Text = lbl_singer2.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
             player.URL = @"Tracks\Don't Stop Me Now.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "2";
@@ -362,6 +374,10 @@ namespace MusicApp
         private void picb_play3_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song3.Image;
+            lbl_playingname.Text = lbl_songname3.Text;
+            lbl_playingsinger.Text = lbl_singer3.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
             player.URL = @"Tracks\Dynasties Dystopia.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "3";
@@ -370,6 +386,10 @@ namespace MusicApp
         private void picb_play4_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song4.Image;
+            lbl_playingname.Text = lbl_songname4.Text;
+            lbl_playingsinger.Text = lbl_singer4.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
             player.URL = @"Tracks\Easy On Me.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "4";
@@ -378,6 +398,10 @@ namespace MusicApp
         private void picb_play5_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song5.Image;
+            lbl_playingname.Text = lbl_songname5.Text;
+            lbl_playingsinger.Text = lbl_singer5.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
             player.URL = @"Tracks\Enemy (feat. J.I.D).flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "5";
@@ -386,6 +410,10 @@ namespace MusicApp
         private void picb_play6_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song6.Image;
+            lbl_playingname.Text = lbl_songname6.Text;
+            lbl_playingsinger.Text = lbl_singer6.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
             player.URL = @"Tracks\Guns for Hire.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "6";
@@ -394,6 +422,10 @@ namespace MusicApp
         private void picb_play7_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song7.Image;
+            lbl_playingname.Text = lbl_songname7.Text;
+            lbl_playingsinger.Text = lbl_singer7.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
             player.URL = @"Tracks\Love Me Like There Is No Tomorrow.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "7";
@@ -402,6 +434,10 @@ namespace MusicApp
         private void picb_play8_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song8.Image;
+            lbl_playingname.Text = lbl_songname8.Text;
+            lbl_playingsinger.Text = lbl_singer8.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
             player.URL = @"Tracks\Somebody To Love.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "8";
@@ -410,6 +446,10 @@ namespace MusicApp
         private void picb_play9_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song9.Image;
+            lbl_playingname.Text = lbl_songname9.Text;
+            lbl_playingsinger.Text = lbl_singer9.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
             player.URL = @"Tracks\The Airbuster.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "9";
@@ -418,6 +458,10 @@ namespace MusicApp
         private void picb_play10_Click(object sender, EventArgs e)
         {
             picb_currentsong.Image = picb_song10.Image;
+            lbl_playingname.Text = lbl_songname10.Text;
+            lbl_playingsinger.Text = lbl_singer10.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
             player.URL = @"Tracks\Woman Like Me.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "10";
@@ -578,6 +622,42 @@ namespace MusicApp
 
         }
 
+        private void picb_play11_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song11.Image;
+            lbl_playingname.Text = lbl_songname11.Text;
+            lbl_playingsinger.Text = lbl_singer11.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
+            player.URL = listb_track.Items[0].ToString();
+            player.Ctlcontrols.play();
+            lbl_position.Text = "11";
+        }
+
+        private void picb_play12_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song12.Image;
+            lbl_playingname.Text = lbl_songname12.Text;
+            lbl_playingsinger.Text = lbl_singer12.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
+            player.URL = listb_track.Items[1].ToString();
+            player.Ctlcontrols.play();
+            lbl_position.Text = "12";
+        }
+
+        private void picb_play13_Click(object sender, EventArgs e)
+        {
+            picb_currentsong.Image = picb_song13.Image;
+            lbl_playingname.Text = lbl_songname13.Text;
+            lbl_playingsinger.Text = lbl_singer13.Text;
+            lbl_playingname.Visible = true;
+            lbl_playingsinger.Visible = true;
+            player.URL = listb_track.Items[2].ToString();
+            player.Ctlcontrols.play();
+            lbl_position.Text = "13";
+        }
+
         private void picb_addsongs_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -591,9 +671,21 @@ namespace MusicApp
                 {
                     listb_track.Items.Add(files[x]);
                 }
-                picb_addsong1.Visible = true;
-                picb_addsong2.Visible = true;
-                picb_addsong3.Visible = true;
+                if(listb_track.Items.Count == 1)
+                {
+                    panel_song11.Visible = true;
+                }
+                else if(listb_track.Items.Count == 2)
+                {
+                    panel_song11.Visible = true;
+                    panel_song12.Visible = true;
+                }
+                else if(listb_track.Items.Count == 3)
+                {
+                    panel_song11.Visible = true;
+                    panel_song12.Visible = true;
+                    panel_song13.Visible = true;
+                }
             }
         }
     }
