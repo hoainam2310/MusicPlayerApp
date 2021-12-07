@@ -15,9 +15,9 @@ using System.IO;
 namespace MusicPlayer
 {
 
-    public partial class frmMain : Form
+    public partial class karaoke : Form
     {
-        public frmMain()
+        public karaoke()
         {
             InitializeComponent();
         }
@@ -615,9 +615,9 @@ namespace MusicPlayer
             Region r = new Region(path);
             RectangleF rect = r.GetBounds(g);
             if (i % 2 == 0)
-                CaoDo2 = 430;
+                CaoDo2 = 230;
             else
-                CaoDo2 = 500;
+                CaoDo2 = 300;
             RectangleF intersectRect = new RectangleF(rect.X, CaoDo2, rect.Width * percent / 100, rect.Height + 20); //
             r.Intersect(intersectRect);
             g.FillRegion(Brushes.Blue, r); //To mau
@@ -632,9 +632,9 @@ namespace MusicPlayer
             if (k)
             {
                 if (DuocVeTieuDe)
-                     VeChu(g, TenBH.Substring(0,TenBH.Length-4), 20, 100, 430);
+                     VeChu(g, TenBH.Substring(0,TenBH.Length-4), 20, 100, 230);
                 else
-                     VeChu(g, "\t\t\t\t\t\t\t\t\t\t", 20, 100, 430);
+                     VeChu(g, "\t\t\t\t\t\t\t\t\t\t", 20, 100, 230);
                 k = false;
             }
             
@@ -645,22 +645,22 @@ namespace MusicPlayer
                     i = 0;
                 if (i % 2 == 0)
                 {
-                    VeChu(g, (arrCauHat[i]),20, 430, 430);
+                    VeChu(g, (arrCauHat[i]),20, 230, 230);
 
                     if (i < arrCauHat.Length - 1)
-                        VeChu(g, (arrCauHat[i + 1]),20, 500, 430);
+                        VeChu(g, (arrCauHat[i + 1]),20, 300, 230);
                 }
                 else
                 {
-                    VeChu(g, (arrCauHat[i]),20, 500, 430);
+                    VeChu(g, (arrCauHat[i]),20, 300, 230);
                     if (i < arrCauHat.Length - 1)
-                        VeChu(g, (arrCauHat[i + 1]),20, 430, 430);
+                        VeChu(g, (arrCauHat[i + 1]),20, 230, 230);
                 }
             }
             else
             {
-                VeChu(g, "\t\t\t\t\t\t\t\t\t\t",20, 500, 430);
-                VeChu(g, "\t\t\t\t\t\t\t\t\t\t",20, 430, 430);
+                VeChu(g, "\t\t\t\t\t\t\t\t\t\t",20, 300, 230);
+                VeChu(g, "\t\t\t\t\t\t\t\t\t\t",20, 230, 230);
             }
         }
         string strDuongDanMp3 = "";

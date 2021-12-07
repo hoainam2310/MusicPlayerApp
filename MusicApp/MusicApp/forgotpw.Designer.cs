@@ -34,22 +34,22 @@ namespace MusicApp
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.p_login = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.picb_exitlogin = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picb_sendemail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.p_login.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_exitlogin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // picb_sendemail
@@ -78,6 +78,7 @@ namespace MusicApp
             this.txb_email.TabIndex = 20;
             this.txb_email.Text = "Enter Your Email";
             this.txb_email.Click += new System.EventHandler(this.txb_email_Click);
+            this.txb_email.TextChanged += new System.EventHandler(this.txb_email_TextChanged);
             // 
             // pictureBox12
             // 
@@ -117,6 +118,17 @@ namespace MusicApp
             this.p_login.Name = "p_login";
             this.p_login.Size = new System.Drawing.Size(418, 558);
             this.p_login.TabIndex = 38;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::MusicApp.Properties.Resources._1814089_account_user_person_profile_avatar_icon;
+            this.pictureBox2.Location = new System.Drawing.Point(108, 41);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(155, 115);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 22;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox8
             // 
@@ -175,17 +187,6 @@ namespace MusicApp
             this.pictureBox11.TabIndex = 40;
             this.pictureBox11.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::MusicApp.Properties.Resources._1814089_account_user_person_profile_avatar_icon;
-            this.pictureBox2.Location = new System.Drawing.Point(108, 41);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(155, 115);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 22;
-            this.pictureBox2.TabStop = false;
-            // 
             // forgotpw
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -205,12 +206,12 @@ namespace MusicApp
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.p_login.ResumeLayout(false);
             this.p_login.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_exitlogin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

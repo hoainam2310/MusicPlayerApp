@@ -1,4 +1,1 @@
-- Khi thêm bài nhạc thứ 2 thì chỉ phát được bài đầu mà không phát được bài 2
-- Nên chỉ show khoảng 10 bài hát trong list có sẵn kèm ảnh và tên - có thể search để tìm theo tên bài hát trong 10 bài đó
-- Còn phần add nhạc thì sẽ nghe riêng
-- Phần panel chứa all songs lại không hiện scroll được
+- Chuẩn bị sẵn một acc gmail không có trong database để làm trường hợp forgot password

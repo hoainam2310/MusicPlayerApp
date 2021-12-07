@@ -1,6 +1,6 @@
 ﻿namespace MusicPlayer
 {
-    partial class frmMain
+    partial class karaoke
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(karaoke));
             this.txtThemBH = new System.Windows.Forms.TextBox();
             this.lbPlaylist = new System.Windows.Forms.ListBox();
             this.pbPlaylist = new System.Windows.Forms.PictureBox();
@@ -91,9 +91,10 @@
             // 
             // txtThemBH
             // 
-            this.txtThemBH.Location = new System.Drawing.Point(825, 33);
+            this.txtThemBH.Location = new System.Drawing.Point(1100, 41);
+            this.txtThemBH.Margin = new System.Windows.Forms.Padding(4);
             this.txtThemBH.Name = "txtThemBH";
-            this.txtThemBH.Size = new System.Drawing.Size(231, 20);
+            this.txtThemBH.Size = new System.Drawing.Size(307, 22);
             this.txtThemBH.TabIndex = 0;
             this.txtThemBH.Text = "Nhập tên bài hát / kéo thả file *.mp3 vào";
             this.txtThemBH.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtThemBH_MouseClick);
@@ -107,16 +108,18 @@
             this.lbPlaylist.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPlaylist.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(151)))), ((int)(((byte)(187)))));
             this.lbPlaylist.FormattingEnabled = true;
-            this.lbPlaylist.ItemHeight = 16;
-            this.lbPlaylist.Location = new System.Drawing.Point(823, 71);
+            this.lbPlaylist.ItemHeight = 20;
+            this.lbPlaylist.Location = new System.Drawing.Point(1097, 87);
+            this.lbPlaylist.Margin = new System.Windows.Forms.Padding(4);
             this.lbPlaylist.Name = "lbPlaylist";
-            this.lbPlaylist.Size = new System.Drawing.Size(300, 544);
+            this.lbPlaylist.Size = new System.Drawing.Size(400, 660);
             this.lbPlaylist.TabIndex = 1;
             this.lbPlaylist.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.pbStatus1_MouseUp);
             // 
             // pbPlaylist
             // 
-            this.pbPlaylist.Location = new System.Drawing.Point(45, 648);
+            this.pbPlaylist.Location = new System.Drawing.Point(60, 798);
+            this.pbPlaylist.Margin = new System.Windows.Forms.Padding(4);
             this.pbPlaylist.Name = "pbPlaylist";
             this.pbPlaylist.Size = new System.Drawing.Size(10, 12);
             this.pbPlaylist.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -134,9 +137,10 @@
             // pbStatus1
             // 
             this.pbStatus1.BackColor = System.Drawing.Color.Transparent;
-            this.pbStatus1.Location = new System.Drawing.Point(7, 630);
+            this.pbStatus1.Location = new System.Drawing.Point(9, 775);
+            this.pbStatus1.Margin = new System.Windows.Forms.Padding(4);
             this.pbStatus1.Name = "pbStatus1";
-            this.pbStatus1.Size = new System.Drawing.Size(800, 5);
+            this.pbStatus1.Size = new System.Drawing.Size(1067, 6);
             this.pbStatus1.TabIndex = 3;
             this.pbStatus1.TabStop = false;
             this.pbStatus1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pbStatus1_MouseDown);
@@ -146,9 +150,10 @@
             // pbStatus2
             // 
             this.pbStatus2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(151)))), ((int)(((byte)(187)))));
-            this.pbStatus2.Location = new System.Drawing.Point(7, 625);
+            this.pbStatus2.Location = new System.Drawing.Point(9, 769);
+            this.pbStatus2.Margin = new System.Windows.Forms.Padding(4);
             this.pbStatus2.Name = "pbStatus2";
-            this.pbStatus2.Size = new System.Drawing.Size(800, 5);
+            this.pbStatus2.Size = new System.Drawing.Size(1067, 6);
             this.pbStatus2.TabIndex = 4;
             this.pbStatus2.TabStop = false;
             this.pbStatus2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pbStatus2_MouseDown);
@@ -158,7 +163,8 @@
             // pbClose
             // 
             this.pbClose.Image = ((System.Drawing.Image)(resources.GetObject("pbClose.Image")));
-            this.pbClose.Location = new System.Drawing.Point(784, 5);
+            this.pbClose.Location = new System.Drawing.Point(1045, 6);
+            this.pbClose.Margin = new System.Windows.Forms.Padding(4);
             this.pbClose.Name = "pbClose";
             this.pbClose.Size = new System.Drawing.Size(23, 15);
             this.pbClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -171,7 +177,8 @@
             // pbSetting
             // 
             this.pbSetting.Image = ((System.Drawing.Image)(resources.GetObject("pbSetting.Image")));
-            this.pbSetting.Location = new System.Drawing.Point(60, 644);
+            this.pbSetting.Location = new System.Drawing.Point(80, 793);
+            this.pbSetting.Margin = new System.Windows.Forms.Padding(4);
             this.pbSetting.Name = "pbSetting";
             this.pbSetting.Size = new System.Drawing.Size(20, 20);
             this.pbSetting.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -184,9 +191,10 @@
             // pbPlay
             // 
             this.pbPlay.Image = global::MusicApp.Properties.Resources.play;
-            this.pbPlay.Location = new System.Drawing.Point(393, 639);
+            this.pbPlay.Location = new System.Drawing.Point(524, 786);
+            this.pbPlay.Margin = new System.Windows.Forms.Padding(4);
             this.pbPlay.Name = "pbPlay";
-            this.pbPlay.Size = new System.Drawing.Size(19, 23);
+            this.pbPlay.Size = new System.Drawing.Size(25, 28);
             this.pbPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbPlay.TabIndex = 7;
             this.pbPlay.TabStop = false;
@@ -195,9 +203,10 @@
             // pbNext
             // 
             this.pbNext.Image = global::MusicApp.Properties.Resources.right_arrow;
-            this.pbNext.Location = new System.Drawing.Point(427, 639);
+            this.pbNext.Location = new System.Drawing.Point(569, 786);
+            this.pbNext.Margin = new System.Windows.Forms.Padding(4);
             this.pbNext.Name = "pbNext";
-            this.pbNext.Size = new System.Drawing.Size(19, 23);
+            this.pbNext.Size = new System.Drawing.Size(25, 28);
             this.pbNext.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbNext.TabIndex = 8;
             this.pbNext.TabStop = false;
@@ -208,7 +217,8 @@
             // pbStop
             // 
             this.pbStop.Image = ((System.Drawing.Image)(resources.GetObject("pbStop.Image")));
-            this.pbStop.Location = new System.Drawing.Point(459, 639);
+            this.pbStop.Location = new System.Drawing.Point(612, 786);
+            this.pbStop.Margin = new System.Windows.Forms.Padding(4);
             this.pbStop.Name = "pbStop";
             this.pbStop.Size = new System.Drawing.Size(25, 28);
             this.pbStop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -222,9 +232,10 @@
             // 
             this.pbPrevious.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbPrevious.Image = global::MusicApp.Properties.Resources.arrow_left;
-            this.pbPrevious.Location = new System.Drawing.Point(359, 639);
+            this.pbPrevious.Location = new System.Drawing.Point(479, 786);
+            this.pbPrevious.Margin = new System.Windows.Forms.Padding(4);
             this.pbPrevious.Name = "pbPrevious";
-            this.pbPrevious.Size = new System.Drawing.Size(19, 23);
+            this.pbPrevious.Size = new System.Drawing.Size(25, 28);
             this.pbPrevious.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbPrevious.TabIndex = 10;
             this.pbPrevious.TabStop = false;
@@ -233,7 +244,8 @@
             // pbMute
             // 
             this.pbMute.Image = ((System.Drawing.Image)(resources.GetObject("pbMute.Image")));
-            this.pbMute.Location = new System.Drawing.Point(705, 639);
+            this.pbMute.Location = new System.Drawing.Point(940, 786);
+            this.pbMute.Margin = new System.Windows.Forms.Padding(4);
             this.pbMute.Name = "pbMute";
             this.pbMute.Size = new System.Drawing.Size(21, 28);
             this.pbMute.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -247,7 +259,8 @@
             // pbClosePlalist
             // 
             this.pbClosePlalist.Image = ((System.Drawing.Image)(resources.GetObject("pbClosePlalist.Image")));
-            this.pbClosePlalist.Location = new System.Drawing.Point(1103, 5);
+            this.pbClosePlalist.Location = new System.Drawing.Point(1471, 6);
+            this.pbClosePlalist.Margin = new System.Windows.Forms.Padding(4);
             this.pbClosePlalist.Name = "pbClosePlalist";
             this.pbClosePlalist.Size = new System.Drawing.Size(23, 15);
             this.pbClosePlalist.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -260,16 +273,18 @@
             // pbVolume
             // 
             this.pbVolume.Image = ((System.Drawing.Image)(resources.GetObject("pbVolume.Image")));
-            this.pbVolume.Location = new System.Drawing.Point(730, 653);
+            this.pbVolume.Location = new System.Drawing.Point(973, 804);
+            this.pbVolume.Margin = new System.Windows.Forms.Padding(4);
             this.pbVolume.Name = "pbVolume";
-            this.pbVolume.Size = new System.Drawing.Size(42, 4);
+            this.pbVolume.Size = new System.Drawing.Size(56, 5);
             this.pbVolume.TabIndex = 13;
             this.pbVolume.TabStop = false;
             // 
             // pbNode
             // 
             this.pbNode.Image = ((System.Drawing.Image)(resources.GetObject("pbNode.Image")));
-            this.pbNode.Location = new System.Drawing.Point(772, 650);
+            this.pbNode.Location = new System.Drawing.Point(1029, 800);
+            this.pbNode.Margin = new System.Windows.Forms.Padding(4);
             this.pbNode.Name = "pbNode";
             this.pbNode.Size = new System.Drawing.Size(10, 10);
             this.pbNode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -283,9 +298,10 @@
             // 
             this.lbHienTai.AutoSize = true;
             this.lbHienTai.BackColor = System.Drawing.Color.Transparent;
-            this.lbHienTai.Location = new System.Drawing.Point(134, 648);
+            this.lbHienTai.Location = new System.Drawing.Point(179, 798);
+            this.lbHienTai.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbHienTai.Name = "lbHienTai";
-            this.lbHienTai.Size = new System.Drawing.Size(34, 13);
+            this.lbHienTai.Size = new System.Drawing.Size(44, 17);
             this.lbHienTai.TabIndex = 15;
             this.lbHienTai.Text = "00:00";
             // 
@@ -293,17 +309,19 @@
             // 
             this.lbTGConLai.AutoSize = true;
             this.lbTGConLai.BackColor = System.Drawing.Color.Transparent;
-            this.lbTGConLai.Location = new System.Drawing.Point(93, 648);
+            this.lbTGConLai.Location = new System.Drawing.Point(124, 798);
+            this.lbTGConLai.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTGConLai.Name = "lbTGConLai";
-            this.lbTGConLai.Size = new System.Drawing.Size(34, 13);
+            this.lbTGConLai.Size = new System.Drawing.Size(44, 17);
             this.lbTGConLai.TabIndex = 16;
             this.lbTGConLai.Text = "00:00";
             // 
             // pbManHinh
             // 
-            this.pbManHinh.Location = new System.Drawing.Point(7, 24);
+            this.pbManHinh.Location = new System.Drawing.Point(9, 30);
+            this.pbManHinh.Margin = new System.Windows.Forms.Padding(4);
             this.pbManHinh.Name = "pbManHinh";
-            this.pbManHinh.Size = new System.Drawing.Size(798, 595);
+            this.pbManHinh.Size = new System.Drawing.Size(1222, 443);
             this.pbManHinh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbManHinh.TabIndex = 17;
             this.pbManHinh.TabStop = false;
@@ -313,6 +331,7 @@
             // 
             this.media.Enabled = true;
             this.media.Location = new System.Drawing.Point(321, 195);
+            this.media.Margin = new System.Windows.Forms.Padding(4);
             this.media.Name = "media";
             this.media.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("media.OcxState")));
             this.media.Size = new System.Drawing.Size(184, 48);
@@ -321,9 +340,11 @@
             // lbTimKiem
             // 
             this.lbTimKiem.FormattingEnabled = true;
-            this.lbTimKiem.Location = new System.Drawing.Point(825, 59);
+            this.lbTimKiem.ItemHeight = 16;
+            this.lbTimKiem.Location = new System.Drawing.Point(1100, 73);
+            this.lbTimKiem.Margin = new System.Windows.Forms.Padding(4);
             this.lbTimKiem.Name = "lbTimKiem";
-            this.lbTimKiem.Size = new System.Drawing.Size(231, 17);
+            this.lbTimKiem.Size = new System.Drawing.Size(307, 20);
             this.lbTimKiem.TabIndex = 20;
             this.lbTimKiem.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lbTimKiem_MouseClick);
             // 
@@ -343,16 +364,18 @@
             this.lbChinhTocDo.BackColor = System.Drawing.Color.Transparent;
             this.lbChinhTocDo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbChinhTocDo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(151)))), ((int)(((byte)(187)))));
-            this.lbChinhTocDo.Location = new System.Drawing.Point(459, 71);
+            this.lbChinhTocDo.Location = new System.Drawing.Point(612, 87);
+            this.lbChinhTocDo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbChinhTocDo.Name = "lbChinhTocDo";
-            this.lbChinhTocDo.Size = new System.Drawing.Size(0, 13);
+            this.lbChinhTocDo.Size = new System.Drawing.Size(0, 17);
             this.lbChinhTocDo.TabIndex = 21;
             this.lbChinhTocDo.Visible = false;
             // 
             // pbOpenFiles
             // 
             this.pbOpenFiles.Image = ((System.Drawing.Image)(resources.GetObject("pbOpenFiles.Image")));
-            this.pbOpenFiles.Location = new System.Drawing.Point(328, 639);
+            this.pbOpenFiles.Location = new System.Drawing.Point(437, 786);
+            this.pbOpenFiles.Margin = new System.Windows.Forms.Padding(4);
             this.pbOpenFiles.Name = "pbOpenFiles";
             this.pbOpenFiles.Size = new System.Drawing.Size(25, 28);
             this.pbOpenFiles.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -370,7 +393,8 @@
             // pbThem
             // 
             this.pbThem.Image = ((System.Drawing.Image)(resources.GetObject("pbThem.Image")));
-            this.pbThem.Location = new System.Drawing.Point(1067, 32);
+            this.pbThem.Location = new System.Drawing.Point(1423, 39);
+            this.pbThem.Margin = new System.Windows.Forms.Padding(4);
             this.pbThem.Name = "pbThem";
             this.pbThem.Size = new System.Drawing.Size(19, 21);
             this.pbThem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -383,7 +407,8 @@
             // pbAdd
             // 
             this.pbAdd.Image = ((System.Drawing.Image)(resources.GetObject("pbAdd.Image")));
-            this.pbAdd.Location = new System.Drawing.Point(825, 641);
+            this.pbAdd.Location = new System.Drawing.Point(1100, 789);
+            this.pbAdd.Margin = new System.Windows.Forms.Padding(4);
             this.pbAdd.Name = "pbAdd";
             this.pbAdd.Size = new System.Drawing.Size(21, 29);
             this.pbAdd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -396,7 +421,8 @@
             // pbRemove
             // 
             this.pbRemove.Image = ((System.Drawing.Image)(resources.GetObject("pbRemove.Image")));
-            this.pbRemove.Location = new System.Drawing.Point(855, 641);
+            this.pbRemove.Location = new System.Drawing.Point(1140, 789);
+            this.pbRemove.Margin = new System.Windows.Forms.Padding(4);
             this.pbRemove.Name = "pbRemove";
             this.pbRemove.Size = new System.Drawing.Size(21, 29);
             this.pbRemove.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -409,7 +435,8 @@
             // pbDown
             // 
             this.pbDown.Image = ((System.Drawing.Image)(resources.GetObject("pbDown.Image")));
-            this.pbDown.Location = new System.Drawing.Point(1094, 641);
+            this.pbDown.Location = new System.Drawing.Point(1459, 789);
+            this.pbDown.Margin = new System.Windows.Forms.Padding(4);
             this.pbDown.Name = "pbDown";
             this.pbDown.Size = new System.Drawing.Size(21, 29);
             this.pbDown.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -422,7 +449,8 @@
             // pbUp
             // 
             this.pbUp.Image = ((System.Drawing.Image)(resources.GetObject("pbUp.Image")));
-            this.pbUp.Location = new System.Drawing.Point(1064, 641);
+            this.pbUp.Location = new System.Drawing.Point(1419, 789);
+            this.pbUp.Margin = new System.Windows.Forms.Padding(4);
             this.pbUp.Name = "pbUp";
             this.pbUp.Size = new System.Drawing.Size(21, 29);
             this.pbUp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -435,7 +463,8 @@
             // pbQuickImport
             // 
             this.pbQuickImport.Image = ((System.Drawing.Image)(resources.GetObject("pbQuickImport.Image")));
-            this.pbQuickImport.Location = new System.Drawing.Point(1098, 34);
+            this.pbQuickImport.Location = new System.Drawing.Point(1464, 42);
+            this.pbQuickImport.Margin = new System.Windows.Forms.Padding(4);
             this.pbQuickImport.Name = "pbQuickImport";
             this.pbQuickImport.Size = new System.Drawing.Size(21, 21);
             this.pbQuickImport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -453,20 +482,21 @@
             // picb_playdemo
             // 
             this.picb_playdemo.Image = global::MusicApp.Properties.Resources.play;
-            this.picb_playdemo.Location = new System.Drawing.Point(550, 644);
+            this.picb_playdemo.Location = new System.Drawing.Point(733, 793);
+            this.picb_playdemo.Margin = new System.Windows.Forms.Padding(4);
             this.picb_playdemo.Name = "picb_playdemo";
-            this.picb_playdemo.Size = new System.Drawing.Size(19, 23);
+            this.picb_playdemo.Size = new System.Drawing.Size(25, 28);
             this.picb_playdemo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_playdemo.TabIndex = 31;
             this.picb_playdemo.TabStop = false;
             this.picb_playdemo.Click += new System.EventHandler(this.picb_playdemo_Click);
             // 
-            // frmMain
+            // karaoke
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1133, 673);
+            this.ClientSize = new System.Drawing.Size(1511, 828);
             this.Controls.Add(this.picb_playdemo);
             this.Controls.Add(this.pbQuickImport);
             this.Controls.Add(this.pbUp);
@@ -498,7 +528,8 @@
             this.Controls.Add(this.txtThemBH);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
-            this.Name = "frmMain";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "karaoke";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frmMain_Load);

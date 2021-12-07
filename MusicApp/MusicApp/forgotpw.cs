@@ -69,5 +69,10 @@ namespace MusicApp
             txb_email.Text = "";
             txb_email.ForeColor = Color.Black;
         }
+
+        private void txb_email_TextChanged(object sender, EventArgs e)
+        {
+            txb_email.ForeColor = Color.Black;
+        }
     }
 }

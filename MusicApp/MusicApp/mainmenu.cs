@@ -1,4 +1,7 @@
 ﻿using System;
+using NAudio.Wave;
+using System.Diagnostics;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,12 +10,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MusicPlayer;
 
 
 namespace MusicApp
 {
     public partial class mainmenu : Form
     {
+        WaveIn wave;
+        WaveFileWriter writer;
+        string outputFileName;
+
         DataTable dt = new DataTable();
         public mainmenu()
         {
@@ -52,6 +60,14 @@ namespace MusicApp
         {
             bunifuVSlider1.Value = 32;
             tab_items.SetPage(2);
+
+            karaoke k = new karaoke();
+            k.TopLevel = false;
+            tab_karaoke.Controls.Add(k);
+            //k.BringToFront;
+            k.Show();
+
+           
         }
         private void btn_settings_Click(object sender, EventArgs e)
         {
@@ -92,11 +108,13 @@ namespace MusicApp
         private void pb_stop_Click(object sender, EventArgs e)
         {
             player.Ctlcontrols.pause();
+            picb_Visualize.Visible = false;
         }
 
         private void pb_play_Click(object sender, EventArgs e)
         {
             player.Ctlcontrols.play();
+            picb_Visualize.Visible = true;
         }
 
         private void pb_next_Click(object sender, EventArgs e)
@@ -268,6 +286,7 @@ namespace MusicApp
             player.URL = @"Tracks\Another One Bites The Dust.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "1";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_savesettings_Click(object sender, EventArgs e)
@@ -369,6 +388,7 @@ namespace MusicApp
             player.URL = @"Tracks\Don't Stop Me Now.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "2";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_play3_Click(object sender, EventArgs e)
@@ -381,6 +401,7 @@ namespace MusicApp
             player.URL = @"Tracks\Dynasties Dystopia.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "3";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_play4_Click(object sender, EventArgs e)
@@ -393,6 +414,7 @@ namespace MusicApp
             player.URL = @"Tracks\Easy On Me.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "4";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_play5_Click(object sender, EventArgs e)
@@ -405,6 +427,7 @@ namespace MusicApp
             player.URL = @"Tracks\Enemy (feat. J.I.D).flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "5";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_play6_Click(object sender, EventArgs e)
@@ -417,6 +440,7 @@ namespace MusicApp
             player.URL = @"Tracks\Guns for Hire.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "6";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_play7_Click(object sender, EventArgs e)
@@ -429,6 +453,7 @@ namespace MusicApp
             player.URL = @"Tracks\Love Me Like There Is No Tomorrow.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "7";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_play8_Click(object sender, EventArgs e)
@@ -441,6 +466,7 @@ namespace MusicApp
             player.URL = @"Tracks\Somebody To Love.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "8";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_play9_Click(object sender, EventArgs e)
@@ -453,6 +479,7 @@ namespace MusicApp
             player.URL = @"Tracks\The Airbuster.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "9";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_play10_Click(object sender, EventArgs e)
@@ -465,6 +492,7 @@ namespace MusicApp
             player.URL = @"Tracks\Woman Like Me.flac";
             player.Ctlcontrols.play();
             lbl_position.Text = "10";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_30_Click(object sender, EventArgs e)
@@ -632,6 +660,7 @@ namespace MusicApp
             player.URL = listb_track.Items[0].ToString();
             player.Ctlcontrols.play();
             lbl_position.Text = "11";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_play12_Click(object sender, EventArgs e)
@@ -644,6 +673,7 @@ namespace MusicApp
             player.URL = listb_track.Items[1].ToString();
             player.Ctlcontrols.play();
             lbl_position.Text = "12";
+            picb_Visualize.Visible = true;
         }
 
         private void picb_play13_Click(object sender, EventArgs e)
@@ -656,6 +686,51 @@ namespace MusicApp
             player.URL = listb_track.Items[2].ToString();
             player.Ctlcontrols.play();
             lbl_position.Text = "13";
+            picb_Visualize.Visible = true;
+        }
+        private void Wave_RecordingStopped(object sender, StoppedEventArgs e)
+        {
+            writer.Dispose();
+        }
+        private void Wave_DataAvailable(object sender, WaveInEventArgs e)
+        {
+            writer.Write(e.Buffer, 0, e.BytesRecorded);
+        }
+        private void picb_recordvoice_mute_Click(object sender, EventArgs e)
+        {
+            picb_recordvoi_unmute.Visible = true;
+            var dialog = new SaveFileDialog();
+            dialog.Filter = "Wave files | *.wav";
+
+            if (dialog.ShowDialog() != DialogResult.OK)
+                return;
+
+            outputFileName = dialog.FileName;
+
+            wave = new WaveIn();
+            wave.WaveFormat = new WaveFormat(44100, 1);
+            wave.DataAvailable += Wave_DataAvailable;
+            wave.RecordingStopped += Wave_RecordingStopped;
+            writer = new WaveFileWriter(outputFileName, wave.WaveFormat);
+            wave.StartRecording();
+        }
+
+        private void picb_recordvoi_unmute_Click(object sender, EventArgs e)
+        {
+            picb_recordvoi_unmute.Visible = false;
+
+            wave.StopRecording();
+
+            if (outputFileName == null)
+                return;
+
+            var processStartInfo = new ProcessStartInfo
+            {
+                FileName = Path.GetDirectoryName(outputFileName),
+                UseShellExecute = true
+            };
+
+            Process.Start(processStartInfo);
         }
 
         private void picb_addsongs_Click(object sender, EventArgs e)
