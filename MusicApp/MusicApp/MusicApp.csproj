@@ -86,6 +86,12 @@
     <Compile Include="animated_rain_loading.designer.cs">
       <DependentUpon>animated_rain_loading.cs</DependentUpon>
     </Compile>
+    <Compile Include="forgotpw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forgotpw.Designer.cs">
+      <DependentUpon>forgotpw.cs</DependentUpon>
+    </Compile>
     <Compile Include="mainmenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </Compile>
     <EmbeddedResource Include="animated_rain_loading.resx">
       <DependentUpon>animated_rain_loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forgotpw.resx">
+      <DependentUpon>forgotpw.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mainmenu.resx">
       <DependentUpon>mainmenu.cs</DependentUpon>
@@ -284,7 +293,9 @@
   <ItemGroup>
     <None Include="Resources\9675faf09a3f6cc4e78b45c170bccd6c.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\SEND_-removebg-preview.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\30 adele.jpg" />
     <None Include="Resources\arcane.jpg" />

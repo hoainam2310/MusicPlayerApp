@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace MusicApp
 {
     public partial class mainmenu : Form
@@ -16,6 +17,9 @@ namespace MusicApp
         public mainmenu()
         {
             InitializeComponent();
+
+
+
             lbl_position.Visible = false;
             slide_volume.Value = 20;
             dt.Columns.Add("Album", typeof(string));
@@ -35,6 +39,7 @@ namespace MusicApp
             dt.Rows.Add("30", "Woman Like Me", "Adele", "05:00");
         }
 
+       
         private void btn_songs_Click(object sender, EventArgs e)
         {
             bunifuVSlider1.Value = 100;
@@ -588,6 +593,8 @@ namespace MusicApp
                 picb_addsong3.Visible = true;
             }
         }
+
+      
 
     }
 }

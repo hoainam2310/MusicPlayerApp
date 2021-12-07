@@ -20,7 +20,9 @@ namespace MusicPlayerApp
         {
             InitializeComponent();
             //_soundPlayer.Play();
+
         }
+
 
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
         OleDbCommand cmd = new OleDbCommand();
@@ -110,9 +112,11 @@ namespace MusicPlayerApp
             }    
         }
 
-        private void txt_username_TextChanged(object sender, EventArgs e)
+        private void txb_forgotpw_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            forgotpw f = new forgotpw();
+            f.Show();
         }
     }
 }
