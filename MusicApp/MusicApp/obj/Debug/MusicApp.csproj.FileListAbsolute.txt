@@ -95,3 +95,4 @@ D:\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.CopyComplet
 D:\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.exe
 D:\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.pdb
 D:\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.forgotpw.resources
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.forgotpw.resources

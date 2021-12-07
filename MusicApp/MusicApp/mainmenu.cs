@@ -218,8 +218,6 @@ namespace MusicApp
             picb_addsongs_Click(sender, e);
         }
 
-       
-
         private void btn_font_Click(object sender, EventArgs e)
         {
             if(fontDialog1.ShowDialog() == DialogResult.OK)
@@ -593,8 +591,5 @@ namespace MusicApp
                 picb_addsong3.Visible = true;
             }
         }
-
-      
-
     }
 }

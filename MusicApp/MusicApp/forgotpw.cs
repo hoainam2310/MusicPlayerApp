@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MusicPlayerApp;
 using System.Net;
 using System.Net.Mail;
+using System.Data.OleDb;
 
 namespace MusicApp
 {
@@ -19,14 +20,14 @@ namespace MusicApp
         {
             InitializeComponent();
 
-            //obj = new forgotpw();
-
         }
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
+        OleDbConnection rcon = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter();
 
-         //forgotpw obj;
         public void sendMail(string yourMail, string toMail, string Text)
         {
-            //MessageBox.Show("Check your new password in your email!", "Message", MessageBoxButtons.OK);
             MailMessage mail = new MailMessage();
             SmtpClient server = new SmtpClient("smtp.gmail.com");
             mail.From = new MailAddress(yourMail);
@@ -42,16 +43,6 @@ namespace MusicApp
             MessageBox.Show("Check your new password in your email!", "Message", MessageBoxButtons.OK);
         }
 
-        private void picb_sendemail_Click(object sender, EventArgs e)
-        {
-            Random generator = new Random();
-            String password = generator.Next(0, 1000000).ToString("D6");
-
-            sendMail("18521126@gm.uit.edu.vn", txb_email.Text, password);
-
-            //obj.sendMail("18521126@gm.uit.edu.vn", txb_email.Text, password);
-
-        }
 
         private void picb_sendemail_Click_1(object sender, EventArgs e)
         {
@@ -59,6 +50,11 @@ namespace MusicApp
             String password = generator.Next(0, 1000000).ToString("D6");
 
             sendMail("18521126@gm.uit.edu.vn", txb_email.Text, password);
+            rcon.Open();
+            string register = "INSERT INTO tbl_users VALUES ('" + txb_email.Text + "','" + password + "')";
+            cmd = new OleDbCommand(register, rcon);
+            cmd.ExecuteNonQuery();
+            rcon.Close();
         }
 
         private void picb_exitlogin_Click(object sender, EventArgs e)
