@@ -10,6 +10,7 @@ using System.Xml;
 using System.Collections;
 using System.Drawing.Drawing2D;
 using System.IO;
+using MusicApp;
 
 
 namespace MusicPlayer
@@ -609,7 +610,7 @@ namespace MusicPlayer
         private void VeChu(Graphics g, string ChuoiCauHat,int x, int y, int CaoDo2)//x,y la toa do ve chu
         {
             var path = new GraphicsPath();
-            path.AddString(ChuoiCauHat, new FontFamily("Times New Roman"), (int)FontStyle.Regular, 45, new Point(x, y), StringFormat.GenericDefault);
+            path.AddString(ChuoiCauHat, new FontFamily("Times New Roman"), (int)FontStyle.Regular, 25, new Point(x, y), StringFormat.GenericDefault);
             g.FillPath(new SolidBrush(Color.WhiteSmoke), path);// Hien loi hat
         
             Region r = new Region(path);

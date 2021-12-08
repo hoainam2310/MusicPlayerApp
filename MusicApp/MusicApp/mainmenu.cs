@@ -64,10 +64,7 @@ namespace MusicApp
             karaoke k = new karaoke();
             k.TopLevel = false;
             tab_karaoke.Controls.Add(k);
-            //k.BringToFront;
-            k.Show();
-
-           
+            k.Show();  
         }
         private void btn_settings_Click(object sender, EventArgs e)
         {
