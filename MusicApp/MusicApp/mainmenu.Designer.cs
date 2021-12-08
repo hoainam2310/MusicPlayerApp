@@ -206,8 +206,9 @@ namespace MusicApp
             this.picb_arcane = new System.Windows.Forms.PictureBox();
             this.picb_30 = new System.Windows.Forms.PictureBox();
             this.tab_karaoke = new System.Windows.Forms.TabPage();
-            this.panel_screen = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.picb_karaokeplay2 = new System.Windows.Forms.PictureBox();
+            this.picb_karaokeplay1 = new System.Windows.Forms.PictureBox();
             this.panel_recordvoice = new System.Windows.Forms.Panel();
             this.picb_recordvoi_unmute = new System.Windows.Forms.PictureBox();
             this.picb_recordvoi_mute = new System.Windows.Forms.PictureBox();
@@ -275,6 +276,7 @@ namespace MusicApp
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
+            this.check_karaoke = new System.Windows.Forms.CheckBox();
             this.panel_SideBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_Close)).BeginInit();
@@ -360,6 +362,9 @@ namespace MusicApp
             ((System.ComponentModel.ISupportInitialize)(this.picb_arcane)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_30)).BeginInit();
             this.tab_karaoke.SuspendLayout();
+            this.panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_karaokeplay2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_karaokeplay1)).BeginInit();
             this.panel_recordvoice.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picb_recordvoi_unmute)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_recordvoi_mute)).BeginInit();
@@ -1135,7 +1140,7 @@ namespace MusicApp
             this.panel15.Location = new System.Drawing.Point(0, 567);
             this.panel15.Margin = new System.Windows.Forms.Padding(2);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(525, 62);
+            this.panel15.Size = new System.Drawing.Size(586, 62);
             this.panel15.TabIndex = 23;
             // 
             // panel16
@@ -1151,7 +1156,7 @@ namespace MusicApp
             this.panel16.Location = new System.Drawing.Point(1, 62);
             this.panel16.Margin = new System.Windows.Forms.Padding(2);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(525, 62);
+            this.panel16.Size = new System.Drawing.Size(586, 62);
             this.panel16.TabIndex = 20;
             // 
             // label37
@@ -1161,7 +1166,7 @@ namespace MusicApp
             this.label37.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label37.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label37.Location = new System.Drawing.Point(467, 17);
+            this.label37.Location = new System.Drawing.Point(528, 17);
             this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(44, 28);
@@ -1176,7 +1181,7 @@ namespace MusicApp
             this.label38.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label38.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label38.Location = new System.Drawing.Point(367, 19);
+            this.label38.Location = new System.Drawing.Point(398, 19);
             this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(142, 23);
@@ -1191,7 +1196,7 @@ namespace MusicApp
             this.label39.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label39.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label39.Location = new System.Drawing.Point(97, 17);
+            this.label39.Location = new System.Drawing.Point(128, 17);
             this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(130, 23);
@@ -1232,7 +1237,7 @@ namespace MusicApp
             this.label40.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label40.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label40.Location = new System.Drawing.Point(467, 17);
+            this.label40.Location = new System.Drawing.Point(528, 17);
             this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(44, 28);
@@ -1247,7 +1252,7 @@ namespace MusicApp
             this.lbl_singer10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer10.Location = new System.Drawing.Point(384, 19);
+            this.lbl_singer10.Location = new System.Drawing.Point(415, 19);
             this.lbl_singer10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer10.Name = "lbl_singer10";
             this.lbl_singer10.Size = new System.Drawing.Size(44, 23);
@@ -1262,7 +1267,7 @@ namespace MusicApp
             this.lbl_songname10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname10.Location = new System.Drawing.Point(109, 19);
+            this.lbl_songname10.Location = new System.Drawing.Point(140, 19);
             this.lbl_songname10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname10.Name = "lbl_songname10";
             this.lbl_songname10.Size = new System.Drawing.Size(166, 23);
@@ -1311,7 +1316,7 @@ namespace MusicApp
             this.panel_song12.Location = new System.Drawing.Point(0, 693);
             this.panel_song12.Margin = new System.Windows.Forms.Padding(2);
             this.panel_song12.Name = "panel_song12";
-            this.panel_song12.Size = new System.Drawing.Size(527, 62);
+            this.panel_song12.Size = new System.Drawing.Size(590, 62);
             this.panel_song12.TabIndex = 24;
             this.panel_song12.Visible = false;
             // 
@@ -1328,7 +1333,7 @@ namespace MusicApp
             this.panel25.Location = new System.Drawing.Point(1, 62);
             this.panel25.Margin = new System.Windows.Forms.Padding(2);
             this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(527, 62);
+            this.panel25.Size = new System.Drawing.Size(590, 62);
             this.panel25.TabIndex = 20;
             // 
             // label64
@@ -1338,7 +1343,7 @@ namespace MusicApp
             this.label64.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label64.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label64.Location = new System.Drawing.Point(467, 17);
+            this.label64.Location = new System.Drawing.Point(530, 17);
             this.label64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(44, 28);
@@ -1353,7 +1358,7 @@ namespace MusicApp
             this.label65.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label65.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label65.Location = new System.Drawing.Point(368, 19);
+            this.label65.Location = new System.Drawing.Point(400, 19);
             this.label65.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(142, 23);
@@ -1368,7 +1373,7 @@ namespace MusicApp
             this.label66.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label66.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label66.Location = new System.Drawing.Point(98, 17);
+            this.label66.Location = new System.Drawing.Point(130, 17);
             this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(130, 23);
@@ -1409,7 +1414,7 @@ namespace MusicApp
             this.label67.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label67.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label67.Location = new System.Drawing.Point(467, 17);
+            this.label67.Location = new System.Drawing.Point(530, 17);
             this.label67.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(44, 28);
@@ -1424,7 +1429,7 @@ namespace MusicApp
             this.lbl_singer12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer12.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer12.Location = new System.Drawing.Point(386, 18);
+            this.lbl_singer12.Location = new System.Drawing.Point(418, 18);
             this.lbl_singer12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer12.Name = "lbl_singer12";
             this.lbl_singer12.Size = new System.Drawing.Size(36, 23);
@@ -1439,7 +1444,7 @@ namespace MusicApp
             this.lbl_songname12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname12.Location = new System.Drawing.Point(109, 19);
+            this.lbl_songname12.Location = new System.Drawing.Point(141, 19);
             this.lbl_songname12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname12.Name = "lbl_songname12";
             this.lbl_songname12.Size = new System.Drawing.Size(166, 23);
@@ -1488,7 +1493,7 @@ namespace MusicApp
             this.panel_song11.Location = new System.Drawing.Point(2, 629);
             this.panel_song11.Margin = new System.Windows.Forms.Padding(2);
             this.panel_song11.Name = "panel_song11";
-            this.panel_song11.Size = new System.Drawing.Size(524, 62);
+            this.panel_song11.Size = new System.Drawing.Size(586, 62);
             this.panel_song11.TabIndex = 24;
             this.panel_song11.Visible = false;
             // 
@@ -1505,7 +1510,7 @@ namespace MusicApp
             this.panel23.Location = new System.Drawing.Point(1, 62);
             this.panel23.Margin = new System.Windows.Forms.Padding(2);
             this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(524, 62);
+            this.panel23.Size = new System.Drawing.Size(586, 62);
             this.panel23.TabIndex = 20;
             // 
             // label58
@@ -1515,7 +1520,7 @@ namespace MusicApp
             this.label58.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label58.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label58.Location = new System.Drawing.Point(465, 17);
+            this.label58.Location = new System.Drawing.Point(527, 17);
             this.label58.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(44, 28);
@@ -1530,7 +1535,7 @@ namespace MusicApp
             this.label59.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label59.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label59.Location = new System.Drawing.Point(367, 19);
+            this.label59.Location = new System.Drawing.Point(398, 19);
             this.label59.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(142, 23);
@@ -1545,7 +1550,7 @@ namespace MusicApp
             this.label60.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label60.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label60.Location = new System.Drawing.Point(97, 17);
+            this.label60.Location = new System.Drawing.Point(128, 17);
             this.label60.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(130, 23);
@@ -1586,7 +1591,7 @@ namespace MusicApp
             this.label61.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label61.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label61.Location = new System.Drawing.Point(465, 17);
+            this.label61.Location = new System.Drawing.Point(527, 17);
             this.label61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(44, 28);
@@ -1601,7 +1606,7 @@ namespace MusicApp
             this.lbl_singer11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer11.Location = new System.Drawing.Point(347, 18);
+            this.lbl_singer11.Location = new System.Drawing.Point(378, 18);
             this.lbl_singer11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer11.Name = "lbl_singer11";
             this.lbl_singer11.Size = new System.Drawing.Size(112, 23);
@@ -1616,7 +1621,7 @@ namespace MusicApp
             this.lbl_songname11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname11.Location = new System.Drawing.Point(107, 17);
+            this.lbl_songname11.Location = new System.Drawing.Point(138, 17);
             this.lbl_songname11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname11.Name = "lbl_songname11";
             this.lbl_songname11.Size = new System.Drawing.Size(184, 23);
@@ -1665,7 +1670,7 @@ namespace MusicApp
             this.panel_song13.Location = new System.Drawing.Point(0, 755);
             this.panel_song13.Margin = new System.Windows.Forms.Padding(2);
             this.panel_song13.Name = "panel_song13";
-            this.panel_song13.Size = new System.Drawing.Size(526, 62);
+            this.panel_song13.Size = new System.Drawing.Size(588, 62);
             this.panel_song13.TabIndex = 24;
             this.panel_song13.Visible = false;
             this.panel_song13.Paint += new System.Windows.Forms.PaintEventHandler(this.panel17_Paint);
@@ -1683,7 +1688,7 @@ namespace MusicApp
             this.panel19.Location = new System.Drawing.Point(1, 62);
             this.panel19.Margin = new System.Windows.Forms.Padding(2);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(526, 62);
+            this.panel19.Size = new System.Drawing.Size(588, 62);
             this.panel19.TabIndex = 20;
             // 
             // label46
@@ -1693,7 +1698,7 @@ namespace MusicApp
             this.label46.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label46.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label46.Location = new System.Drawing.Point(467, 17);
+            this.label46.Location = new System.Drawing.Point(529, 17);
             this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(44, 28);
@@ -1708,7 +1713,7 @@ namespace MusicApp
             this.label47.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label47.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label47.Location = new System.Drawing.Point(368, 19);
+            this.label47.Location = new System.Drawing.Point(399, 19);
             this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(142, 23);
@@ -1723,7 +1728,7 @@ namespace MusicApp
             this.label48.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label48.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label48.Location = new System.Drawing.Point(98, 17);
+            this.label48.Location = new System.Drawing.Point(129, 17);
             this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(130, 23);
@@ -1764,7 +1769,7 @@ namespace MusicApp
             this.label52.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label52.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label52.Location = new System.Drawing.Point(467, 17);
+            this.label52.Location = new System.Drawing.Point(529, 17);
             this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(44, 28);
@@ -1779,7 +1784,7 @@ namespace MusicApp
             this.lbl_singer13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer13.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer13.Location = new System.Drawing.Point(377, 18);
+            this.lbl_singer13.Location = new System.Drawing.Point(408, 18);
             this.lbl_singer13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer13.Name = "lbl_singer13";
             this.lbl_singer13.Size = new System.Drawing.Size(52, 23);
@@ -1794,7 +1799,7 @@ namespace MusicApp
             this.lbl_songname13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname13.Location = new System.Drawing.Point(110, 19);
+            this.lbl_songname13.Location = new System.Drawing.Point(141, 19);
             this.lbl_songname13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname13.Name = "lbl_songname13";
             this.lbl_songname13.Size = new System.Drawing.Size(214, 23);
@@ -1842,7 +1847,7 @@ namespace MusicApp
             this.panel8.Location = new System.Drawing.Point(3, 316);
             this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(522, 62);
+            this.panel8.Size = new System.Drawing.Size(583, 62);
             this.panel8.TabIndex = 18;
             // 
             // label16
@@ -1852,7 +1857,7 @@ namespace MusicApp
             this.label16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label16.Location = new System.Drawing.Point(462, 16);
+            this.label16.Location = new System.Drawing.Point(523, 16);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(44, 28);
@@ -1867,7 +1872,7 @@ namespace MusicApp
             this.lbl_singer6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer6.Location = new System.Drawing.Point(373, 19);
+            this.lbl_singer6.Location = new System.Drawing.Point(403, 19);
             this.lbl_singer6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer6.Name = "lbl_singer6";
             this.lbl_singer6.Size = new System.Drawing.Size(142, 23);
@@ -1882,7 +1887,7 @@ namespace MusicApp
             this.lbl_songname6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname6.Location = new System.Drawing.Point(106, 18);
+            this.lbl_songname6.Location = new System.Drawing.Point(136, 18);
             this.lbl_songname6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname6.Name = "lbl_songname6";
             this.lbl_songname6.Size = new System.Drawing.Size(130, 23);
@@ -1930,7 +1935,7 @@ namespace MusicApp
             this.panel7.Location = new System.Drawing.Point(3, 254);
             this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(522, 62);
+            this.panel7.Size = new System.Drawing.Size(581, 62);
             this.panel7.TabIndex = 17;
             // 
             // label13
@@ -1940,7 +1945,7 @@ namespace MusicApp
             this.label13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label13.Location = new System.Drawing.Point(463, 17);
+            this.label13.Location = new System.Drawing.Point(522, 17);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(44, 28);
@@ -1955,7 +1960,7 @@ namespace MusicApp
             this.lbl_singer5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer5.Location = new System.Drawing.Point(346, 19);
+            this.lbl_singer5.Location = new System.Drawing.Point(375, 19);
             this.lbl_singer5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer5.Name = "lbl_singer5";
             this.lbl_singer5.Size = new System.Drawing.Size(142, 23);
@@ -1970,7 +1975,7 @@ namespace MusicApp
             this.lbl_songname5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname5.Location = new System.Drawing.Point(106, 17);
+            this.lbl_songname5.Location = new System.Drawing.Point(135, 17);
             this.lbl_songname5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname5.Name = "lbl_songname5";
             this.lbl_songname5.Size = new System.Drawing.Size(166, 23);
@@ -2018,7 +2023,7 @@ namespace MusicApp
             this.panel5.Location = new System.Drawing.Point(0, 128);
             this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(525, 62);
+            this.panel5.Size = new System.Drawing.Size(584, 62);
             this.panel5.TabIndex = 15;
             // 
             // label7
@@ -2028,7 +2033,7 @@ namespace MusicApp
             this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label7.Location = new System.Drawing.Point(466, 14);
+            this.label7.Location = new System.Drawing.Point(525, 14);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(44, 28);
@@ -2043,7 +2048,7 @@ namespace MusicApp
             this.lbl_singer3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer3.Location = new System.Drawing.Point(318, 19);
+            this.lbl_singer3.Location = new System.Drawing.Point(348, 19);
             this.lbl_singer3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer3.Name = "lbl_singer3";
             this.lbl_singer3.Size = new System.Drawing.Size(191, 23);
@@ -2058,7 +2063,7 @@ namespace MusicApp
             this.lbl_songname3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname3.Location = new System.Drawing.Point(108, 19);
+            this.lbl_songname3.Location = new System.Drawing.Point(138, 19);
             this.lbl_songname3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname3.Name = "lbl_songname3";
             this.lbl_songname3.Size = new System.Drawing.Size(173, 23);
@@ -2106,7 +2111,7 @@ namespace MusicApp
             this.panel6.Location = new System.Drawing.Point(1, 191);
             this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(523, 62);
+            this.panel6.Size = new System.Drawing.Size(583, 62);
             this.panel6.TabIndex = 16;
             // 
             // label10
@@ -2116,7 +2121,7 @@ namespace MusicApp
             this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label10.Location = new System.Drawing.Point(465, 14);
+            this.label10.Location = new System.Drawing.Point(525, 14);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(44, 28);
@@ -2131,7 +2136,7 @@ namespace MusicApp
             this.lbl_singer4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer4.Location = new System.Drawing.Point(384, 17);
+            this.lbl_singer4.Location = new System.Drawing.Point(414, 17);
             this.lbl_singer4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer4.Name = "lbl_singer4";
             this.lbl_singer4.Size = new System.Drawing.Size(57, 23);
@@ -2146,7 +2151,7 @@ namespace MusicApp
             this.lbl_songname4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname4.Location = new System.Drawing.Point(108, 17);
+            this.lbl_songname4.Location = new System.Drawing.Point(138, 17);
             this.lbl_songname4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname4.Name = "lbl_songname4";
             this.lbl_songname4.Size = new System.Drawing.Size(130, 23);
@@ -2194,7 +2199,7 @@ namespace MusicApp
             this.panel4.Location = new System.Drawing.Point(2, 65);
             this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(523, 62);
+            this.panel4.Size = new System.Drawing.Size(582, 62);
             this.panel4.TabIndex = 15;
             // 
             // label1
@@ -2204,7 +2209,7 @@ namespace MusicApp
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label1.Location = new System.Drawing.Point(463, 17);
+            this.label1.Location = new System.Drawing.Point(522, 17);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 28);
@@ -2219,7 +2224,7 @@ namespace MusicApp
             this.lbl_singer2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer2.Location = new System.Drawing.Point(383, 19);
+            this.lbl_singer2.Location = new System.Drawing.Point(413, 19);
             this.lbl_singer2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer2.Name = "lbl_singer2";
             this.lbl_singer2.Size = new System.Drawing.Size(57, 23);
@@ -2234,7 +2239,7 @@ namespace MusicApp
             this.lbl_songname2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname2.Location = new System.Drawing.Point(105, 19);
+            this.lbl_songname2.Location = new System.Drawing.Point(135, 19);
             this.lbl_songname2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname2.Name = "lbl_songname2";
             this.lbl_songname2.Size = new System.Drawing.Size(184, 23);
@@ -2283,7 +2288,7 @@ namespace MusicApp
             this.panel9.Location = new System.Drawing.Point(1, 379);
             this.panel9.Margin = new System.Windows.Forms.Padding(2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(525, 62);
+            this.panel9.Size = new System.Drawing.Size(585, 62);
             this.panel9.TabIndex = 19;
             // 
             // panel10
@@ -2299,7 +2304,7 @@ namespace MusicApp
             this.panel10.Location = new System.Drawing.Point(1, 62);
             this.panel10.Margin = new System.Windows.Forms.Padding(2);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(525, 62);
+            this.panel10.Size = new System.Drawing.Size(585, 62);
             this.panel10.TabIndex = 20;
             // 
             // label22
@@ -2309,7 +2314,7 @@ namespace MusicApp
             this.label22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label22.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label22.Location = new System.Drawing.Point(467, 17);
+            this.label22.Location = new System.Drawing.Point(527, 17);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(44, 28);
@@ -2324,7 +2329,7 @@ namespace MusicApp
             this.label23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label23.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label23.Location = new System.Drawing.Point(367, 19);
+            this.label23.Location = new System.Drawing.Point(397, 19);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(142, 23);
@@ -2339,7 +2344,7 @@ namespace MusicApp
             this.label24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label24.Location = new System.Drawing.Point(96, 17);
+            this.label24.Location = new System.Drawing.Point(126, 17);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(130, 23);
@@ -2380,7 +2385,7 @@ namespace MusicApp
             this.label19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label19.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label19.Location = new System.Drawing.Point(467, 17);
+            this.label19.Location = new System.Drawing.Point(527, 17);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(44, 28);
@@ -2395,7 +2400,7 @@ namespace MusicApp
             this.lbl_singer7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer7.Location = new System.Drawing.Point(348, 20);
+            this.lbl_singer7.Location = new System.Drawing.Point(378, 20);
             this.lbl_singer7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer7.Name = "lbl_singer7";
             this.lbl_singer7.Size = new System.Drawing.Size(142, 23);
@@ -2410,7 +2415,7 @@ namespace MusicApp
             this.lbl_songname7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname7.Location = new System.Drawing.Point(108, 4);
+            this.lbl_songname7.Location = new System.Drawing.Point(138, 4);
             this.lbl_songname7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname7.Name = "lbl_songname7";
             this.lbl_songname7.Size = new System.Drawing.Size(184, 53);
@@ -2459,7 +2464,7 @@ namespace MusicApp
             this.panel13.Location = new System.Drawing.Point(3, 505);
             this.panel13.Margin = new System.Windows.Forms.Padding(2);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(521, 62);
+            this.panel13.Size = new System.Drawing.Size(583, 62);
             this.panel13.TabIndex = 22;
             // 
             // panel14
@@ -2475,7 +2480,7 @@ namespace MusicApp
             this.panel14.Location = new System.Drawing.Point(1, 62);
             this.panel14.Margin = new System.Windows.Forms.Padding(2);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(521, 62);
+            this.panel14.Size = new System.Drawing.Size(583, 62);
             this.panel14.TabIndex = 20;
             // 
             // label31
@@ -2485,7 +2490,7 @@ namespace MusicApp
             this.label31.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label31.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label31.Location = new System.Drawing.Point(462, 17);
+            this.label31.Location = new System.Drawing.Point(524, 17);
             this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(44, 28);
@@ -2500,7 +2505,7 @@ namespace MusicApp
             this.label32.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label32.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label32.Location = new System.Drawing.Point(364, 19);
+            this.label32.Location = new System.Drawing.Point(395, 19);
             this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(142, 23);
@@ -2515,7 +2520,7 @@ namespace MusicApp
             this.label33.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label33.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label33.Location = new System.Drawing.Point(93, 17);
+            this.label33.Location = new System.Drawing.Point(124, 17);
             this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(130, 23);
@@ -2556,7 +2561,7 @@ namespace MusicApp
             this.label34.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label34.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label34.Location = new System.Drawing.Point(462, 17);
+            this.label34.Location = new System.Drawing.Point(524, 17);
             this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(44, 28);
@@ -2571,7 +2576,7 @@ namespace MusicApp
             this.lbl_singer9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer9.Location = new System.Drawing.Point(345, 19);
+            this.lbl_singer9.Location = new System.Drawing.Point(376, 19);
             this.lbl_singer9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer9.Name = "lbl_singer9";
             this.lbl_singer9.Size = new System.Drawing.Size(112, 23);
@@ -2586,7 +2591,7 @@ namespace MusicApp
             this.lbl_songname9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname9.Location = new System.Drawing.Point(105, 19);
+            this.lbl_songname9.Location = new System.Drawing.Point(136, 19);
             this.lbl_songname9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname9.Name = "lbl_songname9";
             this.lbl_songname9.Size = new System.Drawing.Size(130, 23);
@@ -2635,7 +2640,7 @@ namespace MusicApp
             this.panel11.Location = new System.Drawing.Point(1, 442);
             this.panel11.Margin = new System.Windows.Forms.Padding(2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(524, 62);
+            this.panel11.Size = new System.Drawing.Size(585, 62);
             this.panel11.TabIndex = 21;
             // 
             // panel12
@@ -2651,7 +2656,7 @@ namespace MusicApp
             this.panel12.Location = new System.Drawing.Point(1, 62);
             this.panel12.Margin = new System.Windows.Forms.Padding(2);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(524, 62);
+            this.panel12.Size = new System.Drawing.Size(585, 62);
             this.panel12.TabIndex = 20;
             // 
             // label25
@@ -2661,7 +2666,7 @@ namespace MusicApp
             this.label25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label25.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label25.Location = new System.Drawing.Point(467, 17);
+            this.label25.Location = new System.Drawing.Point(528, 17);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(44, 28);
@@ -2676,7 +2681,7 @@ namespace MusicApp
             this.label26.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label26.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label26.Location = new System.Drawing.Point(367, 19);
+            this.label26.Location = new System.Drawing.Point(397, 19);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(142, 23);
@@ -2691,7 +2696,7 @@ namespace MusicApp
             this.label27.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label27.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label27.Location = new System.Drawing.Point(97, 17);
+            this.label27.Location = new System.Drawing.Point(127, 17);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(130, 23);
@@ -2732,7 +2737,7 @@ namespace MusicApp
             this.label28.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label28.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label28.Location = new System.Drawing.Point(467, 17);
+            this.label28.Location = new System.Drawing.Point(528, 17);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(44, 28);
@@ -2747,7 +2752,7 @@ namespace MusicApp
             this.lbl_singer8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer8.Location = new System.Drawing.Point(383, 19);
+            this.lbl_singer8.Location = new System.Drawing.Point(413, 19);
             this.lbl_singer8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer8.Name = "lbl_singer8";
             this.lbl_singer8.Size = new System.Drawing.Size(142, 23);
@@ -2762,7 +2767,7 @@ namespace MusicApp
             this.lbl_songname8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname8.Location = new System.Drawing.Point(109, 19);
+            this.lbl_songname8.Location = new System.Drawing.Point(139, 19);
             this.lbl_songname8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname8.Name = "lbl_songname8";
             this.lbl_songname8.Size = new System.Drawing.Size(184, 23);
@@ -2810,7 +2815,7 @@ namespace MusicApp
             this.panel2.Location = new System.Drawing.Point(1, 2);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(524, 62);
+            this.panel2.Size = new System.Drawing.Size(583, 62);
             this.panel2.TabIndex = 4;
             // 
             // label4
@@ -2820,7 +2825,7 @@ namespace MusicApp
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.label4.Location = new System.Drawing.Point(464, 17);
+            this.label4.Location = new System.Drawing.Point(523, 17);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 28);
@@ -2835,7 +2840,7 @@ namespace MusicApp
             this.lbl_singer1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_singer1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_singer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_singer1.Location = new System.Drawing.Point(385, 17);
+            this.lbl_singer1.Location = new System.Drawing.Point(414, 17);
             this.lbl_singer1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_singer1.Name = "lbl_singer1";
             this.lbl_singer1.Size = new System.Drawing.Size(57, 23);
@@ -2850,7 +2855,7 @@ namespace MusicApp
             this.lbl_songname1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_songname1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_songname1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(48)))), ((int)(((byte)(138)))));
-            this.lbl_songname1.Location = new System.Drawing.Point(109, 17);
+            this.lbl_songname1.Location = new System.Drawing.Point(138, 17);
             this.lbl_songname1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_songname1.Name = "lbl_songname1";
             this.lbl_songname1.Size = new System.Drawing.Size(238, 23);
@@ -3067,11 +3072,10 @@ namespace MusicApp
             // 
             // tab_karaoke
             // 
-            this.tab_karaoke.AutoScroll = true;
             this.tab_karaoke.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.tab_karaoke.Controls.Add(this.panel_screen);
-            this.tab_karaoke.Controls.Add(this.panel17);
             this.tab_karaoke.Controls.Add(this.panel_recordvoice);
+            this.tab_karaoke.Controls.Add(this.panel17);
+            this.tab_karaoke.Controls.Add(this.check_karaoke);
             this.tab_karaoke.Location = new System.Drawing.Point(4, 4);
             this.tab_karaoke.Margin = new System.Windows.Forms.Padding(2);
             this.tab_karaoke.Name = "tab_karaoke";
@@ -3080,24 +3084,44 @@ namespace MusicApp
             this.tab_karaoke.TabIndex = 2;
             this.tab_karaoke.Text = "Karaoke";
             // 
-            // panel_screen
-            // 
-            this.panel_screen.BackColor = System.Drawing.Color.Silver;
-            this.panel_screen.Location = new System.Drawing.Point(0, 3);
-            this.panel_screen.Name = "panel_screen";
-            this.panel_screen.Size = new System.Drawing.Size(574, 375);
-            this.panel_screen.TabIndex = 1;
-            this.panel_screen.Visible = false;
-            // 
             // panel17
             // 
-            this.panel17.BackColor = System.Drawing.Color.Black;
+            this.panel17.BackColor = System.Drawing.Color.Maroon;
+            this.panel17.Controls.Add(this.picb_karaokeplay2);
+            this.panel17.Controls.Add(this.picb_karaokeplay1);
             this.panel17.Location = new System.Drawing.Point(577, 2);
             this.panel17.Margin = new System.Windows.Forms.Padding(2);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(324, 267);
+            this.panel17.Size = new System.Drawing.Size(345, 267);
             this.panel17.TabIndex = 0;
-            this.panel17.Visible = false;
+            // 
+            // picb_karaokeplay2
+            // 
+            this.picb_karaokeplay2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.picb_karaokeplay2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picb_karaokeplay2.Image = global::MusicApp.Properties.Resources.play;
+            this.picb_karaokeplay2.Location = new System.Drawing.Point(95, 72);
+            this.picb_karaokeplay2.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_karaokeplay2.Name = "picb_karaokeplay2";
+            this.picb_karaokeplay2.Size = new System.Drawing.Size(31, 33);
+            this.picb_karaokeplay2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picb_karaokeplay2.TabIndex = 5;
+            this.picb_karaokeplay2.TabStop = false;
+            this.picb_karaokeplay2.Click += new System.EventHandler(this.picb_karaokeplay2_Click);
+            // 
+            // picb_karaokeplay1
+            // 
+            this.picb_karaokeplay1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.picb_karaokeplay1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picb_karaokeplay1.Image = global::MusicApp.Properties.Resources.play;
+            this.picb_karaokeplay1.Location = new System.Drawing.Point(95, 24);
+            this.picb_karaokeplay1.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_karaokeplay1.Name = "picb_karaokeplay1";
+            this.picb_karaokeplay1.Size = new System.Drawing.Size(31, 33);
+            this.picb_karaokeplay1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picb_karaokeplay1.TabIndex = 4;
+            this.picb_karaokeplay1.TabStop = false;
+            this.picb_karaokeplay1.Click += new System.EventHandler(this.picb_karaokeplay1_Click);
             // 
             // panel_recordvoice
             // 
@@ -3107,15 +3131,14 @@ namespace MusicApp
             this.panel_recordvoice.Location = new System.Drawing.Point(577, 269);
             this.panel_recordvoice.Margin = new System.Windows.Forms.Padding(2);
             this.panel_recordvoice.Name = "panel_recordvoice";
-            this.panel_recordvoice.Size = new System.Drawing.Size(324, 105);
+            this.panel_recordvoice.Size = new System.Drawing.Size(341, 111);
             this.panel_recordvoice.TabIndex = 0;
-            this.panel_recordvoice.Visible = false;
             // 
             // picb_recordvoi_unmute
             // 
             this.picb_recordvoi_unmute.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picb_recordvoi_unmute.Image = global::MusicApp.Properties.Resources.voice;
-            this.picb_recordvoi_unmute.Location = new System.Drawing.Point(141, 26);
+            this.picb_recordvoi_unmute.Location = new System.Drawing.Point(141, 25);
             this.picb_recordvoi_unmute.Margin = new System.Windows.Forms.Padding(2);
             this.picb_recordvoi_unmute.Name = "picb_recordvoi_unmute";
             this.picb_recordvoi_unmute.Size = new System.Drawing.Size(78, 81);
@@ -4111,6 +4134,18 @@ namespace MusicApp
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // check_karaoke
+            // 
+            this.check_karaoke.AutoSize = true;
+            this.check_karaoke.Enabled = false;
+            this.check_karaoke.Location = new System.Drawing.Point(452, 294);
+            this.check_karaoke.Name = "check_karaoke";
+            this.check_karaoke.Size = new System.Drawing.Size(65, 17);
+            this.check_karaoke.TabIndex = 6;
+            this.check_karaoke.Text = "karaoke";
+            this.check_karaoke.UseVisualStyleBackColor = true;
+            this.check_karaoke.Visible = false;
+            // 
             // mainmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4215,6 +4250,10 @@ namespace MusicApp
             ((System.ComponentModel.ISupportInitialize)(this.picb_arcane)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_30)).EndInit();
             this.tab_karaoke.ResumeLayout(false);
+            this.tab_karaoke.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picb_karaokeplay2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_karaokeplay1)).EndInit();
             this.panel_recordvoice.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picb_recordvoi_unmute)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_recordvoi_mute)).EndInit();
@@ -4484,7 +4523,9 @@ namespace MusicApp
         private System.Windows.Forms.Panel panel_recordvoice;
         private System.Windows.Forms.PictureBox picb_recordvoi_mute;
         private System.Windows.Forms.PictureBox picb_recordvoi_unmute;
-        private System.Windows.Forms.Panel panel_screen;
+        private System.Windows.Forms.PictureBox picb_karaokeplay1;
+        private System.Windows.Forms.PictureBox picb_karaokeplay2;
+        private System.Windows.Forms.CheckBox check_karaoke;
     }
 }
 

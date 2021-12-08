@@ -20,8 +20,8 @@ namespace MusicApp
         WaveIn wave;
         WaveFileWriter writer;
         string outputFileName;
-
         DataTable dt = new DataTable();
+        karaoke k = new karaoke();
         public mainmenu()
         {
             InitializeComponent();
@@ -50,26 +50,43 @@ namespace MusicApp
         {
             bunifuVSlider1.Value = 100;
             tab_items.SetPage(0);
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            if(check_karaoke.Checked== true)
+            {
+                ((karaoke)f).pbStop_Click(sender, e);
+            }
+
         }
         private void btn_albums_Click(object sender, EventArgs e)
         {
             bunifuVSlider1.Value = 68;
             tab_items.SetPage(1);
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            if (check_karaoke.Checked == true)
+            {
+                ((karaoke)f).pbStop_Click(sender, e);
+            }
         }
         private void btn_karaoke_Click(object sender, EventArgs e)
         {
             bunifuVSlider1.Value = 32;
             tab_items.SetPage(2);
 
-            karaoke k = new karaoke();
             k.TopLevel = false;
+            k.Dock = DockStyle.Left;
             tab_karaoke.Controls.Add(k);
-            k.Show();  
+            k.Show();
+            check_karaoke.Checked = true;
         }
         private void btn_settings_Click(object sender, EventArgs e)
         {
             bunifuVSlider1.Value = 0;
             tab_items.SetPage(3);
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            if (check_karaoke.Checked == true)
+            {
+                ((karaoke)f).pbStop_Click(sender, e);
+            }
         }
 
         private void picb_Close_Click(object sender, EventArgs e)
@@ -242,6 +259,8 @@ namespace MusicApp
 
         private void slide_volume_Scroll(object sender, Utilities.BunifuSlider.BunifuHScrollBar.ScrollEventArgs e)
         {
+            //System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            //((karaoke)f).media.settings.volume = slider_timeplaymusic.Value;
             player.settings.volume = slide_volume.Value;
         }
 
@@ -728,6 +747,20 @@ namespace MusicApp
             };
 
             Process.Start(processStartInfo);
+        }
+
+        private void picb_karaokeplay1_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            ((karaoke)f).pbStop_Click(sender, e);
+            ((karaoke)f).picb_playdemo_Click(sender, e);
+        }
+
+        private void picb_karaokeplay2_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            ((karaoke)f).pbStop_Click(sender, e);
+            ((karaoke)f).picb_playdemo2_Click(sender, e);
         }
 
         private void picb_addsongs_Click(object sender, EventArgs e)

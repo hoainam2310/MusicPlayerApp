@@ -64,6 +64,7 @@
             this.pbQuickImport = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.picb_playdemo = new System.Windows.Forms.PictureBox();
+            this.picb_playdemo2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbPlaylist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStatus1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStatus2)).BeginInit();
@@ -87,6 +88,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbUp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbQuickImport)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo2)).BeginInit();
             this.SuspendLayout();
             // 
             // txtThemBH
@@ -303,7 +305,7 @@
             // 
             this.pbManHinh.Location = new System.Drawing.Point(7, 24);
             this.pbManHinh.Name = "pbManHinh";
-            this.pbManHinh.Size = new System.Drawing.Size(539, 383);
+            this.pbManHinh.Size = new System.Drawing.Size(577, 383);
             this.pbManHinh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbManHinh.TabIndex = 17;
             this.pbManHinh.TabStop = false;
@@ -453,7 +455,7 @@
             // picb_playdemo
             // 
             this.picb_playdemo.Image = global::MusicApp.Properties.Resources.play;
-            this.picb_playdemo.Location = new System.Drawing.Point(552, 233);
+            this.picb_playdemo.Location = new System.Drawing.Point(521, 639);
             this.picb_playdemo.Name = "picb_playdemo";
             this.picb_playdemo.Size = new System.Drawing.Size(19, 23);
             this.picb_playdemo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -461,12 +463,24 @@
             this.picb_playdemo.TabStop = false;
             this.picb_playdemo.Click += new System.EventHandler(this.picb_playdemo_Click);
             // 
+            // picb_playdemo2
+            // 
+            this.picb_playdemo2.Image = global::MusicApp.Properties.Resources.play;
+            this.picb_playdemo2.Location = new System.Drawing.Point(565, 641);
+            this.picb_playdemo2.Name = "picb_playdemo2";
+            this.picb_playdemo2.Size = new System.Drawing.Size(19, 23);
+            this.picb_playdemo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picb_playdemo2.TabIndex = 32;
+            this.picb_playdemo2.TabStop = false;
+            this.picb_playdemo2.Click += new System.EventHandler(this.picb_playdemo2_Click);
+            // 
             // karaoke
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1137, 678);
+            this.Controls.Add(this.picb_playdemo2);
             this.Controls.Add(this.picb_playdemo);
             this.Controls.Add(this.pbQuickImport);
             this.Controls.Add(this.pbUp);
@@ -531,6 +545,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbUp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbQuickImport)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -548,7 +563,6 @@
         private System.Windows.Forms.PictureBox pbSetting;
         private System.Windows.Forms.PictureBox pbPlay;
         private System.Windows.Forms.PictureBox pbNext;
-        private System.Windows.Forms.PictureBox pbStop;
         private System.Windows.Forms.PictureBox pbPrevious;
         private System.Windows.Forms.PictureBox pbMute;
         private System.Windows.Forms.PictureBox pbClosePlalist;
@@ -557,7 +571,6 @@
         private System.Windows.Forms.Label lbHienTai;
         private System.Windows.Forms.Label lbTGConLai;
         private System.Windows.Forms.PictureBox pbManHinh;
-        private AxWMPLib.AxWindowsMediaPlayer media;
         private System.Windows.Forms.ListBox lbTimKiem;
         private System.Windows.Forms.Timer tmChinh;
         private System.Windows.Forms.Timer tmPhu;
@@ -571,7 +584,10 @@
         private System.Windows.Forms.PictureBox pbUp;
         private System.Windows.Forms.PictureBox pbQuickImport;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.PictureBox picb_playdemo;
+        public System.Windows.Forms.PictureBox picb_playdemo;
+        public AxWMPLib.AxWindowsMediaPlayer media;
+        public System.Windows.Forms.PictureBox picb_playdemo2;
+        public System.Windows.Forms.PictureBox pbStop;
     }
 }
 
