@@ -65,6 +65,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.picb_playdemo = new System.Windows.Forms.PictureBox();
             this.picb_playdemo2 = new System.Windows.Forms.PictureBox();
+            this.picb_playdemo3 = new System.Windows.Forms.PictureBox();
+            this.picb_playdemo4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbPlaylist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStatus1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStatus2)).BeginInit();
@@ -89,6 +91,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbQuickImport)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo4)).BeginInit();
             this.SuspendLayout();
             // 
             // txtThemBH
@@ -474,12 +478,36 @@
             this.picb_playdemo2.TabStop = false;
             this.picb_playdemo2.Click += new System.EventHandler(this.picb_playdemo2_Click);
             // 
+            // picb_playdemo3
+            // 
+            this.picb_playdemo3.Image = global::MusicApp.Properties.Resources.play;
+            this.picb_playdemo3.Location = new System.Drawing.Point(611, 638);
+            this.picb_playdemo3.Name = "picb_playdemo3";
+            this.picb_playdemo3.Size = new System.Drawing.Size(19, 23);
+            this.picb_playdemo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picb_playdemo3.TabIndex = 33;
+            this.picb_playdemo3.TabStop = false;
+            this.picb_playdemo3.Click += new System.EventHandler(this.picb_playdemo3_Click);
+            // 
+            // picb_playdemo4
+            // 
+            this.picb_playdemo4.Image = global::MusicApp.Properties.Resources.play;
+            this.picb_playdemo4.Location = new System.Drawing.Point(657, 641);
+            this.picb_playdemo4.Name = "picb_playdemo4";
+            this.picb_playdemo4.Size = new System.Drawing.Size(19, 23);
+            this.picb_playdemo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picb_playdemo4.TabIndex = 34;
+            this.picb_playdemo4.TabStop = false;
+            this.picb_playdemo4.Click += new System.EventHandler(this.picb_playdemo4_Click);
+            // 
             // karaoke
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1137, 678);
+            this.Controls.Add(this.picb_playdemo4);
+            this.Controls.Add(this.picb_playdemo3);
             this.Controls.Add(this.picb_playdemo2);
             this.Controls.Add(this.picb_playdemo);
             this.Controls.Add(this.pbQuickImport);
@@ -546,6 +574,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbQuickImport)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_playdemo4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -588,6 +618,8 @@
         public AxWMPLib.AxWindowsMediaPlayer media;
         public System.Windows.Forms.PictureBox picb_playdemo2;
         public System.Windows.Forms.PictureBox pbStop;
+        public System.Windows.Forms.PictureBox picb_playdemo3;
+        public System.Windows.Forms.PictureBox picb_playdemo4;
     }
 }
 

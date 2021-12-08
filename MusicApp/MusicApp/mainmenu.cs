@@ -827,6 +827,20 @@ namespace MusicApp
             btn_settings_Click(sender, e);
         }
 
+        private void picb_karaokeplay3_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            ((karaoke)f).pbStop_Click(sender, e);
+            ((karaoke)f).picb_playdemo3_Click(sender, e);
+        }
+
+        private void picb_karaokeplay4_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            ((karaoke)f).pbStop_Click(sender, e);
+            ((karaoke)f).picb_playdemo4_Click(sender, e);
+        }
+
         private void picb_karaokeplay2_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];

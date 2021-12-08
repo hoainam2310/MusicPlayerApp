@@ -1113,8 +1113,8 @@ namespace MusicPlayer
 
         public void picb_playdemo_Click(object sender, EventArgs e)
         {
-            strDuongDanMp3 = (string)@"Demo karaoke\chua bao gio.mp3";
-            strDuongDanXml = (string)@"Demo karaoke\chua bao gio.xml";
+            strDuongDanMp3 = (string)@"Demo karaoke\Another One Bites The Dust.mp3";
+            strDuongDanXml = (string)@"Demo karaoke\Another One Bites The Dust.xml";
             XuLyXML(strDuongDanXml, ref strLoi, ref strThoiGian);
             arrCauHat = strLoi.Split('/');
             BaiHat = new string[arrCauHat.Length][];
@@ -1138,6 +1138,52 @@ namespace MusicPlayer
         {
             strDuongDanMp3 = (string)@"Demo karaoke\chua bao gio.mp3";
             strDuongDanXml = (string)@"Demo karaoke\chua bao gio.xml";
+            XuLyXML(strDuongDanXml, ref strLoi, ref strThoiGian);
+            arrCauHat = strLoi.Split('/');
+            BaiHat = new string[arrCauHat.Length][];
+            for (int i = 0; i < arrCauHat.Length; i++)
+                BaiHat[i] = arrCauHat[i].Split(' ');
+
+            arrThoiGianCauHat = strThoiGian.Split('/');
+            ThoiGian = new string[arrThoiGianCauHat.Length][];
+            for (int i = 0; i < arrThoiGianCauHat.Length; i++)
+                ThoiGian[i] = arrThoiGianCauHat[i].Split(',');
+            DuocVeChu = true;
+            NhacDaChoi = true;
+            media.URL = @strDuongDanMp3;
+            media.Ctlcontrols.play();
+            pbManHinh.Invalidate();
+            tmChinh.Start();
+            tmThoiGian.Start();
+        }
+
+        public void picb_playdemo3_Click(object sender, EventArgs e)
+        {
+            strDuongDanMp3 = (string)@"Demo karaoke\Through the fire.mp3";
+            strDuongDanXml = (string)@"Demo karaoke\Through the fire.xml";
+            XuLyXML(strDuongDanXml, ref strLoi, ref strThoiGian);
+            arrCauHat = strLoi.Split('/');
+            BaiHat = new string[arrCauHat.Length][];
+            for (int i = 0; i < arrCauHat.Length; i++)
+                BaiHat[i] = arrCauHat[i].Split(' ');
+
+            arrThoiGianCauHat = strThoiGian.Split('/');
+            ThoiGian = new string[arrThoiGianCauHat.Length][];
+            for (int i = 0; i < arrThoiGianCauHat.Length; i++)
+                ThoiGian[i] = arrThoiGianCauHat[i].Split(',');
+            DuocVeChu = true;
+            NhacDaChoi = true;
+            media.URL = @strDuongDanMp3;
+            media.Ctlcontrols.play();
+            pbManHinh.Invalidate();
+            tmChinh.Start();
+            tmThoiGian.Start();
+        }
+
+        public void picb_playdemo4_Click(object sender, EventArgs e)
+        {
+            strDuongDanMp3 = (string)@"Demo karaoke\Lau dai tinh ai.mp3";
+            strDuongDanXml = (string)@"Demo karaoke\Lau dai tinh ai.xml";
             XuLyXML(strDuongDanXml, ref strLoi, ref strThoiGian);
             arrCauHat = strLoi.Split('/');
             BaiHat = new string[arrCauHat.Length][];
