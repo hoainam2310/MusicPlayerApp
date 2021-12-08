@@ -17,6 +17,11 @@ namespace MusicApp
 {
     public partial class mainmenu : Form
     {
+        System.Timers.Timer t;
+        int m, s;
+
+        bool checksaverecord = false;
+
         WaveIn wave;
         WaveFileWriter writer;
         string outputFileName;
@@ -714,39 +719,60 @@ namespace MusicApp
         }
         private void picb_recordvoice_mute_Click(object sender, EventArgs e)
         {
+            DialogResult result = MessageBox.Show("Do you want to save the recording file?", "NOTIFICATION", MessageBoxButtons.YesNoCancel);
+
+            if(result == System.Windows.Forms.DialogResult.Yes)
+            {
+                var dialog = new SaveFileDialog();
+                dialog.Filter = "Wave files | *.wav";
+
+                if (dialog.ShowDialog() != DialogResult.OK)
+                    return;
+
+                outputFileName = dialog.FileName;
+
+                wave = new WaveIn();
+                wave.WaveFormat = new WaveFormat(44100, 1);
+                wave.DataAvailable += Wave_DataAvailable;
+                wave.RecordingStopped += Wave_RecordingStopped;
+                writer = new WaveFileWriter(outputFileName, wave.WaveFormat);
+                wave.StartRecording();
+
+                checksaverecord = true;
+            }
+            if (result == System.Windows.Forms.DialogResult.No)
+                checksaverecord = false;
+
+            MessageBox.Show("Start recording", "NOTIFICATION");
             picb_recordvoi_unmute.Visible = true;
-            var dialog = new SaveFileDialog();
-            dialog.Filter = "Wave files | *.wav";
-
-            if (dialog.ShowDialog() != DialogResult.OK)
-                return;
-
-            outputFileName = dialog.FileName;
-
-            wave = new WaveIn();
-            wave.WaveFormat = new WaveFormat(44100, 1);
-            wave.DataAvailable += Wave_DataAvailable;
-            wave.RecordingStopped += Wave_RecordingStopped;
-            writer = new WaveFileWriter(outputFileName, wave.WaveFormat);
-            wave.StartRecording();
+            
+            t.Start();
         }
 
         private void picb_recordvoi_unmute_Click(object sender, EventArgs e)
         {
+            if(checksaverecord == true)
+            {
+                wave.StopRecording();
+
+                if (outputFileName == null)
+                    return;
+
+                var processStartInfo = new ProcessStartInfo
+                {
+                    FileName = Path.GetDirectoryName(outputFileName),
+                    UseShellExecute = true
+                };
+
+                Process.Start(processStartInfo);
+            }
+            t.Stop();
+            MessageBox.Show("Stop recording", "NOTIFICATION");
+
             picb_recordvoi_unmute.Visible = false;
 
-            wave.StopRecording();
-
-            if (outputFileName == null)
-                return;
-
-            var processStartInfo = new ProcessStartInfo
-            {
-                FileName = Path.GetDirectoryName(outputFileName),
-                UseShellExecute = true
-            };
-
-            Process.Start(processStartInfo);
+        
+            txb_timerecord.Text = "00:00";  
         }
 
         private void picb_karaokeplay1_Click(object sender, EventArgs e)
@@ -754,6 +780,51 @@ namespace MusicApp
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo_Click(sender, e);
+        }
+
+        private void mainmenu_Load(object sender, EventArgs e)
+        {
+            t = new System.Timers.Timer();
+            t.Interval = 1000; //1s
+            t.Elapsed += OnTimeEvent;
+        }
+
+        private void OnTimeEvent(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            Invoke(new Action(() =>
+            {
+                s += 1;
+                if(s == 60)
+                {
+                    s = 0;
+                    m += 1;
+                }    
+                if(m == 60)
+                {
+                    m = 0;
+                }
+                txb_timerecord.Text = string.Format("{0}:{1}", m.ToString().PadLeft(2, '0'), s.ToString().PadLeft(2, '0'));
+            }));
+        }
+
+        private void picb_songtab_Click(object sender, EventArgs e)
+        {
+            btn_songs_Click(sender, e);
+        }
+
+        private void picb_albumtab_Click(object sender, EventArgs e)
+        {
+            btn_albums_Click(sender, e);
+        }
+
+        private void picb_karaoketab_Click(object sender, EventArgs e)
+        {
+            btn_karaoke_Click(sender, e);
+        }
+
+        private void picb_settingtab_Click(object sender, EventArgs e)
+        {
+            btn_settings_Click(sender, e);
         }
 
         private void picb_karaokeplay2_Click(object sender, EventArgs e)
