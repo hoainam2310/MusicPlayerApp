@@ -56,24 +56,28 @@ namespace MusicApp
             bunifuVSlider1.Value = 100;
             tab_items.SetPage(0);
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
-            if(check_karaoke.Checked== true)
+            if(check_karaoke.Checked == true)
             {
                 ((karaoke)f).pbStop_Click(sender, e);
+                check_karaoke.Checked = false;
             }
 
         }
         private void btn_albums_Click(object sender, EventArgs e)
         {
+            check_karaoke.Checked = false;
             bunifuVSlider1.Value = 68;
             tab_items.SetPage(1);
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
             if (check_karaoke.Checked == true)
             {
                 ((karaoke)f).pbStop_Click(sender, e);
+                check_karaoke.Checked = false;
             }
         }
         private void btn_karaoke_Click(object sender, EventArgs e)
         {
+            player.Ctlcontrols.stop();
             bunifuVSlider1.Value = 32;
             tab_items.SetPage(2);
 
@@ -85,12 +89,14 @@ namespace MusicApp
         }
         private void btn_settings_Click(object sender, EventArgs e)
         {
+            check_karaoke.Checked = false;
             bunifuVSlider1.Value = 0;
             tab_items.SetPage(3);
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
             if (check_karaoke.Checked == true)
             {
                 ((karaoke)f).pbStop_Click(sender, e);
+                check_karaoke.Checked = false;
             }
         }
 
@@ -126,14 +132,31 @@ namespace MusicApp
 
         private void pb_stop_Click(object sender, EventArgs e)
         {
-            player.Ctlcontrols.pause();
-            picb_Visualize.Visible = false;
+            if(check_karaoke.Checked==true)
+            {
+                System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                ((karaoke)f).media.Ctlcontrols.pause();
+                picb_Visualize.Visible = false;
+            }
+            else
+            {
+                player.Ctlcontrols.pause();
+                picb_Visualize.Visible = false;
+            }
         }
 
         private void pb_play_Click(object sender, EventArgs e)
         {
-            player.Ctlcontrols.play();
-            picb_Visualize.Visible = true;
+            if(check_karaoke.Checked==true)
+            {
+                System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                ((karaoke)f).media.Ctlcontrols.play();
+            }
+            else
+            {
+                player.Ctlcontrols.play();
+                picb_Visualize.Visible = true;
+            }
         }
 
         private void pb_next_Click(object sender, EventArgs e)
@@ -242,36 +265,77 @@ namespace MusicApp
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if(player.playState==WMPLib.WMPPlayState.wmppsPlaying)
+            if(check_karaoke.Checked==true)
             {
-                slider_timeplaymusic.Maximum = (int)player.Ctlcontrols.currentItem.duration;
-                slider_timeplaymusic.Value = (int)player.Ctlcontrols.currentPosition;
-            }
-            try
-            {
-                lbl_timeplaymusic.Text = player.Ctlcontrols.currentPositionString;
-                lbl_totaltimesong.Text = player.Ctlcontrols.currentItem.durationString.ToString();
-                if (lbl_timeplaymusic.Text == lbl_totaltimesong.Text)
+                System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                ((karaoke)f).media.settings.volume = slide_volume.Value;
+                if (((karaoke)f).media.playState == WMPLib.WMPPlayState.wmppsPlaying)
                 {
-                    pb_next_Click(sender, e);
+                    slider_timeplaymusic.Maximum = (int)((karaoke)f).media.Ctlcontrols.currentItem.duration;
+                    slider_timeplaymusic.Value = (int)((karaoke)f).media.Ctlcontrols.currentPosition;
+                }
+                try
+                {
+                    lbl_timeplaymusic.Text = ((karaoke)f).media.Ctlcontrols.currentPositionString;
+                    lbl_totaltimesong.Text = ((karaoke)f).media.Ctlcontrols.currentItem.durationString.ToString();
+                    if (lbl_timeplaymusic.Text == lbl_totaltimesong.Text)
+                    {
+                        pb_next_Click(sender, e);
+                    }
+                }
+                catch
+                {
+
                 }
             }
-            catch
+            else
             {
+                if (player.playState == WMPLib.WMPPlayState.wmppsPlaying)
+                {
+                    slider_timeplaymusic.Maximum = (int)player.Ctlcontrols.currentItem.duration;
+                    slider_timeplaymusic.Value = (int)player.Ctlcontrols.currentPosition;
+                }
+                try
+                {
+                    lbl_timeplaymusic.Text = player.Ctlcontrols.currentPositionString;
+                    lbl_totaltimesong.Text = player.Ctlcontrols.currentItem.durationString.ToString();
+                    if (lbl_timeplaymusic.Text == lbl_totaltimesong.Text)
+                    {
+                        pb_next_Click(sender, e);
+                    }
+                }
+                catch
+                {
 
+                }
             }
+            
         }
 
         private void slide_volume_Scroll(object sender, Utilities.BunifuSlider.BunifuHScrollBar.ScrollEventArgs e)
         {
-            //System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
-            //((karaoke)f).media.settings.volume = slider_timeplaymusic.Value;
-            player.settings.volume = slide_volume.Value;
+            if(check_karaoke.Checked== true)
+            {
+                System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                ((karaoke)f).media.settings.volume = slide_volume.Value;
+            }
+            else
+            {
+                player.settings.volume = slide_volume.Value;
+            }
         }
 
         private void slider_timeplaymusic_Scroll(object sender, Utilities.BunifuSlider.BunifuHScrollBar.ScrollEventArgs e)
         {
-            player.Ctlcontrols.currentPosition = slider_timeplaymusic.Value;
+            if (check_karaoke.Checked == true)
+            {
+                System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                ((karaoke)f).media.Ctlcontrols.currentPosition = slider_timeplaymusic.Value;
+            }
+            else
+            {
+                player.Ctlcontrols.currentPosition = slider_timeplaymusic.Value;
+            }
         }
 
         private void lbl_addsongs_Click(object sender, EventArgs e)
@@ -780,6 +844,7 @@ namespace MusicApp
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo_Click(sender, e);
+            lbl_kposition.Text = "1";
         }
 
         private void mainmenu_Load(object sender, EventArgs e)
@@ -832,6 +897,8 @@ namespace MusicApp
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo3_Click(sender, e);
+            lbl_kposition.Text = "3";
+
         }
 
         private void picb_karaokeplay4_Click(object sender, EventArgs e)
@@ -839,6 +906,56 @@ namespace MusicApp
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo4_Click(sender, e);
+            lbl_kposition.Text = "4";
+        }
+
+        private void picb_addkaraoke_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Multiselect = true;
+            ofd.Filter = "Song Files|*.mp3;*.flac;*.wav;...";
+            if(ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                files = ofd.FileNames;
+                paths = ofd.FileNames;
+                for(int x = 0; x < files.Length;x++)
+                {
+                    listb_karaoketracks.Items.Add(files[x]);
+                }
+                if (listb_karaoketracks.Items.Count == 1)
+                {
+                    panel_karaoke6.Visible = true;
+                }
+                else if (listb_karaoketracks.Items.Count == 2)
+                {
+                    panel_karaoke6.Visible = true;
+                    panel_karaoke7.Visible = true;
+                }
+            }
+        }
+
+        private void picb_karaokeplay5_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            ((karaoke)f).pbStop_Click(sender, e);
+            ((karaoke)f).picb_playdemo5_Click(sender, e);
+            lbl_kposition.Text = "5";
+        }
+
+        private void picb_karaokeplay6_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            ((karaoke)f).pbStop_Click(sender, e);
+            ((karaoke)f).picb_playdemo2_Click(sender, e);
+            lbl_kposition.Text = "6";
+        }
+
+        private void picb_karaokeplay7_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            ((karaoke)f).pbStop_Click(sender, e);
+            ((karaoke)f).picb_playdemo7_Click(sender, e);
+            lbl_kposition.Text = "7";
         }
 
         private void picb_karaokeplay2_Click(object sender, EventArgs e)
@@ -846,6 +963,7 @@ namespace MusicApp
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo2_Click(sender, e);
+            lbl_kposition.Text = "2";
         }
 
         private void picb_addsongs_Click(object sender, EventArgs e)
