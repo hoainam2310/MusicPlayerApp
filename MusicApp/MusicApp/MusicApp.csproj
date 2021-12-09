@@ -117,6 +117,12 @@
       <DependentUpon>animated_rain_loading.cs</DependentUpon>
     </Compile>
     <Compile Include="Cl_LayDuLieu.cs" />
+    <Compile Include="FlappyPlanet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlappyPlanet.Designer.cs">
+      <DependentUpon>FlappyPlanet.cs</DependentUpon>
+    </Compile>
     <Compile Include="forgotpw.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +157,9 @@
     </Compile>
     <EmbeddedResource Include="animated_rain_loading.resx">
       <DependentUpon>animated_rain_loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlappyPlanet.resx">
+      <DependentUpon>FlappyPlanet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forgotpw.resx">
       <DependentUpon>forgotpw.cs</DependentUpon>
@@ -356,6 +365,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\voice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_237771042-stock-illustration-board-planet-pluto-cartoon-form-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\let%27s try harder!.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\let%27s try harder! %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game-controller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pipedown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planet-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

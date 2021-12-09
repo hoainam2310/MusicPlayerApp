@@ -66,7 +66,7 @@ namespace MusicApp
         private void btn_albums_Click(object sender, EventArgs e)
         {
             check_karaoke.Checked = false;
-            bunifuVSlider1.Value = 68;
+            bunifuVSlider1.Value = 75;
             tab_items.SetPage(1);
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
             if (check_karaoke.Checked == true)
@@ -78,7 +78,7 @@ namespace MusicApp
         private void btn_karaoke_Click(object sender, EventArgs e)
         {
             player.Ctlcontrols.stop();
-            bunifuVSlider1.Value = 32;
+            bunifuVSlider1.Value = 50;
             tab_items.SetPage(2);
 
             k.TopLevel = false;
@@ -90,7 +90,7 @@ namespace MusicApp
         private void btn_settings_Click(object sender, EventArgs e)
         {
             check_karaoke.Checked = false;
-            bunifuVSlider1.Value = 0;
+            bunifuVSlider1.Value = 25;
             tab_items.SetPage(3);
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
             if (check_karaoke.Checked == true)
@@ -956,6 +956,37 @@ namespace MusicApp
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo7_Click(sender, e);
             lbl_kposition.Text = "7";
+        }
+
+        private void lb_addkaraoke_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_games_Click(object sender, EventArgs e)
+        {
+            check_karaoke.Checked = false;
+            bunifuVSlider1.Value = 0;
+            tab_items.SetPage(5);
+            System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+            if (check_karaoke.Checked == true)
+            {
+                ((karaoke)f).pbStop_Click(sender, e);
+                check_karaoke.Checked = false;
+            }
+
+            FlappyPlanet game1 = new FlappyPlanet();
+            game1.TopLevel = false;
+            //game1.Dock = DockStyle.Left;
+            game1.Anchor = AnchorStyles.Left;
+            game1.Anchor = AnchorStyles.Bottom;
+            tab_games.Controls.Add(game1);
+            game1.Show();
+        }
+
+        private void picb_gametab_Click(object sender, EventArgs e)
+        {
+            btn_games_Click(sender, e);
         }
 
         private void picb_karaokeplay2_Click(object sender, EventArgs e)
