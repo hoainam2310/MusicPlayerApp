@@ -60,12 +60,12 @@ namespace MusicApp
             {
                 ((karaoke)f).pbStop_Click(sender, e);
                 check_karaoke.Checked = false;
+                picb_karaokescreen.Visible = true;
             }
 
         }
         private void btn_albums_Click(object sender, EventArgs e)
         {
-            check_karaoke.Checked = false;
             bunifuVSlider1.Value = 75;
             tab_items.SetPage(1);
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
@@ -73,6 +73,7 @@ namespace MusicApp
             {
                 ((karaoke)f).pbStop_Click(sender, e);
                 check_karaoke.Checked = false;
+                picb_karaokescreen.Visible = true;
             }
         }
         private void btn_karaoke_Click(object sender, EventArgs e)
@@ -89,7 +90,6 @@ namespace MusicApp
         }
         private void btn_settings_Click(object sender, EventArgs e)
         {
-            check_karaoke.Checked = false;
             bunifuVSlider1.Value = 25;
             tab_items.SetPage(3);
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
@@ -97,6 +97,7 @@ namespace MusicApp
             {
                 ((karaoke)f).pbStop_Click(sender, e);
                 check_karaoke.Checked = false;
+                picb_karaokescreen.Visible = true;
             }
         }
 
@@ -161,106 +162,179 @@ namespace MusicApp
 
         private void pb_next_Click(object sender, EventArgs e)
         {
-            if (lbl_position.Text == "1")
+            if(check_karaoke.Checked== true)
             {
-                picb_play2_Click(sender, e);
+                if (lbl_kposition.Text == "1")
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo2_Click(sender, e);
+                }
+                else if (lbl_kposition.Text == "2")
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo3_Click(sender, e);
+                }
+                else if (lbl_kposition.Text == "3")
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo4_Click(sender, e);
+                }
+                else if (lbl_kposition.Text == "4")
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo5_Click(sender, e);
+                }
+                else if (lbl_kposition.Text == "5" && listb_karaoketracks.Items.Count == 1)
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo6_Click(sender, e);
+                }
+                else if (lbl_kposition.Text == "6" && listb_karaoketracks.Items.Count == 2)
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo7_Click(sender, e);
+                }
             }
-            else if (lbl_position.Text == "2")
+            else
             {
-                picb_play3_Click(sender, e);
+                if (lbl_position.Text == "1")
+                {
+                    picb_play2_Click(sender, e);
+                }
+                else if (lbl_position.Text == "2")
+                {
+                    picb_play3_Click(sender, e);
+                }
+                else if (lbl_position.Text == "3")
+                {
+                    picb_play4_Click(sender, e);
+                }
+                else if (lbl_position.Text == "4")
+                {
+                    picb_play5_Click(sender, e);
+                }
+                else if (lbl_position.Text == "5")
+                {
+                    picb_play6_Click(sender, e);
+                }
+                else if (lbl_position.Text == "6")
+                {
+                    picb_play7_Click(sender, e);
+                }
+                else if (lbl_position.Text == "7")
+                {
+                    picb_play8_Click(sender, e);
+                }
+                else if (lbl_position.Text == "8")
+                {
+                    picb_play9_Click(sender, e);
+                }
+                else if (lbl_position.Text == "9")
+                {
+                    picb_play10_Click(sender, e);
+                }
+                else if (lbl_position.Text == "10" && listb_track.Items.Count == 1)
+                {
+                    picb_play11_Click(sender, e);
+                }
+                else if (lbl_position.Text == "11" && listb_track.Items.Count == 2)
+                {
+                    picb_play12_Click(sender, e);
+                }
+                else if (lbl_position.Text == "12" && listb_track.Items.Count == 3)
+                {
+                    picb_play13_Click(sender, e);
+                }
             }
-            else if (lbl_position.Text == "3")
-            {
-                picb_play4_Click(sender, e);
-            }
-            else if (lbl_position.Text == "4")
-            {
-                picb_play5_Click(sender, e);
-            }
-            else if (lbl_position.Text == "5")
-            {
-                picb_play6_Click(sender, e);
-            }
-            else if (lbl_position.Text == "6")
-            {
-                picb_play7_Click(sender, e);
-            }
-            else if (lbl_position.Text == "7")
-            {
-                picb_play8_Click(sender, e);
-            }
-            else if (lbl_position.Text == "8")
-            {
-                picb_play9_Click(sender, e);
-            }
-            else if (lbl_position.Text == "9")
-            {
-                picb_play10_Click(sender, e);
-            }
-            else if (lbl_position.Text == "10"&&listb_track.Items.Count==1)
-            {
-                picb_play11_Click(sender, e);
-            }
-            else if (lbl_position.Text == "11"&&listb_track.Items.Count==2)
-            {
-                picb_play12_Click(sender, e);
-            }
-            else if (lbl_position.Text == "12"&& listb_track.Items.Count==3)
-            {
-                picb_play13_Click(sender, e);
-            }
+            
         }
 
         private void pb_back_Click(object sender, EventArgs e)
         {
-            if(lbl_position.Text == "2")
+            if(check_karaoke.Checked==true)
             {
-                picb_play1_Click(sender, e);
+                if(lbl_kposition.Text=="2")
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo_Click(sender, e);
+                }
+                else if (lbl_kposition.Text == "3")
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo2_Click(sender, e);
+                }
+                else if (lbl_kposition.Text == "4")
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo3_Click(sender, e);
+                }
+                else if (lbl_kposition.Text == "5")
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo4_Click(sender, e);
+                }
+                else if (lbl_kposition.Text == "6")
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo5_Click(sender, e);
+                }
+                else if (lbl_kposition.Text == "7")
+                {
+                    System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                    ((karaoke)f).picb_playdemo6_Click(sender, e);
+                }
             }
-            else if (lbl_position.Text == "3")
+            else
             {
-                picb_play2_Click(sender, e);
-            }
-            else if (lbl_position.Text == "4")
-            {
-                picb_play3_Click(sender, e);
-            }
-            else if (lbl_position.Text == "5")
-            {
-                picb_play4_Click(sender, e);
-            }
-            else if (lbl_position.Text == "6")
-            {
-                picb_play5_Click(sender, e);
-            }
-            else if (lbl_position.Text == "7")
-            {
-                picb_play6_Click(sender, e);
-            }
-            else if (lbl_position.Text == "8")
-            {
-                picb_play7_Click(sender, e);
-            }
-            else if (lbl_position.Text == "9")
-            {
-                picb_play8_Click(sender, e);
-            }
-            else if (lbl_position.Text == "10")
-            {
-                picb_play9_Click(sender, e);
-            }
-            else if (lbl_position.Text == "11")
-            {
-                picb_play10_Click(sender, e);
-            }
-            else if (lbl_position.Text == "12")
-            {
-                picb_play11_Click(sender, e);
-            }
-            else if (lbl_position.Text == "13")
-            {
-                picb_play12_Click(sender, e);
-            }
+                if (lbl_position.Text == "2")
+                {
+                    picb_play1_Click(sender, e);
+                }
+                else if (lbl_position.Text == "3")
+                {
+                    picb_play2_Click(sender, e);
+                }
+                else if (lbl_position.Text == "4")
+                {
+                    picb_play3_Click(sender, e);
+                }
+                else if (lbl_position.Text == "5")
+                {
+                    picb_play4_Click(sender, e);
+                }
+                else if (lbl_position.Text == "6")
+                {
+                    picb_play5_Click(sender, e);
+                }
+                else if (lbl_position.Text == "7")
+                {
+                    picb_play6_Click(sender, e);
+                }
+                else if (lbl_position.Text == "8")
+                {
+                    picb_play7_Click(sender, e);
+                }
+                else if (lbl_position.Text == "9")
+                {
+                    picb_play8_Click(sender, e);
+                }
+                else if (lbl_position.Text == "10")
+                {
+                    picb_play9_Click(sender, e);
+                }
+                else if (lbl_position.Text == "11")
+                {
+                    picb_play10_Click(sender, e);
+                }
+                else if (lbl_position.Text == "12")
+                {
+                    picb_play11_Click(sender, e);
+                }
+                else if (lbl_position.Text == "13")
+                {
+                    picb_play12_Click(sender, e);
+                }
+            }  
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -845,6 +919,8 @@ namespace MusicApp
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo_Click(sender, e);
             lbl_kposition.Text = "1";
+            picb_Visualize.Visible = true;
+            picb_karaokescreen.Visible = false;
         }
 
         private void mainmenu_Load(object sender, EventArgs e)
@@ -898,6 +974,8 @@ namespace MusicApp
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo3_Click(sender, e);
             lbl_kposition.Text = "3";
+            picb_Visualize.Visible = true;
+            picb_karaokescreen.Visible = false;
 
         }
 
@@ -907,6 +985,8 @@ namespace MusicApp
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo4_Click(sender, e);
             lbl_kposition.Text = "4";
+            picb_Visualize.Visible = true;
+            picb_karaokescreen.Visible = false;
         }
 
         private void picb_addkaraoke_Click(object sender, EventArgs e)
@@ -940,6 +1020,8 @@ namespace MusicApp
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo5_Click(sender, e);
             lbl_kposition.Text = "5";
+            picb_Visualize.Visible = true;
+            picb_karaokescreen.Visible = false;
         }
 
         private void picb_karaokeplay6_Click(object sender, EventArgs e)
@@ -948,6 +1030,8 @@ namespace MusicApp
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo2_Click(sender, e);
             lbl_kposition.Text = "6";
+            picb_Visualize.Visible = true;
+            picb_karaokescreen.Visible = false;
         }
 
         private void picb_karaokeplay7_Click(object sender, EventArgs e)
@@ -956,16 +1040,17 @@ namespace MusicApp
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo7_Click(sender, e);
             lbl_kposition.Text = "7";
+            picb_Visualize.Visible = true;
+            picb_karaokescreen.Visible = false;
         }
 
         private void lb_addkaraoke_Click(object sender, EventArgs e)
         {
-
+            picb_addkaraoke_Click(sender, e);
         }
 
         private void btn_games_Click(object sender, EventArgs e)
         {
-            check_karaoke.Checked = false;
             bunifuVSlider1.Value = 0;
             tab_items.SetPage(5);
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
@@ -974,14 +1059,6 @@ namespace MusicApp
                 ((karaoke)f).pbStop_Click(sender, e);
                 check_karaoke.Checked = false;
             }
-
-            FlappyPlanet game1 = new FlappyPlanet();
-            game1.TopLevel = false;
-            //game1.Dock = DockStyle.Left;
-            game1.Anchor = AnchorStyles.Left;
-            game1.Anchor = AnchorStyles.Bottom;
-            tab_games.Controls.Add(game1);
-            game1.Show();
         }
 
         private void picb_gametab_Click(object sender, EventArgs e)
@@ -995,6 +1072,8 @@ namespace MusicApp
             ((karaoke)f).pbStop_Click(sender, e);
             ((karaoke)f).picb_playdemo2_Click(sender, e);
             lbl_kposition.Text = "2";
+            picb_Visualize.Visible = true;
+            picb_karaokescreen.Visible = false;
         }
 
         private void picb_addsongs_Click(object sender, EventArgs e)

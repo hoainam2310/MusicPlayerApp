@@ -314,9 +314,9 @@
             // 
             // pbManHinh
             // 
-            this.pbManHinh.Location = new System.Drawing.Point(7, 24);
+            this.pbManHinh.Location = new System.Drawing.Point(-4, -6);
             this.pbManHinh.Name = "pbManHinh";
-            this.pbManHinh.Size = new System.Drawing.Size(577, 383);
+            this.pbManHinh.Size = new System.Drawing.Size(577, 398);
             this.pbManHinh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbManHinh.TabIndex = 17;
             this.pbManHinh.TabStop = false;

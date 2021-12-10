@@ -127,3 +127,4 @@ C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\bin\Debug\Syste
 C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\bin\Debug\System.Security.Principal.Windows.xml
 C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicPlayer.karaoke.resources
 D:\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.FlappyPlanet.resources
+C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.FlappyPlanet.resources

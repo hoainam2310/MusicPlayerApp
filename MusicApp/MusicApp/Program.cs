@@ -26,7 +26,7 @@ namespace MusicApp
             //Application.Run(new forgotpw());
             Application.Run(new mainmenu());
             //Application.Run(new karaoke());
-            Application.Run(new FlappyPlanet());
+            //Application.Run(new FlappyPlanet());
 
 
 
