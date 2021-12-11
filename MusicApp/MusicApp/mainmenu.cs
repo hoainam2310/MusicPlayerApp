@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MusicPlayer;
+using MusicPlayerApp;
 
 
 namespace MusicApp
@@ -463,6 +464,7 @@ namespace MusicApp
                 lb_addsongs.Text = "Thêm ca khúc";
                 lb_exit.Text = "Thoát";
                 btn_karaoke.Text = "Karaoke";
+                lbl_hello.Text = "Xin chào";
             }
             else if (cbb_language.Text == "English")
             {
@@ -477,6 +479,7 @@ namespace MusicApp
                 lb_addsongs.Text = "Add songs";
                 lb_exit.Text = "Exit";
                 btn_karaoke.Text = "Karaoke";
+                lbl_hello.Text = "Hello";
             }
             else
             {
@@ -908,7 +911,14 @@ namespace MusicApp
             MessageBox.Show("Stop recording", "NOTIFICATION");
 
             picb_recordvoi_unmute.Visible = false;
-
+            if(s < 5)
+            {
+                picb_23.Visible = true;
+            }
+            else
+            {
+                picb_85.Visible = true;
+            }
         
             txb_timerecord.Text = "00:00";  
         }
@@ -921,6 +931,8 @@ namespace MusicApp
             lbl_kposition.Text = "1";
             picb_Visualize.Visible = true;
             picb_karaokescreen.Visible = false;
+            picb_23.Visible = false;
+            picb_85.Visible = false;
         }
 
         private void mainmenu_Load(object sender, EventArgs e)
@@ -976,6 +988,8 @@ namespace MusicApp
             lbl_kposition.Text = "3";
             picb_Visualize.Visible = true;
             picb_karaokescreen.Visible = false;
+            picb_23.Visible = false;
+            picb_85.Visible = false;
 
         }
 
@@ -987,6 +1001,8 @@ namespace MusicApp
             lbl_kposition.Text = "4";
             picb_Visualize.Visible = true;
             picb_karaokescreen.Visible = false;
+            picb_23.Visible = false;
+            picb_85.Visible = false;
         }
 
         private void picb_addkaraoke_Click(object sender, EventArgs e)
@@ -1022,6 +1038,8 @@ namespace MusicApp
             lbl_kposition.Text = "5";
             picb_Visualize.Visible = true;
             picb_karaokescreen.Visible = false;
+            picb_23.Visible = false;
+            picb_85.Visible = false;
         }
 
         private void picb_karaokeplay6_Click(object sender, EventArgs e)
@@ -1032,6 +1050,8 @@ namespace MusicApp
             lbl_kposition.Text = "6";
             picb_Visualize.Visible = true;
             picb_karaokescreen.Visible = false;
+            picb_23.Visible = false;
+            picb_85.Visible = false;
         }
 
         private void picb_karaokeplay7_Click(object sender, EventArgs e)
@@ -1042,6 +1062,8 @@ namespace MusicApp
             lbl_kposition.Text = "7";
             picb_Visualize.Visible = true;
             picb_karaokescreen.Visible = false;
+            picb_23.Visible = false;
+            picb_85.Visible = false;
         }
 
         private void lb_addkaraoke_Click(object sender, EventArgs e)
@@ -1072,6 +1094,20 @@ namespace MusicApp
             f.Show();
         }
 
+        private void picb_logout_Click(object sender, EventArgs e)
+        {
+            player.Ctlcontrols.stop();
+            this.Hide();
+            new sign_in().Show();
+            if (check_karaoke.Checked == true)
+            {
+                System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
+                ((karaoke)f).pbStop_Click(sender, e);
+                check_karaoke.Checked = false;
+                picb_karaokescreen.Visible = true;
+            }
+        }
+
         private void picb_karaokeplay2_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
@@ -1080,6 +1116,8 @@ namespace MusicApp
             lbl_kposition.Text = "2";
             picb_Visualize.Visible = true;
             picb_karaokescreen.Visible = false;
+            picb_23.Visible = false;
+            picb_85.Visible = false;
         }
 
         private void picb_addsongs_Click(object sender, EventArgs e)

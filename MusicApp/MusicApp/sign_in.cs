@@ -88,7 +88,11 @@ namespace MusicPlayerApp
             {
                 this.Hide();
                 new mainmenu().Show();
-                
+                System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["mainmenu"];
+                ((mainmenu)f).lbl_username.Text = txt_username.Text + "!";
+                txt_username.Text = "";
+                txt_password.Text = "";
+
             }
             else
             {

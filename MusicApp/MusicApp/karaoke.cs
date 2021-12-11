@@ -1205,8 +1205,8 @@ namespace MusicPlayer
 
         public void picb_playdemo5_Click(object sender, EventArgs e)
         {
-            strDuongDanMp3 = (string)@"Demo karaoke\Lau dai tinh ai.mp3";
-            strDuongDanXml = (string)@"Demo karaoke\Lau dai tinh ai.xml";
+            strDuongDanMp3 = (string)@"Demo karaoke\La lung.mp3";
+            strDuongDanXml = (string)@"Demo karaoke\La lung.xml";
             XuLyXML(strDuongDanXml, ref strLoi, ref strThoiGian);
             arrCauHat = strLoi.Split('/');
             BaiHat = new string[arrCauHat.Length][];

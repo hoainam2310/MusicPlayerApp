@@ -149,6 +149,12 @@
     <Compile Include="register.designer.cs">
       <DependentUpon>register.cs</DependentUpon>
     </Compile>
+    <Compile Include="SaveTheEggs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveTheEggs.Designer.cs">
+      <DependentUpon>SaveTheEggs.cs</DependentUpon>
+    </Compile>
     <Compile Include="sign_in.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +188,9 @@
     </Compile>
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveTheEggs.resx">
+      <DependentUpon>SaveTheEggs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sign_in.resx">
       <DependentUpon>sign_in.cs</DependentUpon>
@@ -404,6 +413,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
