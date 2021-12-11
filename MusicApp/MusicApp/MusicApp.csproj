@@ -116,6 +116,7 @@
     <Compile Include="animated_rain_loading.designer.cs">
       <DependentUpon>animated_rain_loading.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bullet.cs" />
     <Compile Include="Cl_LayDuLieu.cs" />
     <Compile Include="FlappyPlanet.cs">
       <SubType>Form</SubType>
@@ -128,6 +129,12 @@
     </Compile>
     <Compile Include="forgotpw.Designer.cs">
       <DependentUpon>forgotpw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shootoutgame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shootoutgame.designer.cs">
+      <DependentUpon>shootoutgame.cs</DependentUpon>
     </Compile>
     <Compile Include="karaoke.cs">
       <SubType>Form</SubType>
@@ -169,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forgotpw.resx">
       <DependentUpon>forgotpw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shootoutgame.resx">
+      <DependentUpon>shootoutgame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="karaoke.resx">
       <DependentUpon>karaoke.cs</DependentUpon>
@@ -416,6 +426,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\game1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dead1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ammo-Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zdown1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zleft1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zright1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zup1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome_little_one___3_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture1.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MusicPlayer;
 using MusicPlayerApp;
+using Shoot_Out_Game_MOO_ICT;
 
 
 namespace MusicApp
@@ -1106,6 +1107,12 @@ namespace MusicApp
                 check_karaoke.Checked = false;
                 picb_karaokescreen.Visible = true;
             }
+        }
+
+        private void picb_game2_Click(object sender, EventArgs e)
+        {
+            shootoutgame s = new shootoutgame();
+            s.Show();
         }
 
         private void picb_karaokeplay2_Click(object sender, EventArgs e)

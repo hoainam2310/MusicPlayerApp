@@ -129,3 +129,5 @@ C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\Music
 D:\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.FlappyPlanet.resources
 C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.FlappyPlanet.resources
 C:\Users\danie\Documents\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.SaveTheEggs.resources
+D:\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\MusicApp.SaveTheEggs.resources
+D:\GitHub\MusicPlayerApp\MusicApp\MusicApp\obj\Debug\Shoot_Out_Game_MOO_ICT.shootoutgame.resources

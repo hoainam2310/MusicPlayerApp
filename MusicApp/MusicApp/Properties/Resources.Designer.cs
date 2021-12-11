@@ -143,6 +143,16 @@ namespace MusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ammo_Image {
+            get {
+                object obj = ResourceManager.GetObject("ammo-Image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap arcane {
             get {
                 object obj = ResourceManager.GetObject("arcane", resourceCulture);
@@ -183,6 +193,16 @@ namespace MusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Capture1 {
+            get {
+                object obj = ResourceManager.GetObject("Capture1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cloud {
             get {
                 object obj = ResourceManager.GetObject("cloud", resourceCulture);
@@ -196,6 +216,16 @@ namespace MusicApp.Properties {
         internal static System.Drawing.Bitmap Computer_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Computer-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dead {
+            get {
+                object obj = ResourceManager.GetObject("dead", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -217,6 +247,16 @@ namespace MusicApp.Properties {
         internal static System.Drawing.Bitmap di_i_wanna_know {
             get {
                 object obj = ResourceManager.GetObject("di i wanna know", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap down {
+            get {
+                object obj = ResourceManager.GetObject("down", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -277,6 +317,16 @@ namespace MusicApp.Properties {
         internal static System.Drawing.Bitmap karaoke {
             get {
                 object obj = ResourceManager.GetObject("karaoke", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap left {
+            get {
+                object obj = ResourceManager.GetObject("left", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -504,6 +554,16 @@ namespace MusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap right {
+            get {
+                object obj = ResourceManager.GetObject("right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap right_arrow {
             get {
                 object obj = ResourceManager.GetObject("right-arrow", resourceCulture);
@@ -644,6 +704,16 @@ namespace MusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap up {
+            get {
+                object obj = ResourceManager.GetObject("up", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap vinyl {
             get {
                 object obj = ResourceManager.GetObject("vinyl", resourceCulture);
@@ -704,9 +774,59 @@ namespace MusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap welcome_little_one___3__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("welcome_little_one___3_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap welcome_little_one__removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("welcome_little_one_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zdown {
+            get {
+                object obj = ResourceManager.GetObject("zdown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zleft {
+            get {
+                object obj = ResourceManager.GetObject("zleft", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zright {
+            get {
+                object obj = ResourceManager.GetObject("zright", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zup {
+            get {
+                object obj = ResourceManager.GetObject("zup", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
