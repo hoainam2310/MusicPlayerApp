@@ -393,5 +393,17 @@
   <ItemGroup>
     <None Include="Resources\planet-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome_little_one_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome_little_one___1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome_little_one___2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

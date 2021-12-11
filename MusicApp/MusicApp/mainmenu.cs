@@ -1066,6 +1066,12 @@ namespace MusicApp
             btn_games_Click(sender, e);
         }
 
+        private void picb_game1_Click(object sender, EventArgs e)
+        {
+            FlappyPlanet f = new FlappyPlanet();
+            f.Show();
+        }
+
         private void picb_karaokeplay2_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
