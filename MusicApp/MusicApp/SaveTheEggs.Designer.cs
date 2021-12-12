@@ -58,8 +58,9 @@ namespace MusicApp
             this.txtScore.AutoSize = true;
             this.txtScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtScore.Location = new System.Drawing.Point(-1, 0);
+            this.txtScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtScore.Name = "txtScore";
-            this.txtScore.Size = new System.Drawing.Size(91, 24);
+            this.txtScore.Size = new System.Drawing.Size(114, 29);
             this.txtScore.TabIndex = 4;
             this.txtScore.Text = "Saved: 0";
             // 
@@ -67,9 +68,10 @@ namespace MusicApp
             // 
             this.txtMiss.AutoSize = true;
             this.txtMiss.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMiss.Location = new System.Drawing.Point(431, 0);
+            this.txtMiss.Location = new System.Drawing.Point(575, 0);
+            this.txtMiss.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtMiss.Name = "txtMiss";
-            this.txtMiss.Size = new System.Drawing.Size(99, 24);
+            this.txtMiss.Size = new System.Drawing.Size(125, 29);
             this.txtMiss.TabIndex = 5;
             this.txtMiss.Text = "Missed: 0";
             // 
@@ -83,9 +85,10 @@ namespace MusicApp
             // 
             this.lbl_gameover.AutoSize = true;
             this.lbl_gameover.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_gameover.Location = new System.Drawing.Point(206, 408);
+            this.lbl_gameover.Location = new System.Drawing.Point(275, 502);
+            this.lbl_gameover.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_gameover.Name = "lbl_gameover";
-            this.lbl_gameover.Size = new System.Drawing.Size(128, 24);
+            this.lbl_gameover.Size = new System.Drawing.Size(159, 29);
             this.lbl_gameover.TabIndex = 11;
             this.lbl_gameover.Text = "Game Over !";
             this.lbl_gameover.Visible = false;
@@ -94,9 +97,10 @@ namespace MusicApp
             // 
             this.lbl_score.AutoSize = true;
             this.lbl_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_score.Location = new System.Drawing.Point(206, 460);
+            this.lbl_score.Location = new System.Drawing.Point(269, 566);
+            this.lbl_score.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_score.Name = "lbl_score";
-            this.lbl_score.Size = new System.Drawing.Size(128, 24);
+            this.lbl_score.Size = new System.Drawing.Size(159, 29);
             this.lbl_score.TabIndex = 12;
             this.lbl_score.Text = "Game Over !";
             this.lbl_score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -106,19 +110,23 @@ namespace MusicApp
             // 
             this.lbl_instruction.AutoSize = true;
             this.lbl_instruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_instruction.Location = new System.Drawing.Point(11, 339);
+            this.lbl_instruction.Location = new System.Drawing.Point(15, 417);
+            this.lbl_instruction.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_instruction.Name = "lbl_instruction";
-            this.lbl_instruction.Size = new System.Drawing.Size(509, 18);
+            this.lbl_instruction.Size = new System.Drawing.Size(627, 24);
             this.lbl_instruction.TabIndex = 14;
             this.lbl_instruction.Text = "Use LEFT and RIGHT arrow key to collect eggs from falling down !";
             this.lbl_instruction.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_instruction.UseWaitCursor = true;
+            this.lbl_instruction.Visible = false;
             // 
             // picb_title
             // 
             this.picb_title.Image = global::MusicApp.Properties.Resources.saveeggs;
-            this.picb_title.Location = new System.Drawing.Point(93, 239);
+            this.picb_title.Location = new System.Drawing.Point(124, 294);
+            this.picb_title.Margin = new System.Windows.Forms.Padding(4);
             this.picb_title.Name = "picb_title";
-            this.picb_title.Size = new System.Drawing.Size(338, 86);
+            this.picb_title.Size = new System.Drawing.Size(451, 106);
             this.picb_title.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_title.TabIndex = 13;
             this.picb_title.TabStop = false;
@@ -127,10 +135,10 @@ namespace MusicApp
             // 
             this.picb_playgame1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picb_playgame1.Image = global::MusicApp.Properties.Resources.welcome_little_one___1__removebg_preview;
-            this.picb_playgame1.Location = new System.Drawing.Point(140, 520);
-            this.picb_playgame1.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_playgame1.Location = new System.Drawing.Point(187, 640);
+            this.picb_playgame1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picb_playgame1.Name = "picb_playgame1";
-            this.picb_playgame1.Size = new System.Drawing.Size(257, 81);
+            this.picb_playgame1.Size = new System.Drawing.Size(343, 100);
             this.picb_playgame1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_playgame1.TabIndex = 10;
             this.picb_playgame1.TabStop = false;
@@ -140,10 +148,10 @@ namespace MusicApp
             // 
             this.picb_playagain.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picb_playagain.Image = global::MusicApp.Properties.Resources.welcome_little_one___2__removebg_preview;
-            this.picb_playagain.Location = new System.Drawing.Point(140, 520);
-            this.picb_playagain.Margin = new System.Windows.Forms.Padding(2);
+            this.picb_playagain.Location = new System.Drawing.Point(187, 640);
+            this.picb_playagain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picb_playagain.Name = "picb_playagain";
-            this.picb_playagain.Size = new System.Drawing.Size(257, 81);
+            this.picb_playagain.Size = new System.Drawing.Size(343, 100);
             this.picb_playagain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_playagain.TabIndex = 9;
             this.picb_playagain.TabStop = false;
@@ -153,9 +161,10 @@ namespace MusicApp
             // player
             // 
             this.player.Image = global::MusicApp.Properties.Resources.chicken_normal;
-            this.player.Location = new System.Drawing.Point(231, 653);
+            this.player.Location = new System.Drawing.Point(308, 759);
+            this.player.Margin = new System.Windows.Forms.Padding(4);
             this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(90, 71);
+            this.player.Size = new System.Drawing.Size(120, 87);
             this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.player.TabIndex = 3;
             this.player.TabStop = false;
@@ -164,9 +173,10 @@ namespace MusicApp
             // 
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = global::MusicApp.Properties.Resources.egg;
-            this.pictureBox3.Location = new System.Drawing.Point(405, 104);
+            this.pictureBox3.Location = new System.Drawing.Point(540, 128);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(51, 54);
+            this.pictureBox3.Size = new System.Drawing.Size(68, 66);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -176,9 +186,10 @@ namespace MusicApp
             // 
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Image = global::MusicApp.Properties.Resources.egg;
-            this.pictureBox2.Location = new System.Drawing.Point(231, 104);
+            this.pictureBox2.Location = new System.Drawing.Point(308, 128);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 54);
+            this.pictureBox2.Size = new System.Drawing.Size(68, 66);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -188,9 +199,10 @@ namespace MusicApp
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = global::MusicApp.Properties.Resources.egg;
-            this.pictureBox1.Location = new System.Drawing.Point(48, 104);
+            this.pictureBox1.Location = new System.Drawing.Point(64, 128);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 54);
+            this.pictureBox1.Size = new System.Drawing.Size(67, 66);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -198,11 +210,11 @@ namespace MusicApp
             // 
             // SaveTheEggs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(532, 725);
+            this.ClientSize = new System.Drawing.Size(709, 892);
             this.Controls.Add(this.lbl_instruction);
             this.Controls.Add(this.picb_title);
             this.Controls.Add(this.lbl_score);
@@ -217,6 +229,7 @@ namespace MusicApp
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SaveTheEggs";

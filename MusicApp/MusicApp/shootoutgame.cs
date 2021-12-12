@@ -229,6 +229,7 @@ namespace Shoot_Out_Game_MOO_ICT
 
         private void picb_startgame_Click(object sender, EventArgs e)
         {
+            lbl_instruction.Visible = false;
             play = true;
             picb_startgame.Visible = false;
             picb_gamename.Visible = false;

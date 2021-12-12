@@ -465,7 +465,7 @@ namespace MusicApp
                 lb_addsongs.Text = "Thêm ca khúc";
                 lb_exit.Text = "Thoát";
                 btn_karaoke.Text = "Karaoke";
-                lbl_hello.Text = "Xin chào";
+
             }
             else if (cbb_language.Text == "English")
             {
@@ -480,7 +480,6 @@ namespace MusicApp
                 lb_addsongs.Text = "Add songs";
                 lb_exit.Text = "Exit";
                 btn_karaoke.Text = "Karaoke";
-                lbl_hello.Text = "Hello";
             }
             else
             {
@@ -1119,6 +1118,21 @@ namespace MusicApp
         {
             SaveTheEggs ste = new SaveTheEggs();
             ste.Show();
+        }
+
+        private void picb_playgame1_Click(object sender, EventArgs e)
+        {
+            picb_game1_Click(sender, e);
+        }
+
+        private void picb_playgame2_Click(object sender, EventArgs e)
+        {
+            picb_game2_Click(sender, e);
+        }
+
+        private void picb_playgame3_Click(object sender, EventArgs e)
+        {
+            picb_game3_Click(sender, e);
         }
 
         private void picb_karaokeplay2_Click(object sender, EventArgs e)

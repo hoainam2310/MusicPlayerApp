@@ -38,6 +38,7 @@
             this.picb_startgame = new System.Windows.Forms.PictureBox();
             this.player = new System.Windows.Forms.PictureBox();
             this.picb_playagain = new System.Windows.Forms.PictureBox();
+            this.lbl_instruction = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picb_gamename)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picb_startgame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
@@ -142,12 +143,26 @@
             this.picb_playagain.Visible = false;
             this.picb_playagain.Click += new System.EventHandler(this.picb_playagain_Click);
             // 
+            // lbl_instruction
+            // 
+            this.lbl_instruction.AutoSize = true;
+            this.lbl_instruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_instruction.ForeColor = System.Drawing.Color.White;
+            this.lbl_instruction.Location = new System.Drawing.Point(520, 620);
+            this.lbl_instruction.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_instruction.Name = "lbl_instruction";
+            this.lbl_instruction.Size = new System.Drawing.Size(410, 24);
+            this.lbl_instruction.TabIndex = 15;
+            this.lbl_instruction.Text = "Use arrow keys to move, spacebar to shoot\r\n";
+            this.lbl_instruction.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // shootoutgame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1342, 653);
+            this.Controls.Add(this.lbl_instruction);
             this.Controls.Add(this.picb_playagain);
             this.Controls.Add(this.picb_gamename);
             this.Controls.Add(this.picb_startgame);
@@ -183,6 +198,7 @@
         private System.Windows.Forms.PictureBox picb_startgame;
         private System.Windows.Forms.PictureBox picb_gamename;
         private System.Windows.Forms.PictureBox picb_playagain;
+        private System.Windows.Forms.Label lbl_instruction;
     }
 }
 
