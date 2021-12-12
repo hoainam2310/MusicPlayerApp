@@ -186,12 +186,12 @@ namespace MusicApp
                     System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
                     ((karaoke)f).picb_playdemo5_Click(sender, e);
                 }
-                else if (lbl_kposition.Text == "5" && listb_karaoketracks.Items.Count == 1)
+                else if (lbl_kposition.Text == "5" && listb_karaoketracks.Items.Count >= 1)
                 {
                     System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
                     ((karaoke)f).picb_playdemo6_Click(sender, e);
                 }
-                else if (lbl_kposition.Text == "6" && listb_karaoketracks.Items.Count == 2)
+                else if (lbl_kposition.Text == "6" && listb_karaoketracks.Items.Count >= 2)
                 {
                     System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
                     ((karaoke)f).picb_playdemo7_Click(sender, e);
@@ -235,15 +235,15 @@ namespace MusicApp
                 {
                     picb_play10_Click(sender, e);
                 }
-                else if (lbl_position.Text == "10" && listb_track.Items.Count == 1)
+                else if (lbl_position.Text == "10" && listb_track.Items.Count >= 1)
                 {
                     picb_play11_Click(sender, e);
                 }
-                else if (lbl_position.Text == "11" && listb_track.Items.Count == 2)
+                else if (lbl_position.Text == "11" && listb_track.Items.Count >= 2)
                 {
                     picb_play12_Click(sender, e);
                 }
-                else if (lbl_position.Text == "12" && listb_track.Items.Count == 3)
+                else if (lbl_position.Text == "12" && listb_track.Items.Count >= 3)
                 {
                     picb_play13_Click(sender, e);
                 }
@@ -664,6 +664,7 @@ namespace MusicApp
             picb_album.Image = picb_30.Image;
             picb_searchsong1.Image = picb_30.Image;
             picb_searchsong2.Image = picb_30.Image;
+            panel_searchsong2.Visible = true;
             panel_searchsong3.Visible = false;
             string s = "Album='" + lbl_30.Text + "'";
             DataRow[] dr = dt.Select(s);
@@ -683,6 +684,7 @@ namespace MusicApp
             picb_searchsong1.Image = picb_arcane.Image;
             picb_searchsong2.Image = picb_arcane.Image;
             picb_searchsong3.Image = picb_arcane.Image;
+            panel_searchsong2.Visible = true;
             panel_searchsong3.Visible = true;
             string s = "Album='" + lbl_arcane.Text + "'";
             DataRow[] dr = dt.Select(s);
@@ -705,6 +707,7 @@ namespace MusicApp
             picb_searchsong1.Image = picb_queen.Image;
             picb_searchsong2.Image = picb_queen.Image;
             picb_searchsong3.Image = picb_queen.Image;
+            panel_searchsong2.Visible = true;
             panel_searchsong3.Visible = true;
             string s = "Album='" + lbl_queen.Text + "'";
             DataRow[] dr = dt.Select(s);
@@ -739,21 +742,36 @@ namespace MusicApp
 
         private void picb_searchplay1_Click(object sender, EventArgs e)
         {
-            if(lbl_albumname.Text =="30")
-            {
-                picb_play4_Click(sender, e);
-            }
-            else if (lbl_albumname.Text == "Arcane: League Of Legends")
-            {
-                picb_play3_Click(sender, e);
-            }
-            else if(lbl_albumname.Text == "Platinum Collection: Greatests Hits")
+            if (lbl_searchtitle1.Text == "Another One Bites The Dust")
             {
                 picb_play1_Click(sender, e);
             }
-            else if (lbl_albumname.Text == "unknown")
+            else if (lbl_searchtitle1.Text == "Woman Like Me")
             {
-                picb_play7_Click(sender, e);
+                picb_play10_Click(sender, e);
+            }
+            else if (lbl_searchtitle1.Text == "Guns For Hire")
+            {
+                picb_play6_Click(sender, e);
+            }
+            else
+            {
+                if (lbl_albumname.Text == "30")
+                {
+                    picb_play4_Click(sender, e);
+                }
+                else if (lbl_albumname.Text == "Arcane: League Of Legends")
+                {
+                    picb_play3_Click(sender, e);
+                }
+                else if (lbl_albumname.Text == "Platinum Collection: Greatests Hits")
+                {
+                    picb_play1_Click(sender, e);
+                }
+                else if (lbl_albumname.Text == "unknown")
+                {
+                    picb_play7_Click(sender, e);
+                }
             }
         }
 
@@ -1046,7 +1064,7 @@ namespace MusicApp
         {
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
             ((karaoke)f).pbStop_Click(sender, e);
-            ((karaoke)f).picb_playdemo2_Click(sender, e);
+            ((karaoke)f).picb_playdemo6_Click(sender, e);
             lbl_kposition.Text = "6";
             picb_Visualize.Visible = true;
             picb_karaokescreen.Visible = false;
@@ -1133,6 +1151,33 @@ namespace MusicApp
         private void picb_playgame3_Click(object sender, EventArgs e)
         {
             picb_game3_Click(sender, e);
+        }
+
+        private void picb_searchenter_Click(object sender, EventArgs e)
+        {
+            tab_items.SetPage(4);
+            lbl_albumname.Visible = false;
+            picb_album.Visible = false;
+            panel_searchsong1.Visible = true;
+            panel_searchsong2.Visible = false;
+            panel_searchsong3.Visible = false;
+            string s = "Title='" + txt_search.Text + "'";
+            DataRow[] dr = dt.Select(s);
+            lbl_searchtitle1.Text = dr[0]["Title"].ToString();
+            lbl_searchsinger1.Text = dr[0]["Singer"].ToString();
+            lbl_searchduration1.Text = dr[0]["Duration"].ToString();
+            if (txt_search.Text == "Another One Bites The Dust")
+            {
+                picb_searchsong1.Image = Properties.Resources.queen;
+            }
+            else if (txt_search.Text == "Woman Like Me")
+            {
+                picb_searchsong1.Image = Properties.Resources._30_adele;
+            }
+            else if (txt_search.Text == "Guns For Hire")
+            {
+                picb_searchsong1.Image = Properties.Resources.arcane;
+            }
         }
 
         private void picb_karaokeplay2_Click(object sender, EventArgs e)
