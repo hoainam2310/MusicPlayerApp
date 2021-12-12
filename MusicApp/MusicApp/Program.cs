@@ -29,7 +29,7 @@ namespace MusicApp
             //Application.Run(new karaoke());
             //Application.Run(new FlappyPlanet());
             //Application.Run(new SaveTheEggs());
-            Application.Run(new shootoutgame());
+            //Application.Run(new shootoutgame());
 
         }
     }

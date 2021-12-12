@@ -130,6 +130,12 @@
     <Compile Include="forgotpw.Designer.cs">
       <DependentUpon>forgotpw.cs</DependentUpon>
     </Compile>
+    <Compile Include="SaveTheEggs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveTheEggs.designer.cs">
+      <DependentUpon>SaveTheEggs.cs</DependentUpon>
+    </Compile>
     <Compile Include="shootoutgame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,12 +162,6 @@
     <Compile Include="register.designer.cs">
       <DependentUpon>register.cs</DependentUpon>
     </Compile>
-    <Compile Include="SaveTheEggs.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SaveTheEggs.Designer.cs">
-      <DependentUpon>SaveTheEggs.cs</DependentUpon>
-    </Compile>
     <Compile Include="sign_in.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forgotpw.resx">
       <DependentUpon>forgotpw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveTheEggs.resx">
+      <DependentUpon>SaveTheEggs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="shootoutgame.resx">
       <DependentUpon>shootoutgame.cs</DependentUpon>
@@ -198,9 +201,6 @@
     </Compile>
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SaveTheEggs.resx">
-      <DependentUpon>SaveTheEggs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sign_in.resx">
       <DependentUpon>sign_in.cs</DependentUpon>
@@ -462,6 +462,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Capture1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveeggstitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken_hurt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken_normal2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveeggs.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

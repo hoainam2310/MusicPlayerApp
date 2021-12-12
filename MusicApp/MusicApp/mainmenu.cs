@@ -1115,6 +1115,12 @@ namespace MusicApp
             s.Show();
         }
 
+        private void picb_game3_Click(object sender, EventArgs e)
+        {
+            SaveTheEggs ste = new SaveTheEggs();
+            ste.Show();
+        }
+
         private void picb_karaokeplay2_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Form f = System.Windows.Forms.Application.OpenForms["karaoke"];
