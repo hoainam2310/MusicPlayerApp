@@ -929,7 +929,7 @@ namespace MusicApp
             MessageBox.Show("Stop recording", "NOTIFICATION");
 
             picb_recordvoi_unmute.Visible = false;
-            if(s < 5)
+            if(s < 30)
             {
                 picb_23.Visible = true;
             }
@@ -1196,7 +1196,7 @@ namespace MusicApp
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Multiselect = true;
-            ofd.Filter = "Song Files|*.mp3;*.flac;*.wav;...";
+            ofd.Filter = "Song Files|*.mp3;*.flac;...";
             if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 files = ofd.FileNames;
