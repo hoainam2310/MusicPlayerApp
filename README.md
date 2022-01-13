@@ -1,7 +1,7 @@
 # Overview
 - Software Technology Project
   - Project Name: Music Player Application
-  - Discription: Manage tasks in the bookstore
+  - Discription: A user-friendly application that can not only listen to music but also combine a few entertainment functions such as karaoke, playing mini-games. 
 - Members:
 - - [Nguyen Hoai Nam](https://github.com/hoainam2310) 
   - [Nguyen Nhat Minh](https://github.com/minh30009) 
