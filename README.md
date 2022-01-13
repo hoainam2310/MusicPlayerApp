@@ -8,47 +8,31 @@
 - Technology:
   - Language: C#
   - Enviroment: .Net Framework 4.6
-- Source: https://github.com/hoainam2310/BookStore_Management
+- Source: https://github.com/hoainam2310/MusicPlayerApp
 
 # Table of contents
 - [Overview](#Overview)
 - [Table of contents](#Table-of-contents)
 - [1. Determine the problem](#1-Determine-the-problem)
-- [2. Model, Plan, Tool](#2-Model-Plan-Tool)
-  - [2.1. Walterfall model](#21-Walterfall-model)
-  - [2.2. Plan](#22-Plan)
-  - [2.3. CASE tool](#23-case-tool)
-- [3. Design data](#3-Design-data)
-  - [3.1. Logic diagram](#31-Logic-diagram)
-  - [3.2. Describe in detail the data types in the logic diagram](#32-Describe-in-detail-the-data-types-in-the-logic-diagram)
-    - [3.2.1. TAIKHOAN table](#321-taikhoan-table)
-    - [3.2.2. TACGIA table](#322-tacgia-table)
-    - [3.2.3. LINHVUC table](#323-linhvuc-table)
-    - [3.2.4. LOAISACH table](#324-loaisach-table)
-    - [3.2.5. NHAXUATBAN table](#325-nhaxuatban-table)
-    - [3.2.6. SACH table](#326-sach-table)
-    - [3.2.7. KHO table](#327-kho-table)
-    - [3.2.8. HOADON table](#328-hoadon-table)
-    - [3.2.9. CHITIETHOADON table](#329-chitiethoadon-table)
-- [4. Design interface](#4-Design-interface)
-  - [4.1. Interface list](#41-Interface-list)
-  - [4.2. Describe in detail of each interface](#42-Describe-in-detail-of-each-interface)
-    - [4.2.1. fDangNhap interface](#421-fdangnhap-interface)
-    - [4.2.2. fViewTong interface](#422-fviewtong-interface)
-    - [4.2.3. fTaiKhoan interface](#423-ftaikhoan-interface)
-    - [4.2.4. fThemSach interface](#424-fthemsach-interface)
-    - [4.2.5. fSuaSach interface](#425-fsuasach-interface)
-    - [4.2.6. fXoaSach interface](#426-fxoasach-interface)
-    - [4.2.7. fThemTacGia interface](#427-fthemtacgia-interface)
-    - [4.2.8. fSuaTacGia interface](#428-fsuatacgia-interface)
-    - [4.2.9. fXoaTacGia interface](#429-fxoatacgia-interface)
-    - [4.2.10. fLinhVuc interface](#4210-flinhvuc-interface)
-    - [4.2.11. fLoaiSach interface](#4211-floaisach-interface)
-    - [4.2.12. fNhaXuatBan interface](#4212-fnhaxuatban-interface)
-    - [4.2.13. fKho interface](#4213-fkho-interface)
-    - [4.2.14. fHoaDon interface](#4214-fhoadon-interface)
-    - [4.2.15. fThongKe interface](#4215-fthongke-interface)
-    - [4.2.16. fBaoCao interface](#4216-fbaocao-interface)
+- [2. Design interface](#4-Design-interface)
+  - [2.1. Interface list](#41-Interface-list)
+  - [2.2. Describe in detail of each interface](#42-Describe-in-detail-of-each-interface)
+    - [2.2.1. fDangNhap interface](#421-fdangnhap-interface)
+    - [2.2.2. fViewTong interface](#422-fviewtong-interface)
+    - [2.2.3. fTaiKhoan interface](#423-ftaikhoan-interface)
+    - [2.2.4. fThemSach interface](#424-fthemsach-interface)
+    - [2.2.5. fSuaSach interface](#425-fsuasach-interface)
+    - [2.2.6. fXoaSach interface](#426-fxoasach-interface)
+    - [2.2.7. fThemTacGia interface](#427-fthemtacgia-interface)
+    - [2.2.8. fSuaTacGia interface](#428-fsuatacgia-interface)
+    - [2.2.9. fXoaTacGia interface](#429-fxoatacgia-interface)
+    - [2.2.10. fLinhVuc interface](#4210-flinhvuc-interface)
+    - [2.2.11. fLoaiSach interface](#4211-floaisach-interface)
+    - [2.2.12. fNhaXuatBan interface](#4212-fnhaxuatban-interface)
+    - [2.2.13. fKho interface](#4213-fkho-interface)
+    - [2.2.14. fHoaDon interface](#4214-fhoadon-interface)
+    - [2.2.15. fThongKe interface](#4215-fthongke-interface)
+    - [2.2.16. fBaoCao interface](#4216-fbaocao-interface)
 - [5. Design architecture](#5-Design-architecture)
   - [5.1. System architecture](#51-System-architecture)
   - [5.2. Desribe in detail system architecture](#52-Desribe-in-detail-system-architecture)
@@ -74,104 +58,9 @@
   - Revenue statistics.
   - Manage account.
   - Manage the number of books in stock.
-# 2. Model, Plan, Tool
-## 2.1. Walterfall model
-![](https://github.com/hoainam2310/BookStore_Management/blob/main/model.png)
 
-This model consists of successive processing stages as follows:
-
-- Analysis: Determine the functional and non-functional requirements required by the software system.
-
-- Requirement specification: Determine the software system that meets the requirements of the customer. This phase performs analysis and design of the software system.
-- Design: Build model of software, design data and interface.
-
-- Development: Impelemt product based on requirement specification and module design document.
-
-- Testing and Integration: Perform group testing of components and system testing. Check for possible exceptions and fix them.
-## 2.2. Plan
-![](https://github.com/hoainam2310/BookStore_Management/blob/main/roadmap.png)
-
-The plan consists of 5 stages:
-- Analysis (03/04 - 11/04)
-
-- Requirement (11/04 v 24/04)
-
-- Design (24/04 - 21/05)
-
-- Development (21/05 - 05/07)
-
-- Testing (05/07 - 10/07)
-
-## 2.3. CASE tool
-- IDE: Visual Studio
-
-- Code Repositories: Github
-
-- Issues tracking: Github
-# 3. Design Data
-## 3.1. Logic diagram
-![](https://github.com/hoainam2310/BookStore_Management/blob/main/database.png)
-## 3.2. Describe in detail the data types in the logic diagram
-### 3.2.1. TAIKHOAN table
-| Numbers | Attribute Name | Type          | Constraint                  | Meaning/Notes               |
-|---------|----------------|---------------|-----------------------------|-----------------------------|
-| 1       | USERNAME       | nvarchar(20)  | Selt-generated              | System login name           |
-| 2       | PASS_WORD      | nvarchar(100) | Not null                    | System login password       |
-### 3.2.2. TACGIA table
-| Numbers | Attribute Name | Type          | Constraint                  | Meaning/Notes               |
-|---------|----------------|---------------|-----------------------------|-----------------------------|
-| 1       | MATG           | char(7)       | Selt-generated              | Author identification code  |
-| 2       | TENTG          | nvarchar(40)  | Not null                    | Author name                 |
-| 3       | NAMSINH        | date          | No constraint               | Year of birth               |
-| 4       | NAMMAT         | date          | No constraint               | Year of death               |
-| 5       | QUEQUAN        | nvarchar(20)  | No constraint               | Hometown                    |
-### 3.2.3. LINHVUC table
-| Numbers | Attribute Name | Type          | Constraint                  | Meaning/Notes               |
-|---------|----------------|---------------|-----------------------------|-----------------------------|
-| 1       | TENLINHVUC     | nvarchar(30)  | Not Null                    | Name of book field          |
-### 3.2.4. LOAISACH table
-| Numbers | Attribute Name | Type          | Constraint                  | Meaning/Notes               |
-|---------|----------------|---------------|-----------------------------|-----------------------------|
-| 1       | TENLOAISACH    | nvarchar(30)  | Not Null                    | Name of book category       |
-### 3.2.5. NHAXUATBAN table
-| Numbers | Attribute Name | Type          | Constraint                  | Meaning/Notes               |
-|---------|----------------|---------------|-----------------------------|-----------------------------|
-| 1       | TENNHAXUATBAN  | nvarchar(50)  | Not Null                    | Name of book producer       |
-### 3.2.6. SACH table
-| Numbers | Attribute Name | Type          | Constraint                  | Meaning/Notes               |
-|---------|----------------|---------------|-----------------------------|-----------------------------|
-| 1       | MASACH         | char(7)       | Selt-generated              | Book identification code    |
-| 2       | TENSACH        | nvarchar(100) | Not null                    | Name of book                |
-| 3       | MATG           | char(7)       | Not Null, Existed           | Author identification code  |
-| 4       | TENLINHVUC     | nvarchar(30)  | Not Null, Existed           | Name of book field          |
-| 5       | TENLOAISACH    | nvarchar(30)  | Not Null, Existed           | Name of book category       |
-| 6       | GIAMUA         | int           | >= 0                        | Book entry price            |
-| 7       | GIABIA         | int           | >= 0                        | Book sell price             |
-| 8       | LANTAIBAN      | int           | >= 0                        | Number of reprints          |
-| 9       | TENNHAXUATBAN  | nvarchar(50)  | Not Null, Existed           | Name of book producer       |
-| 10      | NAMXUATBAN     | datetime      | Not Null, Existed           | The year the book was published      |
-### 3.2.7. KHO table
-| Numbers | Attribute Name | Type          | Constraint                  | Meaning/Notes               |
-|---------|----------------|---------------|-----------------------------|-----------------------------|
-| 1       | MASACH         | char(7)       | Existed                     | Book identification code    |
-| 2       | SOLUONG        | int           | >= 1                        | Number of books remaining   |
-### 3.2.8. HOADON table
-| Numbers | Attribute Name | Type          | Constraint                  | Meaning/Notes               |
-|---------|----------------|---------------|-----------------------------|-----------------------------|
-| 1       | MAHOADON       | char(7)       | Selt-generated              | Bill identification code    |
-| 2       | TENKHACHHANG   | nvarchar(50)  | Not null                    | Name of customer            |
-| 3       | NGAYLAP        | datetime      | Selt-generated              | Bill date                   |
-| 4       | TONGTIEN       | decimal(10, 2)| >= 0                        | Total amount in bill        |
-### 3.2.9. CHITIETHOADON table
-| Numbers | Attribute Name | Type          | Constraint                  | Meaning/Notes               |
-|---------|----------------|---------------|-----------------------------|-----------------------------|
-| 1       | MAHOADON       | char(7)       | Existed                     | Bill identification code    |
-| 2       | MASACH         | char(7)       | Existed                     | Book identification code    |
-| 3       | SOLUONG        | int           | >= 1                        | Number of books purcheased  |
-| 4       | GIATIEN        | int           | >= 0                        | Book sell price             |
-| 5       | THANHTIEN      | int           | >= 0                        | Book sell price x Number of books|
-# 4. Design interface
-## 4.1. Interface list
+# 2. Design interface
+## 2.1. Interface list
 | Numbers | Interface Name | Meaning/Notes                                                                          |
 |---------|----------------|------------------------------------------------------------------------------------------|
 | 1       | fDangNhap      | Log in to the system with username and password                                          |
@@ -190,70 +79,70 @@ The plan consists of 5 stages:
 | 14      | fHoaDon        | Show bill and bill details. Add/Remove/Edit bills and bill details                       |
 | 15      | fThongKe       | Show a list of bills for a selected date range                                           |
 | 16      | fBaoCao        | Show a list of sold titles, sales, and profits in the selected date range                |
-## 4.2. Describe in detail of each interface
-### 4.2.1. fDangNhap interface
+## 2.2. Describe in detail of each interface
+### 2.2.1. fDangNhap interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/DangNhap.png)
 
 User fills in Username/Password information to log in. If the login fails more than 3 times, the program will automatically shut down.
-### 4.2.2. fViewTong interface
+### 2.2.2. fViewTong interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/Quanlynhasach.png)
 
 Displays the titles in the database, the revenue and the number of customers that day. The Menu above contains the program's functions. 
-### 4.2.3. fTaiKhoan interface
+### 2.2.3. fTaiKhoan interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/ThayDoiThongTinAcc.png)
 
 Allows to change the account's password, requires entering the correct old password when you want to change the new password.
-### 4.2.4. fThemSach interface
+### 2.2.4. fThemSach interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/ThemSach.png)
 
 Allows adding new titles to the database. Please enter complete information, otherwise, you'll receive a missing input error and ask additional information.
-### 4.2.5. fSuaSach interface
+### 2.2.5. fSuaSach interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/SuaSach.png)
 
 Allows editting book information in the database. Please enter complete information, otherwise, you'll receive a missing input error and ask for additional information.
-### 4.2.6. fXoaSach interface
+### 2.2.6. fXoaSach interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/XoaSach.png)
 
 Allows deleting books in the database. Select the book to delete in the list of displayed books.
-### 4.2.7. fThemTacGia interface
+### 2.2.7. fThemTacGia interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/ThemTG.png)
 
 Allows adding new authors to the database. Please enter the author's name, otherwise it will report a missing input error and add for additional information. For the box "Hometown", "Year of birth", "Year of death", if it's not available, you must select the "unknown" button or it will report an error of missing information.
-### 4.2.8. fSuaTacGia interface
+### 2.2.8. fSuaTacGia interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/SuaTG.png)
 
 Allows editting author information in the database. Please enter the author's name, otherwise it will report a missing input error and add for additional information. For the box "Hometown", "Year of birth", "Year of death", if it's not available, you must select the "unknown" button or it will report an error of missing information.
-### 4.2.9. fXoaTacGia interface
+### 2.2.9. fXoaTacGia interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/XoaTG.png)
 
 Allows deleting authors in the database. Select the authors to delete in the list of displayed authors.
-### 4.2.10. fLinhVuc interface
+### 2.2.10. fLinhVuc interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/LinhVuc.png)
 
 Allows add new fields to the database. If you want to delete, select the fields to delete in the Menu below and press the delete button.
-### 4.2.11. fLoaiSach interface
+### 2.2.11. fLoaiSach interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/LoaiSach.png)
 
 Allows add new book categories to the database. If you want to delete, select the book categories to delete in the Menu below and press the delete button.
-### 4.2.12. fNhaXuatBan interface
+### 2.2.12. fNhaXuatBan interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/NXB.png)
 
 Allows add new publishers to the database. If you want to delete, select the publishers to delete in the Menu below and press the delete button.
-### 4.2.13. fKho interface
+### 2.2.13. fKho interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/Kho.png)
 
 Consists of 2 parts:
 - Upper part: Allows edit the number of books in stock or delete books.
 - Lower part: Add quantity for the books in stock.
-### 4.2.14. fHoaDon interface
+### 2.2.14. fHoaDon interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/HoaDon.png)
 Consists of 2 parts:
 - Upper part: Displays a list of existing bills in the database allowing to delete/edit bills and view details of that bill in the next table.
 - Lower part: Add/Edit bills, add the items to the bill and ask for full information.
-### 4.2.15. fThongKe interface
+### 2.2.15. fThongKe interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/ThongKe.png)
 Select the date range for which sales statistics are required, the software will display the bills in the selected date range.
-### 4.2.16. fBaoCao interface
+### 2.2.16. fBaoCao interface
 ![](https://github.com/hoainam2310/BookStore_Management/blob/main/Scene/BaoCao.png)
 
 Export a detailed report on the number of books sold, revenue and profit for the selected date range on the fThongKe interface.
